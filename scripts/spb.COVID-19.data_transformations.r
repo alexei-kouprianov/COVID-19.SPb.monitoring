@@ -80,7 +80,7 @@ timeline.tickmarks <- strptime(
 .report.SPb.confirmed.0814 <- sum(tail(spb.sk$CONFIRMED, 14)[1:7])
 .report.SPb.hospitalized.today.0107 <- sum(tail(spb.gov.ext$C05.HOSPITALIZED.today, 7))
 .report.SPb.hospitalized.today.0814 <- sum(tail(spb.gov.ext$C05.HOSPITALIZED.today, 14)[1:7])
-.report.SPb.dates.14080701 <- tail(spb.gov$DATE.spb, 14)[c(1, 7, 8, 14)]
+.report.SPb.dates.14080701 <- tail(spb.gov.ext$A.DATE, 14)[c(1, 7, 8, 14)]
 
 # Assessment block;
 
