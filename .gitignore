@@ -2,4 +2,8 @@ private/
 copy.sh
 data/.~lock.gov.spb.ru_archived.ods#
 data/gov.spb.ru_archived.ods
+texts/SPb.COVID-19.data.sources.html
+texts/SPb.COVID-19.data_critique.html
+texts/SPb.COVID-19.overview.html
+texts/SPb.COVID-19.r_report.html
 
