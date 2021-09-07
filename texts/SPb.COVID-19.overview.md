@@ -293,15 +293,15 @@
 вычисления и построить графики.
 
 -   Скачать сводные данные по Петербургу (по дням)
-    [SPb.COVID-19.united.csv](../data/SPb.COVID-19.united.csv)
+    [`SPb.COVID-19.united.csv`](../data/SPb.COVID-19.united.csv)
 -   Скачать [описание переменных в файле
     `SPb.COVID-19.united.csv`](../data/SPb.COVID-19.united.variables_explained.txt)
 -   Скачать данные по поисковым запросам Яндекса
-    [SPb.yandex\_wordstat.weekly.csv](../data/SPb.yandex_wordstat.weekly.csv)
+    [`SPb.yandex_wordstat.weekly.csv`](../data/SPb.yandex_wordstat.weekly.csv)
 -   Скачать данные по общему количеству умерших помесячно с 2006 г.
     (выгрузка из ЕМИСС Государственная статистика) для России,
     Петербурга и сопредельных регионов
-    [SPb.adjacent\_regions.all\_deaths.2006\_.csv](../data/SPb.adjacent_regions.all_deaths.2006_.csv)
+    [`SPb.adjacent_regions.all_deaths.2006_.csv`](../data/SPb.adjacent_regions.all_deaths.2006_.csv)
 
 <hr />
 

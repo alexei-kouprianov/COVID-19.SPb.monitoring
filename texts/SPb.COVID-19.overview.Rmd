@@ -52,10 +52,10 @@ knitr::kable(.spb.adj.report.ru, caption="**Таблица 1. Показател
 
 [Сводные отчеты](SPb.COVID-19.r_report.md) о ситуации в Петербурге с учетом всех возможных открытых источников можно найти на нашем сайте. Кроме того, каждый сможет скачать данные, на основе которых составляются эти отчеты, и, при желании, самостоятельно произвести все необходимые вычисления и построить графики.
 
-* Скачать сводные данные по Петербургу (по дням) [SPb.COVID-19.united.csv](../data/SPb.COVID-19.united.csv)
+* Скачать сводные данные по Петербургу (по дням) [`SPb.COVID-19.united.csv`](../data/SPb.COVID-19.united.csv)
 * Скачать [описание переменных в файле `SPb.COVID-19.united.csv`](../data/SPb.COVID-19.united.variables_explained.txt)
-* Скачать данные по поисковым запросам Яндекса [SPb.yandex_wordstat.weekly.csv](../data/SPb.yandex_wordstat.weekly.csv)
-* Скачать данные по общему количеству умерших помесячно с 2006 г. (выгрузка из ЕМИСС Государственная статистика) для России, Петербурга и сопредельных регионов [SPb.adjacent_regions.all_deaths.2006_.csv](../data/SPb.adjacent_regions.all_deaths.2006_.csv)
+* Скачать данные по поисковым запросам Яндекса [`SPb.yandex_wordstat.weekly.csv`](../data/SPb.yandex_wordstat.weekly.csv)
+* Скачать данные по общему количеству умерших помесячно с 2006 г. (выгрузка из ЕМИСС Государственная статистика) для России, Петербурга и сопредельных регионов [`SPb.adjacent_regions.all_deaths.2006_.csv`](../data/SPb.adjacent_regions.all_deaths.2006_.csv)
 
 <hr />
 
