@@ -6,7 +6,7 @@
 
 Версия основного текста: 2021-08-25
 
-Количественные показатели обновлены по данным на: 2021-09-06 11:00:00
+Количественные показатели обновлены по данным на: 2021-09-07 11:40:00
 
 Какова в целом ситуация с эпидемией коронавируса в России и Петербурге?
 -----------------------------------------------------------------------
@@ -29,7 +29,7 @@
 Мы несем огромные потери от эпидемии. Прежде всего — в виде небывалой
 избыточной смертности, связанной с ковидом (см. рис. 1). С начала
 эпидемии в оперативном учете по России в целом было зарегистрировано
-183.9 тыс. смертей от COVID-19. Действительное количество смертей,
+184.7 тыс. смертей от COVID-19. Действительное количество смертей,
 связанных с COVID-19 много выше. Точный подсчет затруднен и зависит от
 используемой методики, но на июль 2021 г. избыточное количество смертей
 по сравнению с последним “доковидным” 2019 г. составило около 582.7 тыс.
@@ -45,10 +45,10 @@
 потери Петербурга (20.8 тыс. в оперативном учете и, вероятно, не менее
 32.4 тыс. по общей избыточной смертности к настоящему моменту)
 превосходят потери граничащих с Ленинградской областью Финляндии (1039)
-и Эстонии (ок. 2100) в разы. В пересчете на население это превышение
+и Эстонии (ок. 2000) в разы. В пересчете на население это превышение
 сохраняется, хотя для Эстонии разрыв несколько сокращается. Финляндия —
-18.77 “ковидных” смертей на 100 тыс. населения, Эстония — 157.89,
-Петербург — от 386.36 (для оперативно учтенного числа смертей) до 518.28
+18.77 “ковидных” смертей на 100 тыс. населения, Эстония — 150.37,
+Петербург — от 387.05 (для оперативно учтенного числа смертей) до 518.28
 (для вероятной общей избыточной смертности). Швеция, которую многие
 критиковали за мягкость пртивоэпидемических мер и высокую смертность на
 фоне других стран северной Европы, потеряла к настоящему моменту
@@ -94,90 +94,90 @@
 <td style="text-align: left;">Эстония</td>
 <td style="text-align: right;">1.330</td>
 <td style="text-align: right;">29.41</td>
-<td style="text-align: right;">1301</td>
-<td style="text-align: right;">2100</td>
-<td style="text-align: right;">97.81</td>
-<td style="text-align: right;">157.89</td>
+<td style="text-align: right;">1302</td>
+<td style="text-align: right;">2000</td>
+<td style="text-align: right;">97.89</td>
+<td style="text-align: right;">150.37</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Латвия</td>
 <td style="text-align: right;">1.908</td>
 <td style="text-align: right;">29.54</td>
-<td style="text-align: right;">2585</td>
-<td style="text-align: right;">3600</td>
-<td style="text-align: right;">135.51</td>
-<td style="text-align: right;">188.71</td>
+<td style="text-align: right;">2588</td>
+<td style="text-align: right;">3700</td>
+<td style="text-align: right;">135.66</td>
+<td style="text-align: right;">193.95</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Литва</td>
 <td style="text-align: right;">2.784</td>
 <td style="text-align: right;">42.64</td>
-<td style="text-align: right;">4607</td>
-<td style="text-align: right;">10000</td>
-<td style="text-align: right;">165.46</td>
-<td style="text-align: right;">359.16</td>
+<td style="text-align: right;">4612</td>
+<td style="text-align: right;">11000</td>
+<td style="text-align: right;">165.64</td>
+<td style="text-align: right;">395.08</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Россия</td>
 <td style="text-align: right;">146.171</td>
 <td style="text-align: right;">8.55</td>
-<td style="text-align: right;">183896</td>
+<td style="text-align: right;">184672</td>
 <td style="text-align: right;">582747</td>
-<td style="text-align: right;">125.81</td>
+<td style="text-align: right;">126.34</td>
 <td style="text-align: right;">398.67</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Санкт-Петербург</td>
 <td style="text-align: right;">5.384</td>
 <td style="text-align: right;">3741.72</td>
-<td style="text-align: right;">20803</td>
+<td style="text-align: right;">20840</td>
 <td style="text-align: right;">27906</td>
-<td style="text-align: right;">386.36</td>
+<td style="text-align: right;">387.05</td>
 <td style="text-align: right;">518.28</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Ленинградская область</td>
 <td style="text-align: right;">1.893</td>
 <td style="text-align: right;">22.56</td>
-<td style="text-align: right;">2420</td>
+<td style="text-align: right;">2421</td>
 <td style="text-align: right;">9831</td>
-<td style="text-align: right;">127.86</td>
+<td style="text-align: right;">127.91</td>
 <td style="text-align: right;">519.41</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Карелия</td>
 <td style="text-align: right;">0.609</td>
 <td style="text-align: right;">3.37</td>
-<td style="text-align: right;">793</td>
+<td style="text-align: right;">796</td>
 <td style="text-align: right;">3016</td>
-<td style="text-align: right;">130.20</td>
+<td style="text-align: right;">130.69</td>
 <td style="text-align: right;">495.18</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Вологодская область</td>
 <td style="text-align: right;">1.151</td>
 <td style="text-align: right;">7.96</td>
-<td style="text-align: right;">1672</td>
+<td style="text-align: right;">1680</td>
 <td style="text-align: right;">3522</td>
-<td style="text-align: right;">145.26</td>
+<td style="text-align: right;">145.95</td>
 <td style="text-align: right;">305.98</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Новгородская область</td>
 <td style="text-align: right;">0.592</td>
 <td style="text-align: right;">10.87</td>
-<td style="text-align: right;">394</td>
+<td style="text-align: right;">397</td>
 <td style="text-align: right;">2520</td>
-<td style="text-align: right;">66.51</td>
+<td style="text-align: right;">67.01</td>
 <td style="text-align: right;">425.38</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Псковская область</td>
 <td style="text-align: right;">0.620</td>
 <td style="text-align: right;">11.20</td>
-<td style="text-align: right;">698</td>
+<td style="text-align: right;">700</td>
 <td style="text-align: right;">2236</td>
-<td style="text-align: right;">112.54</td>
+<td style="text-align: right;">112.86</td>
 <td style="text-align: right;">360.50</td>
 </tr>
 </tbody>
