@@ -16,3 +16,5 @@ sed -i 's/<h1 class="title toc-ignore">COVID-19 в Петербурге, осн�
 sed -i 's/<h4 class="author">Алексей Куприянов<\/h4>//g' texts/SPb.COVID-19.data.sources.html
 sed -i 's/<h1 class="title toc-ignore">COVID-19 в Петербурге, сводный инфографический отчет<\/h1>//g' texts/SPb.COVID-19.r_report.html
 sed -i 's/<h4 class="author">Алексей Куприянов<\/h4>//g' texts/SPb.COVID-19.r_report.html
+sed -i 's/<h1 class="title toc-ignore">COVID-19 в Петербурге, tweet<\/h1>//g' texts/SPb.COVID-19.r_report.tweet.html
+sed -i 's/<h4 class="author">Алексей Куприянов<\/h4>//g' texts/SPb.COVID-19.r_report.tweet.html
