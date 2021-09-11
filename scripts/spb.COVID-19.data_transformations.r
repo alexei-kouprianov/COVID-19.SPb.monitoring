@@ -96,16 +96,26 @@ if(.report.SPb.confirmed.0107 < .report.SPb.confirmed.0814 &
 		.report.SPb.phase <- "Ситуация неопределенная."
 	}
 
-if((.report.SPb.confirmed.0107 / .report.SPb.confirmed.0814 < 1.02 &
-		.report.SPb.confirmed.0107 / .report.SPb.confirmed.0814 > .98) |
-	(.report.SPb.hospitalized.today.0107 / .report.SPb.hospitalized.today.0814 < 1.02 &
-		.report.SPb.hospitalized.today.0107 / .report.SPb.hospitalized.today.0814 > .98) |
-	(.report.SPb.deaths.0107 / .report.SPb.deaths.0814 < 1.02 &
-		.report.SPb.deaths.0107 / .report.SPb.deaths.0814 > .98)
+if((.report.SPb.confirmed.0107 < .report.SPb.confirmed.0814 & 
+	.report.SPb.hospitalized.today.0107 < .report.SPb.hospitalized.today.0814 &
+	.report.SPb.deaths.0107 < .report.SPb.deaths.0814) |
+	(.report.SPb.confirmed.0107 > .report.SPb.confirmed.0814 & 
+	.report.SPb.hospitalized.today.0107 > .report.SPb.hospitalized.today.0814 &
+	.report.SPb.deaths.0107 > .report.SPb.deaths.0814)
 	){
-		.report.SPb.phase.modifier <- "Скорость изменений критически мала, возможно, вскоре направление тренда сменится на противоположное."
-	} else{
-		.report.SPb.phase.modifier <- "Скорость изменений достаточна для сохранения тренда в ближайшее время."
+	if((.report.SPb.confirmed.0107 / .report.SPb.confirmed.0814 < 1.02 &
+			.report.SPb.confirmed.0107 / .report.SPb.confirmed.0814 > .98) |
+		(.report.SPb.hospitalized.today.0107 / .report.SPb.hospitalized.today.0814 < 1.02 &
+			.report.SPb.hospitalized.today.0107 / .report.SPb.hospitalized.today.0814 > .98) |
+		(.report.SPb.deaths.0107 / .report.SPb.deaths.0814 < 1.02 &
+			.report.SPb.deaths.0107 / .report.SPb.deaths.0814 > .98)
+		){
+			.report.SPb.phase.modifier <- "Скорость изменений критически мала, возможно, вскоре направление тренда сменится на противоположное."
+		} else{
+			.report.SPb.phase.modifier <- "Скорость изменений достаточна для сохранения тренда в ближайшее время."
+		}
+	} else {
+		.report.SPb.phase.modifier <- "Тренды основных показателей динамики разнонаправлены."
 	}
 
 ################################################################
