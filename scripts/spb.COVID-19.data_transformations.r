@@ -84,24 +84,28 @@ timeline.tickmarks <- strptime(
 
 # Assessment block;
 
-if(.report.SPb.confirmed.0107 < .report.SPb.confirmed.0814 & 
-	.report.SPb.hospitalized.today.0107 < .report.SPb.hospitalized.today.0814 &
-	.report.SPb.deaths.0107 < .report.SPb.deaths.0814){
+if(.report.SPb.confirmed.0107 == .report.SPb.confirmed.0814 & 
+	.report.SPb.hospitalized.today.0107 == .report.SPb.hospitalized.today.0814 &
+	.report.SPb.deaths.0107 == .report.SPb.deaths.0814){
+		.report.SPb.phase <- "По имеющимся данным, ситуация стабилизировалась."
+	} else if(.report.SPb.confirmed.0107 <= .report.SPb.confirmed.0814 & 
+	.report.SPb.hospitalized.today.0107 <= .report.SPb.hospitalized.today.0814 &
+	.report.SPb.deaths.0107 <= .report.SPb.deaths.0814){
 		.report.SPb.phase <- "Волна идет на спад."
-	} else if(.report.SPb.confirmed.0107 > .report.SPb.confirmed.0814 & 
-	.report.SPb.hospitalized.today.0107 > .report.SPb.hospitalized.today.0814 &
-	.report.SPb.deaths.0107 > .report.SPb.deaths.0814){
+	} else if(.report.SPb.confirmed.0107 >= .report.SPb.confirmed.0814 & 
+	.report.SPb.hospitalized.today.0107 >= .report.SPb.hospitalized.today.0814 &
+	.report.SPb.deaths.0107 >= .report.SPb.deaths.0814){
 		.report.SPb.phase <- "Волна идет на подъем."
 	} else{
 		.report.SPb.phase <- "Ситуация неопределенная."
 	}
 
-if((.report.SPb.confirmed.0107 < .report.SPb.confirmed.0814 & 
-	.report.SPb.hospitalized.today.0107 < .report.SPb.hospitalized.today.0814 &
-	.report.SPb.deaths.0107 < .report.SPb.deaths.0814) |
-	(.report.SPb.confirmed.0107 > .report.SPb.confirmed.0814 & 
-	.report.SPb.hospitalized.today.0107 > .report.SPb.hospitalized.today.0814 &
-	.report.SPb.deaths.0107 > .report.SPb.deaths.0814)
+if((.report.SPb.confirmed.0107 <= .report.SPb.confirmed.0814 & 
+	.report.SPb.hospitalized.today.0107 <= .report.SPb.hospitalized.today.0814 &
+	.report.SPb.deaths.0107 <= .report.SPb.deaths.0814) |
+	(.report.SPb.confirmed.0107 >= .report.SPb.confirmed.0814 & 
+	.report.SPb.hospitalized.today.0107 >= .report.SPb.hospitalized.today.0814 &
+	.report.SPb.deaths.0107 >= .report.SPb.deaths.0814)
 	){
 	if((.report.SPb.confirmed.0107 / .report.SPb.confirmed.0814 < 1.02 &
 			.report.SPb.confirmed.0107 / .report.SPb.confirmed.0814 > .98) |
@@ -115,7 +119,7 @@ if((.report.SPb.confirmed.0107 < .report.SPb.confirmed.0814 &
 			.report.SPb.phase.modifier <- "Скорость изменений достаточна для сохранения тренда в ближайшее время."
 		}
 	} else {
-		.report.SPb.phase.modifier <- "Тренды основных показателей динамики разнонаправлены."
+		.report.SPb.phase.modifier <- "Тренды основных показателей динамики не согласованы друг с другом."
 	}
 
 ################################################################
