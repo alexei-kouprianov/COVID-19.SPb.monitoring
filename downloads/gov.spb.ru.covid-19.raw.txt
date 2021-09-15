@@ -1960,7 +1960,7 @@ padding-bottom: 3rem;
 
 <div class="block content">
 
-<h1 class="small-mobile-title"><b>Эпидемиологическая ситуация 14.09.2021</b></h1>
+<h1 class="small-mobile-title"><b>Эпидемиологическая ситуация 15.09.2021</b></h1>
 
 <div class="block row">
 
@@ -1968,24 +1968,24 @@ padding-bottom: 3rem;
 <div class="legislation_info-block legislation_info-block--small-p mobile-pb-3">
 
 <div style="color: #2C97CC; margin-bottom: 2.7rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 4px;"><b>839</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 4px;"><b>1609</b></span> 
 <span style="font-size: 18px;">заболело COVID-19</span>
 </div>
 
 <div style="color: #2C97CC; margin-bottom: 2.7rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>702</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>902</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">выздоровело</span>
 </div>
 
 
 <div style="color: #2C97CC; margin-bottom: 2.7rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 2px;"><b>37</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 2px;"><b>38</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">умерло</span>
 </div>
 
 
 <div style="color: #2C97CC; margin-bottom: 2.7rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>0,99</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>0,82</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">коэффициент распространения</span>
 </div>
 
@@ -2012,7 +2012,7 @@ padding-bottom: 3rem;
 
 
 <div style="color: #2C97CC;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 2px;"><b>25,72 %</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 2px;"><b>24,94 %</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">свободный коечный фонд</span>
 </div>
 
@@ -2029,39 +2029,39 @@ padding-bottom: 3rem;
 
 
 <div style="color: #2C97CC; padding-bottom: 0.65rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 2px;"><b>3 699</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 2px;"><b>3 832</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">на лечении в&nbsp;стационарах с&nbsp;COVID&#8209;19 и&nbsp;пневмониями</span>
 </div>
 
-<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15"><b>193 </b> поступило</p>
-<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15"><b>98 </b> выписано</p>
-<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15"><b>394 </b> в реанимации</p>
-<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15"><b>140 </b> подключено к ИВЛ</p>
+<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15"><b>300 </b> поступило</p>
+<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15"><b>270 </b> выписано</p>
+<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15"><b>404 </b> в реанимации</p>
+<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15"><b>156 </b> подключено к ИВЛ</p>
 
-<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15"><b>166 </b> временный госпиталь «Ленэкспо»</p>
-<p style="font-size: 18px; margin-top: 0; margin-bottom: 3rem;" class="mobile-mb-15"><b>487 </b> пансионат «Заря»</p>
+<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15"><b>161 </b> временный госпиталь «Ленэкспо»</p>
+<p style="font-size: 18px; margin-top: 0; margin-bottom: 3rem;" class="mobile-mb-15"><b>496 </b> пансионат «Заря»</p>
 
 
 <div style="color: #2C97CC; padding-bottom: 0.65rem; margin-bottom: 3rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>18 585</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>19 078</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">на амбулаторном лечении</span>
 </div>
 
 
 <div style="color: #2C97CC; padding-bottom: 0.65rem; margin-bottom: 3rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>16 716</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>17 304</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">получают бесплатную лекарственную терапию на дому</span>
 </div>
 
 
 <div style="color: #2C97CC; padding-bottom: 0.65rem; margin-bottom: 3rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>52</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>49</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">в обсервации, пансионат Балтиец</span>
 </div>
 
 
 <div style="color: #2C97CC; padding-bottom: 0.65rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>3 518</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>3 270</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">на карантине</span>
 </div>
 
@@ -2079,23 +2079,23 @@ padding-bottom: 3rem;
 
 
 <div style="color: #2C97CC;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>1 519 422</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>1 522 304</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">привито первично (без учета Спутника Лайт)</span>
 </div>
 
-<p style="font-size: 18px; margin-top: 0; margin-bottom: 2.7rem;" class="mobile-mb-15">за сутки: 686</p>
+<p style="font-size: 18px; margin-top: 0; margin-bottom: 2.7rem;" class="mobile-mb-15">за сутки: 2 882</p>
 
 
 <div style="color: #2C97CC;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>1 556 932</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>1 565 916</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">закончили цикл вакцинации</span>
 </div>
 
-<p style="font-size: 18px; margin-top: 0; margin-bottom: 2.7rem;" class="mobile-mb-15">за сутки: 2 094</p>
+<p style="font-size: 18px; margin-top: 0; margin-bottom: 2.7rem;" class="mobile-mb-15">за сутки: 8 984</p>
 
 
 <div style="color: #2C97CC; margin-bottom: 2.7rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>634 623</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>626 836</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">доз - запас вакцины от&nbsp;COVID&#8209;19</span>
 </div>
 
@@ -2113,7 +2113,7 @@ padding-bottom: 3rem;
 
 
 <div style="color: #2C97CC;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>18 008</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>22 006</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">тестов ПЦР на&nbsp;COVID&#8209;19</span>
 </div>
 
@@ -2256,7 +2256,70 @@ padding-bottom: 3rem;
 
 <div class="block row">
 <section class="col-lg-6">
+
 <div class="legislation_info-block">
+
+<h3><b>Особенности организации труда</b></h3>
+
+<div style="display:flex;">
+
+<div class="block-85">
+<p><b>Работнику и&nbsp;работодателю</b></p>
+
+<p>Что нужно работодателю, чтобы&nbsp;перевести сотрудников на&nbsp;работу из&nbsp;дома? Что нужно сделать, чтобы оплата труда дома не&nbsp;изменилась по&nbsp;сравнению с&nbsp;обычным режимом? Как оплачивается работнику пребывание в&nbsp;режиме самоизоляции?
+<br/><a href="/covid-19/udalennaya-rabota-i-oformlenie-bolnichnyh/">Официальные разъяснения Министерства труда и&nbsp;социальной защиты РФ</a>.</p>
+
+<p>Какие условия должны соблюдать организации при&nbsp;возобновлении работы – читайте <a href="./mery-kontrolya/trebovaniya-k-rabotodatelyam/">здесь</a>.</p>
+</div>
+
+<div class="number-40 no-mobile">
+<img  style="max-width: 280px; width: 100%;" src="/static/writable/ckeditor/uploads/2020/12/01/30/парень.png" alt=""/>
+</div>
+</div>
+
+<p><b>Напоминаем</b> о&nbsp;мерах профилактики коронавируса на&nbsp;предприятиях:</p>
+
+<div style="display:flex;">
+<div class="number-20-small">
+<img src="/static/writable/ckeditor/uploads/2020/12/01/32/галочка.png" alt=""/>
+</div>
+<div style="width: 90%;">
+<p>организовать регулярное измерение температуры у всех сотрудников;</p>
+</div>
+</div>
+
+<div style="display:flex;">
+<div class="number-20-small">
+<img src="/static/writable/ckeditor/uploads/2020/12/01/32/галочка.png" alt=""/>
+</div>
+<div style="width: 90%;">
+<p>не допускать к работе тех, у кого есть признаки ОРВИ (повышенная температура, кашель и т.д.), сразу отправляйте таких людей домой для получения медицинской помощи и соблюдения карантина;</p>
+</div>
+</div>
+
+<div style="display:flex;">
+<div class="number-20-small">
+<img src="/static/writable/ckeditor/uploads/2020/12/01/32/галочка.png" alt=""/>
+</div>
+<div style="width: 90%;">
+<p>провести дезинфекцию помещений, где находился заболевший;</p>
+</div>
+</div>
+
+<div style="display:flex;">
+<div class="number-20-small">
+<img src="/static/writable/ckeditor/uploads/2020/12/01/32/галочка.png" alt=""/>
+</div>
+<div style="width: 90%;">
+<p>сообщить обо всех контактах заболевшего по запросу Роспотребнадзора.</p>
+</div>
+</div>
+
+<p><a href="./rekomendacii-po-profilaktike-novoj-koronavirusnoj-infekcii-covid-19-sr/">Полный перечень рекомендаций по профилактике новой коронавирусной инфекции (COVID-19) среди&nbsp;работников</a></p>
+
+</div>
+
+<div class="legislation_info-block" style="display: none;">
 
 <h3><b>Президент России В.В.Путин о&nbsp;борьбе с&nbsp;коронавирусом и&nbsp;поддержке россиян</b></h3>
 
@@ -2658,7 +2721,7 @@ padding-bottom: 3rem;
 <div class="block row">
 
 <section class="col-lg-6">
-<div class="legislation_info-block">
+<div class="legislation_info-block" style="display: none;">
 
 <h3><b>Особенности организации труда</b></h3>
 
