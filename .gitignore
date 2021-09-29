@@ -7,3 +7,5 @@ texts/SPb.COVID-19.data_critique.html
 texts/SPb.COVID-19.overview.html
 texts/SPb.COVID-19.r_report.html
 texts/SPb.COVID-19.r_report.tweet.html
+plots/approximations/
+scripts/spb.COVID-19.approximations.r
