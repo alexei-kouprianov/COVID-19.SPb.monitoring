@@ -526,7 +526,7 @@ legend("topleft",
 	legend = c(paste("Относительно среднего за 2015 — 2019 гг. (≈",
 			round(sum(spb.excessive_deaths.2014_2019[2:length(spb.excessive_deaths.2014_2019)], na.rm = TRUE)), " за ", spb.adj.deaths$MONTH[172], " 2020 — ", spb.adj.deaths$MONTH[nrow(spb.adj.deaths)], " 2021)", sep=""), 
 		paste("Относительно 2019 г. (",
-			round(sum(spb.excessive_deaths.2019[4:length(spb.excessive_deaths.2019)], na.rm = TRUE)), " за ", spb.adj.deaths$MONTH[172], " 2020 — ", spb.adj.deaths$MONTH[nrow(spb.adj.deaths)], " 2021)", sep=""), 
+			round(sum(spb.excessive_deaths.2019, na.rm = TRUE)), " за ", spb.adj.deaths$MONTH[171], " 2020 — ", spb.adj.deaths$MONTH[nrow(spb.adj.deaths)], " 2021)", sep=""), 
 		paste("По данным стопкоронавирус.рф (", 
 			sum(spb.excessive_deaths.sk), " за март 2020 — ", spb.adj.deaths$MONTH[nrow(spb.adj.deaths)], " 2021)", sep="")
 		)

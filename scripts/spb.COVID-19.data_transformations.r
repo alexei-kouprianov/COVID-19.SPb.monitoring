@@ -455,10 +455,11 @@ spb.excessive_deaths.sk <- c(sum(spb.united$DEATHS.sk[1:30]), # 30  2020-03-31
 	sum(spb.united$DEATHS.sk[457:486]), # 486 2021-06-30
 	sum(spb.united$DEATHS.sk[487:517]), # 517 2021-07-31
 	sum(spb.united$DEATHS.sk[518:548]), # 548 2021-08-31
-	sum(spb.united$DEATHS.sk[549:578]) # 578 2021-09-30
+	sum(spb.united$DEATHS.sk[549:578]), # 578 2021-09-30
+	sum(spb.united$DEATHS.sk[579:609]) # 579 2021-10-31
 	)
 
-spb.excessive_deaths.sk.tck <- timeline.tickmarks[7:25]
+spb.excessive_deaths.sk.tck <- timeline.tickmarks[7:26]
 
 ################################################################
 # Building adjacent regions table : End
