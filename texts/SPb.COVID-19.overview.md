@@ -6,7 +6,7 @@
 
 Версия основного текста: 2021-08-25
 
-Количественные показатели обновлены по данным на: 2021-12-15 11:40:00
+Количественные показатели обновлены по данным на: 2021-12-16 11:40:00
 
 Какова в целом ситуация с эпидемией коронавируса в России и Петербурге?
 -----------------------------------------------------------------------
@@ -28,15 +28,15 @@
 
 Мы несем огромные потери от эпидемии. Прежде всего — в виде небывалой
 избыточной смертности, связанной с ковидом (см. рис. 1). С начала
-эпидемии в оперативном учете по России в целом было зарегистрировано 286
-тыс. смертей от COVID-19. Действительное количество смертей, связанных с
-COVID-19 много выше. Точный подсчет затруднен и зависит от используемой
-методики, но на октябрь 2021 г. избыточное количество смертей по
-сравнению с последним “доковидным” 2019 г. составило около 800 тыс.
-человек. Только в Петербурге с начала эпидемии на октябрь 2021 г. от
-ковида умерло не менее 33 тыс. человек. Таким образом, потери одного,
-пусть и крупного, города сопоставимы с потерями СССР или России в целом
-в многолетних локальных вооруженных конфликтах (Афганская война
+эпидемии в оперативном учете по России в целом было зарегистрировано
+287.1 тыс. смертей от COVID-19. Действительное количество смертей,
+связанных с COVID-19 много выше. Точный подсчет затруднен и зависит от
+используемой методики, но на октябрь 2021 г. избыточное количество
+смертей по сравнению с последним “доковидным” 2019 г. составило около
+800 тыс. человек. Только в Петербурге с начала эпидемии на октябрь 2021
+г. от ковида умерло не менее 33 тыс. человек. Таким образом, потери
+одного, пусть и крупного, города сопоставимы с потерями СССР или России
+в целом в многолетних локальных вооруженных конфликтах (Афганская война
 1979–1989, Первая и Вторая Чеченские войны 1994–1996 и 1999–2009) или
 превышают их. По сути, мы имеем дело с настоящей гуманитарной
 катастрофой.
@@ -44,16 +44,16 @@ COVID-19 много выше. Точный подсчет затруднен и 
 В пересчете на 100 тыс. населения показатели России и Петербурга — едва
 ли не худшие изо всех крупных стран Европы. В абсолютном исчислении
 потери Петербурга (27.1 тыс. в оперативном учете и, вероятно, не менее
-43.7 тыс. по общей избыточной смертности к настоящему моменту)
-превосходят потери граничащих с Ленинградской областью Финляндии (1444)
+43.8 тыс. по общей избыточной смертности к настоящему моменту)
+превосходят потери граничащих с Ленинградской областью Финляндии (1446)
 и Эстонии (ок. 2500) в разы. В пересчете на население это превышение
 сохраняется, хотя для Эстонии разрыв несколько сокращается. Финляндия —
-26.08 “ковидных” смертей на 100 тыс. населения, Эстония — 187.96,
-Петербург — от 502.7 (для оперативно учтенного числа смертей) до 612.31
+26.12 “ковидных” смертей на 100 тыс. населения, Эстония — 187.96,
+Петербург — от 503.83 (для оперативно учтенного числа смертей) до 612.31
 (для вероятной общей избыточной смертности). Швеция, которую многие
 критиковали за мягкость пртивоэпидемических мер и высокую смертность на
 фоне других стран северной Европы, потеряла к настоящему моменту
-умершими 15204 чел. (146.16 на 100 тыс. населения) — в три — четыре раза
+умершими 15221 чел. (146.33 на 100 тыс. населения) — в три — четыре раза
 менее, чем Петербург. Не следует думать, что это связано с высокой
 плотностью населения в мегаполисе. Ленинградская область и Карелия, с их
 много меньшей плотностью населения, дают близкие к Петербургу цифры
@@ -77,90 +77,90 @@ COVID-19 много выше. Точный подсчет затруднен и 
 <td style="text-align: left;">Швеция</td>
 <td style="text-align: right;">10.402</td>
 <td style="text-align: right;">23.10</td>
-<td style="text-align: right;">15204</td>
+<td style="text-align: right;">15221</td>
 <td style="text-align: right;">NA</td>
-<td style="text-align: right;">146.16</td>
+<td style="text-align: right;">146.33</td>
 <td style="text-align: right;">NA</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Финляндия</td>
 <td style="text-align: right;">5.536</td>
 <td style="text-align: right;">16.36</td>
-<td style="text-align: right;">1444</td>
+<td style="text-align: right;">1446</td>
 <td style="text-align: right;">NA</td>
-<td style="text-align: right;">26.08</td>
+<td style="text-align: right;">26.12</td>
 <td style="text-align: right;">NA</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Эстония</td>
 <td style="text-align: right;">1.330</td>
 <td style="text-align: right;">29.41</td>
-<td style="text-align: right;">1868</td>
+<td style="text-align: right;">1869</td>
 <td style="text-align: right;">2500</td>
-<td style="text-align: right;">140.44</td>
+<td style="text-align: right;">140.52</td>
 <td style="text-align: right;">187.96</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Латвия</td>
 <td style="text-align: right;">1.908</td>
 <td style="text-align: right;">29.54</td>
-<td style="text-align: right;">4390</td>
+<td style="text-align: right;">4408</td>
 <td style="text-align: right;">4400</td>
-<td style="text-align: right;">230.12</td>
+<td style="text-align: right;">231.07</td>
 <td style="text-align: right;">230.65</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Литва</td>
 <td style="text-align: right;">2.784</td>
 <td style="text-align: right;">42.64</td>
-<td style="text-align: right;">7021</td>
+<td style="text-align: right;">7039</td>
 <td style="text-align: right;">13000</td>
-<td style="text-align: right;">252.17</td>
+<td style="text-align: right;">252.81</td>
 <td style="text-align: right;">466.91</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Россия</td>
 <td style="text-align: right;">146.171</td>
 <td style="text-align: right;">8.55</td>
-<td style="text-align: right;">286023</td>
+<td style="text-align: right;">287135</td>
 <td style="text-align: right;">800002</td>
-<td style="text-align: right;">195.68</td>
+<td style="text-align: right;">196.44</td>
 <td style="text-align: right;">547.31</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Санкт-Петербург</td>
 <td style="text-align: right;">5.384</td>
 <td style="text-align: right;">3741.72</td>
-<td style="text-align: right;">27067</td>
+<td style="text-align: right;">27128</td>
 <td style="text-align: right;">32969</td>
-<td style="text-align: right;">502.70</td>
+<td style="text-align: right;">503.83</td>
 <td style="text-align: right;">612.31</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Ленинградская область</td>
 <td style="text-align: right;">1.893</td>
 <td style="text-align: right;">22.56</td>
-<td style="text-align: right;">2941</td>
+<td style="text-align: right;">2946</td>
 <td style="text-align: right;">11609</td>
-<td style="text-align: right;">155.39</td>
+<td style="text-align: right;">155.65</td>
 <td style="text-align: right;">613.35</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Карелия</td>
 <td style="text-align: right;">0.609</td>
 <td style="text-align: right;">3.37</td>
-<td style="text-align: right;">1135</td>
+<td style="text-align: right;">1138</td>
 <td style="text-align: right;">4045</td>
-<td style="text-align: right;">186.35</td>
+<td style="text-align: right;">186.84</td>
 <td style="text-align: right;">664.13</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Вологодская область</td>
 <td style="text-align: right;">1.151</td>
 <td style="text-align: right;">7.96</td>
-<td style="text-align: right;">2770</td>
+<td style="text-align: right;">2779</td>
 <td style="text-align: right;">4876</td>
-<td style="text-align: right;">240.65</td>
+<td style="text-align: right;">241.43</td>
 <td style="text-align: right;">423.62</td>
 </tr>
 <tr class="odd">
@@ -176,9 +176,9 @@ COVID-19 много выше. Точный подсчет затруднен и 
 <td style="text-align: left;">Псковская область</td>
 <td style="text-align: right;">0.620</td>
 <td style="text-align: right;">11.20</td>
-<td style="text-align: right;">1167</td>
+<td style="text-align: right;">1172</td>
 <td style="text-align: right;">3105</td>
-<td style="text-align: right;">188.15</td>
+<td style="text-align: right;">188.96</td>
 <td style="text-align: right;">500.61</td>
 </tr>
 </tbody>
