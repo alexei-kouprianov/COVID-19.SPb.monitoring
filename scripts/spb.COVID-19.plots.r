@@ -376,12 +376,12 @@ abline(h = (0:20)*1e+3,
 	v = as.numeric(timeline.tickmarks),
 	lty = 3, col = 8)
 
-shadowtext(x = as.numeric(strptime(c("2020-05-20", "2020-05-20", "2020-12-01", "2020-11-10"), "%Y-%m-%d")),
-	y = c(8000, 7000, 6500, 1000),
+shadowtext(x = as.numeric(strptime(c("2020-05-20", "2020-06-15", "2020-12-01", "2020-11-10"), "%Y-%m-%d")),
+	y = c(8000, 10000, 6500, 1000),
 	labels = c("Занято коек", "Занято коек,\nнедельн. отчеты", "В стационарах с подтвержденным\n лабораторным методом COVID-19", "Госпитализировано за день"),
 	col = c("darkred", "orange", "darkgreen", "darkgreen"),
 	bg = "white",
-	pos = 2)
+	pos = c(2, 4, 2, 2))
 
 axis.POSIXct(1, at = timeline.tickmarks, format = "%Y-%m-%d", las = 2)
 axis(2)
@@ -608,5 +608,6 @@ system("convert -resize 75% ../plots/SPb.COVID-19.PCR_tests.png ../plots/01.SPb.
 system("convert -resize 75% ../plots/SPb.COVID-19.confirmed.png ../plots/02.SPb.COVID-19.confirmed.mini.png")
 system("convert -resize 75% ../plots/SPb.COVID-19.hospitalized_today.png ../plots/03.SPb.COVID-19.hospitalized_today.mini.png")
 system("convert -resize 75% ../plots/SPb.COVID-19.deaths.png ../plots/04.SPb.COVID-19.deaths.mini.png")
-system("convert -resize 75% ../plots/SPb.COVID-19.Yandex_vs_deaths.png ../plots/05.SPb.COVID-19.Yandex_vs_deaths.mini.png")
+system("convert -resize 75% ../plots/SPb.COVID-19.Hospitalized_vs_Hospitalized_today_vs_Occupied_beds.png ../plots/05.SPb.COVID-19.Hospitalized_vs_Hospitalized_today_vs_Occupied_beds.mini.png")
+system("convert -resize 75% ../plots/SPb.COVID-19.Yandex_vs_deaths.png ../plots/06.SPb.COVID-19.Yandex_vs_deaths.mini.png")
 system("convert -resize 75% ../plots/SPb.COVID-19.overview.Y_log10.png ../plots/SPb.COVID-19.overview.Y_log10.mini.png")
