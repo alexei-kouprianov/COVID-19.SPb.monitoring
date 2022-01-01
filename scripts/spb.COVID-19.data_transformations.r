@@ -334,7 +334,7 @@ spb.adj.deaths.ls[[i]] <- rbind.data.frame(spb.adj.deaths.ls[[i]], spb.adj.death
 spb.adj$DEATHS.exc_to_2019 <- c(
 	rep(NA, 2),
 
-	c(2500, 4400, 13000), # Kobak's extrapolations for Estonia, Latvia, Lithuania (updated manually on the monthly basis), see https://github.com/dkobak/excess-mortality for the want of a better estimate;
+	c(3400, 6800, 15000), # Kobak's extrapolations for Estonia, Latvia, Lithuania (updated manually on the monthly basis), see https://github.com/dkobak/excess-mortality for the want of a better estimate;
 
 	sum(spb.adj.deaths.ls[[15]]$Russia[3:12] - spb.adj.deaths.ls[[14]]$Russia[3:12], na.rm = TRUE) +
 	sum(spb.adj.deaths.ls[[16]]$Russia - spb.adj.deaths.ls[[14]]$Russia, na.rm = TRUE),

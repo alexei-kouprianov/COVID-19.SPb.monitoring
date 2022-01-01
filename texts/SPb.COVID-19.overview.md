@@ -46,9 +46,9 @@
 потери Петербурга (28.1 тыс. в оперативном учете и, вероятно, не менее
 47.6 тыс. по общей избыточной смертности к настоящему моменту)
 превосходят потери граничащих с Ленинградской областью Финляндии (1564)
-и Эстонии (ок. 2500) в разы. В пересчете на население это превышение
+и Эстонии (ок. 3400) в разы. В пересчете на население это превышение
 сохраняется, хотя для Эстонии разрыв несколько сокращается. Финляндия —
-28.25 “ковидных” смертей на 100 тыс. населения, Эстония — 187.96,
+28.25 “ковидных” смертей на 100 тыс. населения, Эстония — 255.63,
 Петербург — от 521.74 (для оперативно учтенного числа смертей) до 665.54
 (для вероятной общей избыточной смертности). Швеция, которую многие
 критиковали за мягкость пртивоэпидемических мер и высокую смертность на
@@ -96,27 +96,27 @@
 <td style="text-align: right;">1.330</td>
 <td style="text-align: right;">29.41</td>
 <td style="text-align: right;">1932</td>
-<td style="text-align: right;">2500</td>
+<td style="text-align: right;">3400</td>
 <td style="text-align: right;">145.26</td>
-<td style="text-align: right;">187.96</td>
+<td style="text-align: right;">255.63</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Латвия</td>
 <td style="text-align: right;">1.908</td>
 <td style="text-align: right;">29.54</td>
 <td style="text-align: right;">4570</td>
-<td style="text-align: right;">4400</td>
+<td style="text-align: right;">6800</td>
 <td style="text-align: right;">239.56</td>
-<td style="text-align: right;">230.65</td>
+<td style="text-align: right;">356.45</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Литва</td>
 <td style="text-align: right;">2.784</td>
 <td style="text-align: right;">42.64</td>
 <td style="text-align: right;">7387</td>
-<td style="text-align: right;">13000</td>
+<td style="text-align: right;">15000</td>
 <td style="text-align: right;">265.31</td>
-<td style="text-align: right;">466.91</td>
+<td style="text-align: right;">538.74</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Россия</td>
