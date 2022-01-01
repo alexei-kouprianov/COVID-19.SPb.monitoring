@@ -69,7 +69,7 @@
 <th style="text-align: right;">Умершие от COVID (оперативные данные)</th>
 <th style="text-align: right;">Избыточные смерти к 2019 (на ноябрь 2021)</th>
 <th style="text-align: right;">Умерших на 100 тыс. (оперативные данные)</th>
-<th style="text-align: right;">Умерших на 100 тыс. (к 2019 г.)</th>
+<th style="text-align: right;">Избыточные смерти к 2019 на 100 тыс. (на ноябрь 2021)</th>
 </tr>
 </thead>
 <tbody>

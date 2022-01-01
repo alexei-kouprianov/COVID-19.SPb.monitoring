@@ -485,4 +485,4 @@ colnames(.spb.adj.report.ru) <- c("Страна / регион",
 	"Умершие от COVID (оперативные данные)", 
 	paste("Избыточные смерти к 2019 (на ", tail(spb.adj.deaths$MONTH, 1), " ", tail(spb.adj.deaths$YEAR, 1), ")", sep = ""), 
 	"Умерших на 100 тыс. (оперативные данные)", 
-	"Умерших на 100 тыс. (к 2019 г.)")
+	paste("Избыточные смерти к 2019 на 100 тыс. (на ", tail(spb.adj.deaths$MONTH, 1), " ", tail(spb.adj.deaths$YEAR, 1), ")", sep = ""))
