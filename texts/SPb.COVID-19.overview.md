@@ -6,7 +6,7 @@
 
 Версия основного текста: 2021-08-25
 
-Количественные показатели обновлены по данным на: 2022-01-05 11:30:00
+Количественные показатели обновлены по данным на: 2022-01-06 11:45:00
 
 Какова в целом ситуация с эпидемией коронавируса в России и Петербурге?
 -----------------------------------------------------------------------
@@ -29,7 +29,7 @@
 Мы несем огромные потери от эпидемии. Прежде всего — в виде небывалой
 избыточной смертности, связанной с ковидом (см. рис. 1). С начала
 эпидемии в оперативном учете по России в целом было зарегистрировано
-305.9 тыс. смертей от COVID-19. Действительное количество смертей,
+306.7 тыс. смертей от COVID-19. Действительное количество смертей,
 связанных с COVID-19 много выше. Точный подсчет затруднен и зависит от
 используемой методики, но на ноябрь 2021 г. избыточное количество
 смертей по сравнению с последним “доковидным” 2019 г. составило около
@@ -43,17 +43,17 @@
 
 В пересчете на 100 тыс. населения показатели России и Петербурга — едва
 ли не худшие изо всех крупных стран Европы. В абсолютном исчислении
-потери Петербурга (28.3 тыс. в оперативном учете и, вероятно, не менее
-47.8 тыс. по общей избыточной смертности к настоящему моменту)
-превосходят потери граничащих с Ленинградской областью Финляндии (1599)
+потери Петербурга (28.4 тыс. в оперативном учете и, вероятно, не менее
+47.9 тыс. по общей избыточной смертности к настоящему моменту)
+превосходят потери граничащих с Ленинградской областью Финляндии (1624)
 и Эстонии (ок. 3400) в разы. В пересчете на население это превышение
 сохраняется, хотя для Эстонии разрыв несколько сокращается. Финляндия —
-28.88 “ковидных” смертей на 100 тыс. населения, Эстония — 255.63,
-Петербург — от 526.12 (для оперативно учтенного числа смертей) до 665.54
+29.33 “ковидных” смертей на 100 тыс. населения, Эстония — 255.63,
+Петербург — от 527.2 (для оперативно учтенного числа смертей) до 665.54
 (для вероятной общей избыточной смертности). Швеция, которую многие
 критиковали за мягкость пртивоэпидемических мер и высокую смертность на
 фоне других стран северной Европы, потеряла к настоящему моменту
-умершими 15330 чел. (147.37 на 100 тыс. населения) — в три — четыре раза
+умершими 15369 чел. (147.75 на 100 тыс. населения) — в три — четыре раза
 менее, чем Петербург. Не следует думать, что это связано с высокой
 плотностью населения в мегаполисе. Ленинградская область и Карелия, с их
 много меньшей плотностью населения, дают близкие к Петербургу цифры
@@ -77,108 +77,108 @@
 <td style="text-align: left;">Швеция</td>
 <td style="text-align: right;">10.402</td>
 <td style="text-align: right;">23.10</td>
-<td style="text-align: right;">15330</td>
+<td style="text-align: right;">15369</td>
 <td style="text-align: right;">NA</td>
-<td style="text-align: right;">147.37</td>
+<td style="text-align: right;">147.75</td>
 <td style="text-align: right;">NA</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Финляндия</td>
 <td style="text-align: right;">5.536</td>
 <td style="text-align: right;">16.36</td>
-<td style="text-align: right;">1599</td>
+<td style="text-align: right;">1624</td>
 <td style="text-align: right;">NA</td>
-<td style="text-align: right;">28.88</td>
+<td style="text-align: right;">29.33</td>
 <td style="text-align: right;">NA</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Эстония</td>
 <td style="text-align: right;">1.330</td>
 <td style="text-align: right;">29.41</td>
-<td style="text-align: right;">1940</td>
+<td style="text-align: right;">1942</td>
 <td style="text-align: right;">3400</td>
-<td style="text-align: right;">145.86</td>
+<td style="text-align: right;">146.01</td>
 <td style="text-align: right;">255.63</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Латвия</td>
 <td style="text-align: right;">1.908</td>
 <td style="text-align: right;">29.54</td>
-<td style="text-align: right;">4600</td>
+<td style="text-align: right;">4613</td>
 <td style="text-align: right;">6800</td>
-<td style="text-align: right;">241.13</td>
+<td style="text-align: right;">241.81</td>
 <td style="text-align: right;">356.45</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Литва</td>
 <td style="text-align: right;">2.784</td>
 <td style="text-align: right;">42.64</td>
-<td style="text-align: right;">7462</td>
+<td style="text-align: right;">7475</td>
 <td style="text-align: right;">15000</td>
-<td style="text-align: right;">268.00</td>
+<td style="text-align: right;">268.47</td>
 <td style="text-align: right;">538.74</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Россия</td>
 <td style="text-align: right;">146.171</td>
 <td style="text-align: right;">8.55</td>
-<td style="text-align: right;">305906</td>
+<td style="text-align: right;">306710</td>
 <td style="text-align: right;">915963</td>
-<td style="text-align: right;">209.28</td>
+<td style="text-align: right;">209.83</td>
 <td style="text-align: right;">626.64</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Санкт-Петербург</td>
 <td style="text-align: right;">5.384</td>
 <td style="text-align: right;">3741.72</td>
-<td style="text-align: right;">28328</td>
+<td style="text-align: right;">28386</td>
 <td style="text-align: right;">35835</td>
-<td style="text-align: right;">526.12</td>
+<td style="text-align: right;">527.20</td>
 <td style="text-align: right;">665.54</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Ленинградская область</td>
 <td style="text-align: right;">1.893</td>
 <td style="text-align: right;">22.56</td>
-<td style="text-align: right;">3030</td>
+<td style="text-align: right;">3034</td>
 <td style="text-align: right;">12717</td>
-<td style="text-align: right;">160.09</td>
+<td style="text-align: right;">160.30</td>
 <td style="text-align: right;">671.89</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Карелия</td>
 <td style="text-align: right;">0.609</td>
 <td style="text-align: right;">3.37</td>
-<td style="text-align: right;">1214</td>
+<td style="text-align: right;">1218</td>
 <td style="text-align: right;">4635</td>
-<td style="text-align: right;">199.32</td>
+<td style="text-align: right;">199.98</td>
 <td style="text-align: right;">761.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Вологодская область</td>
 <td style="text-align: right;">1.151</td>
 <td style="text-align: right;">7.96</td>
-<td style="text-align: right;">3003</td>
+<td style="text-align: right;">3010</td>
 <td style="text-align: right;">5848</td>
-<td style="text-align: right;">260.89</td>
+<td style="text-align: right;">261.50</td>
 <td style="text-align: right;">508.06</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Новгородская область</td>
 <td style="text-align: right;">0.592</td>
 <td style="text-align: right;">10.87</td>
-<td style="text-align: right;">772</td>
+<td style="text-align: right;">779</td>
 <td style="text-align: right;">3981</td>
-<td style="text-align: right;">130.31</td>
+<td style="text-align: right;">131.50</td>
 <td style="text-align: right;">672.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Псковская область</td>
 <td style="text-align: right;">0.620</td>
 <td style="text-align: right;">11.20</td>
-<td style="text-align: right;">1285</td>
+<td style="text-align: right;">1293</td>
 <td style="text-align: right;">3588</td>
-<td style="text-align: right;">207.17</td>
+<td style="text-align: right;">208.46</td>
 <td style="text-align: right;">578.48</td>
 </tr>
 </tbody>
