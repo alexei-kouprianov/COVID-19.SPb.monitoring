@@ -561,6 +561,44 @@ axis(2, at = 1:7 / 2, tcl = -.25, labels = FALSE)
 dev.off()
 
 
+png("../plots/SPb.COVID-19.PCR_Positivity.png", height=750, width=1000, res=120, pointsize=10)
+par(mar=c(6,4,2,2)+.1)
+
+plot(spb.united$TIME.sk, spb.united$CONFIRMED.sk / spb.united$PCR_TESTS,
+	type = "n",
+	main = "Санкт-Петербург / Эпидемия COVID-19",
+	xlab = "",
+	ylab = "Доля положительных тестов",
+	axes = FALSE)
+
+lines(spb.united$TIME.sk[520:nrow(spb.united)], 
+	spb.united$CONFIRMED.sk[520:nrow(spb.united)] / spb.united$PCR_TESTS[520:nrow(spb.united)],
+	type = "l")
+lines(spb.united$TIME.sk[2:459], spb.united$CONFIRMED.spb[1:458] / spb.united$PCR_TESTS[2:459],
+	type = "l")
+
+abline(v = as.numeric(timeline.tickmarks),
+	lty = 3, col = 8)
+
+abline(h = c(0, .5), 
+	v = as.numeric(timeline.tickmarks[c(16, 28)]), 
+	lty = 3, col = 1)
+
+rect(xleft = c(0, 
+		as.numeric(strptime("2021-06-03", format = "%Y-%m-%d"))),
+	xright = c(as.numeric(strptime("2020-12-08", format = "%Y-%m-%d")),
+		as.numeric(strptime("2021-08-02", format = "%Y-%m-%d"))),
+	ybottom = rep(-1, 2),
+	ytop = rep(1, 2),
+	border = rgb(0,0,0,.025),
+	col = rgb(0,0,0,.05))
+
+axis.POSIXct(1, at = timeline.tickmarks, format = "%Y-%m-%d", las = 2)
+axis(2)
+
+dev.off()
+
+
 png("../plots/SPb.COVID-19.Smoothing.png", height=750, width=1000, res=120, pointsize=10)
 par(mar=c(6,4,2,2)+.1)
 
@@ -611,3 +649,4 @@ system("convert -resize 75% ../plots/SPb.COVID-19.deaths.png ../plots/04.SPb.COV
 system("convert -resize 75% ../plots/SPb.COVID-19.Hospitalized_vs_Hospitalized_today_vs_Occupied_beds.png ../plots/05.SPb.COVID-19.Hospitalized_vs_Hospitalized_today_vs_Occupied_beds.mini.png")
 system("convert -resize 75% ../plots/SPb.COVID-19.Yandex_vs_deaths.png ../plots/06.SPb.COVID-19.Yandex_vs_deaths.mini.png")
 system("convert -resize 75% ../plots/SPb.COVID-19.overview.Y_log10.png ../plots/SPb.COVID-19.overview.Y_log10.mini.png")
+system("convert -resize 75% ../plots/SPb.COVID-19.PCR_Positivity.png ../plots/07.SPb.COVID-19.PCR_Positivity.mini.png")
