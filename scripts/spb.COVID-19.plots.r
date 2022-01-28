@@ -97,7 +97,7 @@ plot(spb.united$DATE.spb, spb.united$PCR_TESTS, type = "n",
 lines(spb.united$DATE.spb, spb.united$PCR_TESTS, type = "h", col = "slateblue", lwd = 1.75, lend = 2)
 lines(spb.united$DATE.spb, spb.united$PCR_TESTS.RA7, col = "white", lwd = 4)
 lines(spb.united$DATE.spb, spb.united$PCR_TESTS.RA7, col = rgb(0, .02, .1, 1), lwd = 2)
-abline(h = 1:5*1e+4, 
+abline(h = 1:20*1e+4, 
 	v = as.numeric(timeline.tickmarks),
 	lty = 3, col = 8)
 
@@ -123,7 +123,7 @@ plot(spb.united$TIME.sk, spb.united$CONFIRMED.sk, type = "n",
 lines(spb.united$TIME.sk, spb.united$CONFIRMED.sk, type = "h", col = "orangered", lwd = 1.75, lend = 2)
 lines(spb.united$TIME.sk, spb.united$CONFIRMED.sk.RA7, col = "white", lwd = 4)
 lines(spb.united$TIME.sk, spb.united$CONFIRMED.sk.RA7, col = rgb(.3, .02, 0, 1), lwd = 2)
-abline(h = (0:20*1e+3)/2, 
+abline(h = (0:40*1e+3)/2, 
 	v = as.numeric(timeline.tickmarks),
 	lty = 3, col = 8)
 legend("topleft",
