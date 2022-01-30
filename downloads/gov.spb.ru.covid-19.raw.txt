@@ -1940,7 +1940,7 @@ padding-bottom: 3rem;
 
 <div class="block content">
 
-<h1 class="small-mobile-title"><b>Эпидемиологическая ситуация 29.01.2022</b></h1>
+<h1 class="small-mobile-title"><b>Эпидемиологическая ситуация 30.01.2022</b></h1>
 
 <div class="block row">
 
@@ -1948,24 +1948,24 @@ padding-bottom: 3rem;
 <div class="legislation_info-block legislation_info-block--small-p mobile-pb-3">
 
 <div style="color: #2C97CC; margin-bottom: 2.7rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 4px;"><b>14 939</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 4px;"><b>17 833</b></span> 
 <span style="font-size: 18px;">заболело COVID-19</span>
 </div>
 
 <div style="color: #2C97CC; margin-bottom: 2.7rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>2 880</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>1 337</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">выздоровело</span>
 </div>
 
 
 <div style="color: #2C97CC; margin-bottom: 2.7rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 2px;"><b>63</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 2px;"><b>65</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">умерло</span>
 </div>
 
 
 <div style="color: #2C97CC; margin-bottom: 2.7rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>1,42</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>1,53</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">коэффициент распространения</span>
 </div>
 
@@ -1985,7 +1985,7 @@ padding-bottom: 3rem;
 
 
 <div style="color: #2C97CC;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 2px;"><b>42,74 %</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 2px;"><b>39.05 %</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">свободный коечный фонд</span>
 </div>
 
@@ -2002,39 +2002,39 @@ padding-bottom: 3rem;
 
 
 <div style="color: #2C97CC; padding-bottom: 0.65rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 2px;"><b>6 816</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 2px;"><b>7 109</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">на лечении в&nbsp;стационарах с&nbsp;COVID&#8209;19 и&nbsp;пневмониями</span>
 </div>
 
-<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15"><b>711</b> поступило</p>
-<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15"><b>500</b> выписано</p>
-<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15"><b>588</b> в реанимации</p>
-<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15"><b>308</b> подключено к ИВЛ</p>
+<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15"><b>647</b> поступило</p>
+<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15"><b>532</b> выписано</p>
+<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15"><b>599</b> в реанимации</p>
+<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15"><b>318</b> подключено к ИВЛ</p>
 
-<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15"><b>243</b> временный госпиталь «Ленэкспо»</p>
-<p style="font-size: 18px; margin-top: 0; margin-bottom: 3rem;" class="mobile-mb-15"><b>545</b> пансионат «Заря»</p>
+<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15"><b>242</b> временный госпиталь «Ленэкспо»</p>
+<p style="font-size: 18px; margin-top: 0; margin-bottom: 3rem;" class="mobile-mb-15"><b>580</b> пансионат «Заря»</p>
 
 
 <div style="color: #2C97CC; padding-bottom: 0.65rem; margin-bottom: 3rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>89 191</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>93 523</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">на амбулаторном лечении</span>
 </div>
 
 
 <div style="color: #2C97CC; padding-bottom: 0.65rem; margin-bottom: 3rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>81 544</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>90 424</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">получают бесплатную лекарственную терапию на дому</span>
 </div>
 
 
 <div style="color: #2C97CC; padding-bottom: 0.65rem; margin-bottom: 3rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>161</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>170</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">в обсервации, пансионат Балтиец</span>
 </div>
 
 
 <div style="color: #2C97CC; padding-bottom: 0.65rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>5 285</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>4 284</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">на карантине</span>
 </div>
 
@@ -2052,26 +2052,26 @@ padding-bottom: 3rem;
 
 
 <div style="color: #2C97CC;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>2 350 206</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>2 353 098</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">привито первично (без учета Спутника Лайт)</span>
 </div><div style="color: #2C97CC;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>88</b></span> <span style="font-size: 18px;  padding-top: 16px;">детей</span>
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>230</b></span> <span style="font-size: 18px;  padding-top: 16px;">детей</span>
 </div>
 
-<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15">за сутки: 2 982</p>
-<p style="font-size: 18px; margin-top: 0; " class="mobile-mb-15">из них детей: 81</p>
+<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15">за сутки: 2 889</p>
+<p style="font-size: 18px; margin-top: 0; " class="mobile-mb-15">из них детей: 139</p>
 
 
 <div style="color: #2C97CC;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>2 874 047</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>2 879 076</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">закончили цикл вакцинации</span>
 </div>
 
-<p style="font-size: 18px; margin-top: 0; margin-bottom: 2.7rem;" class="mobile-mb-15">за сутки: 5 524</p>
+<p style="font-size: 18px; margin-top: 0; margin-bottom: 2.7rem;" class="mobile-mb-15">за сутки: 5 029</p>
 
 
 <div style="color: #2C97CC; margin-bottom: 2.7rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>738 288</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>729 129</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">доз - запас вакцины</span>
 </div>
 
@@ -2089,7 +2089,7 @@ padding-bottom: 3rem;
 
 
 <div style="color: #2C97CC;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>87 176</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>78 971</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">тестов ПЦР на&nbsp;COVID&#8209;19</span>
 </div>
 
@@ -2829,18 +2829,6 @@ padding-bottom: 3rem;
             <p class="carousel__text">Федеральное агентство по делам национальностей</p>
           </a>
         
-          <a href="/redirect/505/" target="_blank" class="carousel__item"
-             rel="noreferrer noopener">
-            
-              <div class="carousel__image">
-                
-                  <img src="/static/writable/cache/b7/71/b771c9af504a52bccb6c90c0f16ecba6.png" alt="">
-                
-              </div>
-            
-            <p class="carousel__text">Центр развития и поддержки предпринимательства</p>
-          </a>
-        
           <a href="/redirect/231/" target="_blank" class="carousel__item"
              rel="noreferrer noopener">
             
@@ -2875,6 +2863,18 @@ padding-bottom: 3rem;
               </div>
             
             <p class="carousel__text">Открытые данные Санкт‑Петербурга</p>
+          </a>
+        
+          <a href="/redirect/505/" target="_blank" class="carousel__item"
+             rel="noreferrer noopener">
+            
+              <div class="carousel__image">
+                
+                  <img src="/static/writable/cache/b7/71/b771c9af504a52bccb6c90c0f16ecba6.png" alt="">
+                
+              </div>
+            
+            <p class="carousel__text">Центр развития и поддержки предпринимательства</p>
           </a>
         
           <a href="/redirect/31/" target="_blank" class="carousel__item"
