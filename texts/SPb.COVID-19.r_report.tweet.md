@@ -6,17 +6,17 @@ COVID-19 в Петербурге, tweet
 
 ### English
 
-COVID-19 in St. Petersburg for: 2022-01-29 — 2022-02-04 / 2022-01-22 —
-2022-01-28. Сonfirmed: 124493 / 72486 (171.75%); hospitalized: 4832 /
-3808 (126.89%); deaths: 422 / 420 (100.48%);
+COVID-19 in St. Petersburg for: 2022-01-30 — 2022-02-05 / 2022-01-23 —
+2022-01-29. Сonfirmed: 131334 / 78974 (166.3%); hospitalized: 4867 /
+4032 (120.71%); deaths: 424 / 425 (99.76%);
 <a href="https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring" class="uri">https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring</a>
 \#covid19 \#Russia \#StPetersburg
 
 ### Russian
 
-COVID-19 в Петербурге за семь дней: 2022-01-29 — 2022-02-04 / 2022-01-22
-— 2022-01-28. Выявлено: 124493 / 72486 (171.75%); госпитализировано:
-4832 / 3808 (126.89%); умерших: 422 / 420 (100.48%);
+COVID-19 в Петербурге за семь дней: 2022-01-30 — 2022-02-05 / 2022-01-23
+— 2022-01-29. Выявлено: 131334 / 78974 (166.3%); госпитализировано: 4867
+/ 4032 (120.71%); умерших: 424 / 425 (99.76%);
 <a href="https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring" class="uri">https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring</a>
 \#covid19 \#Russia \#StPetersburg
 

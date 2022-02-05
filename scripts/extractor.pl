@@ -13,9 +13,11 @@ unlink @files;
 
 # Fetching webpage;
 
-open(RAW, '>>../downloads/gov.spb.ru.covid-19.raw.txt') or die $!;
-	print RAW get("https://www.gov.spb.ru/covid-19/");
-close RAW;
+# open(RAW, '>>../downloads/gov.spb.ru.covid-19.raw.txt') or die $!;
+# 	print RAW get("https://www.gov.spb.ru/covid-19/");
+# close RAW;
+
+system("wget 'https://www.gov.spb.ru/covid-19/' -o wget.log -O ../downloads/gov.spb.ru.covid-19.raw.txt");
 
 open(SRC00, '<../downloads/gov.spb.ru.covid-19.raw.txt') or die $!;
 open(TGT00, '>>../downloads/gov.spb.ru.covid-19.single_line.txt') or die $!;
