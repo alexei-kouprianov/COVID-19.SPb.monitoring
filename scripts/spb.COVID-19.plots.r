@@ -123,7 +123,7 @@ plot(spb.united$TIME.sk, spb.united$CONFIRMED.sk, type = "n",
 lines(spb.united$TIME.sk, spb.united$CONFIRMED.sk, type = "h", col = "orangered", lwd = 1.75, lend = 2)
 lines(spb.united$TIME.sk, spb.united$CONFIRMED.sk.RA7, col = "white", lwd = 4)
 lines(spb.united$TIME.sk, spb.united$CONFIRMED.sk.RA7, col = rgb(.3, .02, 0, 1), lwd = 2)
-abline(h = (0:40*1e+3)/2, 
+abline(h = (0:50*1e+3)/2, 
 	v = as.numeric(timeline.tickmarks),
 	lty = 3, col = 8)
 legend("topleft",
@@ -286,7 +286,7 @@ rect(xleft = as.numeric(strptime("2021-06-03", "%Y-%m-%d")),
 	col = rgb(0, 0, 0, .1),
 	border = rgb(0, 0, 0, .05))
 
-abline(h = (0:10)*1e+4, 
+abline(h = (0:25)*1e+4, 
 	v = as.numeric(timeline.tickmarks),
 	lty = 3, col = 8)
 
@@ -303,7 +303,7 @@ legend("topleft",
 	legend = c("По версии «Стопкоронавирус.рф»", "По версии Межвед. городского совета", "Данные Межвед. городского совета скрыты"))
 
 axis.POSIXct(1, at = timeline.tickmarks, format = "%Y-%m-%d", las = 2)
-axis(2, at = (0:5)*2*1e+4, tcl = -.25, labels = c(0, paste(seq(20, 100, 20), "тыс.")))
+axis(2, at = (0:15)*2*1e+4, tcl = -.25, labels = c(0, paste(seq(20, 300, 20), "тыс.")))
 
 dev.off()
 
