@@ -35,6 +35,8 @@ author: "Алексей Куприянов"
 
 Полный набор данных, скриптов, инфографики и пояснительных текстов см. в репозитории: [https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring](https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring)
 
+Если у вас есть желание и возможность поддержать проект пожертвованием, это можно сделать по ссылке: [`https://kouprianov.net/?page_id=153`](https://kouprianov.net/?page_id=153)
+
 ---
 
 ![Петербург: число PCR-тестов на SarsCoV-2 по дням. Семидневное скользящее среднее обзначено темно-синей линией.](../plots/01.SPb.COVID-19.PCR_tests.mini.png "Петербург: число PCR-тестов на SarsCoV-2 по дням. Семидневное скользящее среднее обзначено темно-синей линией.")

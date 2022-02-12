@@ -10,6 +10,8 @@
 
 Общая характеристика источников данных дана в файле [`SPb.COVID-19.data.sources.md`](texts/SPb.COVID-19.data.sources.md). Дополнительную информацию об источниках данных для файлов `SPb.stopkoronavirus_archived.csv` и `gov.spb.ru_archived.csv` см. в файлах [`Appendix.A.txt`](https://github.com/alexei-kouprianov/COVID-19.SPb/blob/main/texts/Appendix.A.txt) и [`Appendix.B.txt`](https://github.com/alexei-kouprianov/COVID-19.SPb/blob/main/texts/Appendix.B.txt), опубликованных в репозитории [`COVID-19.SPb`](https://github.com/alexei-kouprianov/COVID-19.SPb/).
 
+Если у вас есть желание и возможность поддержать проект пожертвованием, это можно сделать по ссылке: [`https://kouprianov.net/?page_id=153`](https://kouprianov.net/?page_id=153)
+
 Папки данного репозитория:
 
 * [`data`](data/) содержит файлы с данными
