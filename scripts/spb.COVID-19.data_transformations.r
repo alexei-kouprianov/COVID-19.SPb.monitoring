@@ -350,25 +350,32 @@ spb.adj$DEATHS.exc_to_2019 <- c(
 	c(3400, 6800, 15000), # Kobak's extrapolations for Estonia, Latvia, Lithuania (updated manually on the monthly basis), see https://github.com/dkobak/excess-mortality for the want of a better estimate;
 
 	sum(spb.adj.deaths.ls[[15]]$Russia[3:12] - spb.adj.deaths.ls[[14]]$Russia[3:12], na.rm = TRUE) +
-	sum(spb.adj.deaths.ls[[16]]$Russia - spb.adj.deaths.ls[[14]]$Russia, na.rm = TRUE),
+	sum(spb.adj.deaths.ls[[16]]$Russia - spb.adj.deaths.ls[[14]]$Russia, na.rm = TRUE)+
+	sum(spb.adj.deaths.ls[[17]]$Russia - spb.adj.deaths.ls[[14]]$Russia, na.rm = TRUE),
 
 	sum(spb.adj.deaths.ls[[15]]$St._Petersburg[3:12] - spb.adj.deaths.ls[[14]]$St._Petersburg[3:12], na.rm = TRUE) +
-	sum(spb.adj.deaths.ls[[16]]$St._Petersburg - spb.adj.deaths.ls[[14]]$St._Petersburg, na.rm = TRUE),
+	sum(spb.adj.deaths.ls[[16]]$St._Petersburg - spb.adj.deaths.ls[[14]]$St._Petersburg, na.rm = TRUE)+
+	sum(spb.adj.deaths.ls[[17]]$St._Petersburg - spb.adj.deaths.ls[[14]]$St._Petersburg, na.rm = TRUE),
 
 	sum(spb.adj.deaths.ls[[15]]$Leningrad_reg.[3:12] - spb.adj.deaths.ls[[14]]$Leningrad_reg.[3:12], na.rm = TRUE) +
-	sum(spb.adj.deaths.ls[[16]]$Leningrad_reg. - spb.adj.deaths.ls[[14]]$Leningrad_reg., na.rm = TRUE),
+	sum(spb.adj.deaths.ls[[16]]$Leningrad_reg. - spb.adj.deaths.ls[[14]]$Leningrad_reg., na.rm = TRUE)+
+	sum(spb.adj.deaths.ls[[17]]$Leningrad_reg. - spb.adj.deaths.ls[[14]]$Leningrad_reg., na.rm = TRUE),
 
 	sum(spb.adj.deaths.ls[[15]]$Karelia[3:12] - spb.adj.deaths.ls[[14]]$Karelia[3:12], na.rm = TRUE) +
-	sum(spb.adj.deaths.ls[[16]]$Karelia - spb.adj.deaths.ls[[14]]$Karelia, na.rm = TRUE),
+	sum(spb.adj.deaths.ls[[16]]$Karelia - spb.adj.deaths.ls[[14]]$Karelia, na.rm = TRUE)+
+	sum(spb.adj.deaths.ls[[17]]$Karelia - spb.adj.deaths.ls[[14]]$Karelia, na.rm = TRUE),
 
 	sum(spb.adj.deaths.ls[[15]]$Vologda[3:12] - spb.adj.deaths.ls[[14]]$Vologda[3:12], na.rm = TRUE) +
-	sum(spb.adj.deaths.ls[[16]]$Vologda - spb.adj.deaths.ls[[14]]$Vologda, na.rm = TRUE),
+	sum(spb.adj.deaths.ls[[16]]$Vologda - spb.adj.deaths.ls[[14]]$Vologda, na.rm = TRUE)+
+	sum(spb.adj.deaths.ls[[17]]$Vologda - spb.adj.deaths.ls[[14]]$Vologda, na.rm = TRUE),
 
 	sum(spb.adj.deaths.ls[[15]]$Novgorod[3:12] - spb.adj.deaths.ls[[14]]$Novgorod[3:12], na.rm = TRUE) +
-	sum(spb.adj.deaths.ls[[16]]$Novgorod - spb.adj.deaths.ls[[14]]$Novgorod, na.rm = TRUE),
+	sum(spb.adj.deaths.ls[[16]]$Novgorod - spb.adj.deaths.ls[[14]]$Novgorod, na.rm = TRUE)+
+	sum(spb.adj.deaths.ls[[17]]$Novgorod - spb.adj.deaths.ls[[14]]$Novgorod, na.rm = TRUE),
 
 	sum(spb.adj.deaths.ls[[15]]$Pskov[3:12] - spb.adj.deaths.ls[[14]]$Pskov[3:12], na.rm = TRUE) +
-	sum(spb.adj.deaths.ls[[16]]$Pskov - spb.adj.deaths.ls[[14]]$Pskov, na.rm = TRUE)
+	sum(spb.adj.deaths.ls[[16]]$Pskov - spb.adj.deaths.ls[[14]]$Pskov, na.rm = TRUE)+
+	sum(spb.adj.deaths.ls[[17]]$Pskov - spb.adj.deaths.ls[[14]]$Pskov, na.rm = TRUE)
 )
 
 spb.adj.deaths.M.ls <- as.list(NULL)
@@ -408,47 +415,58 @@ spb.adj$DEATHS.exc_to_2014_2019 <- c(
 	sum(
 		(spb.adj.deaths.ls[[15]]$Russia[3:12] - spb.adj.deaths.M.means.Russia[3:12]),
 		(spb.adj.deaths.ls[[16]]$Russia - spb.adj.deaths.M.means.Russia),
+		(spb.adj.deaths.ls[[17]]$Russia - spb.adj.deaths.M.means.Russia),
 		na.rm = TRUE
 	),
 	sum(
 		(spb.adj.deaths.ls[[15]]$St._Petersburg[3:12] - spb.adj.deaths.M.means.St._Petersburg[3:12]),
 		(spb.adj.deaths.ls[[16]]$St._Petersburg - spb.adj.deaths.M.means.St._Petersburg),
+		(spb.adj.deaths.ls[[17]]$St._Petersburg - spb.adj.deaths.M.means.St._Petersburg),
 		na.rm = TRUE
 	),
 	sum(
 		(spb.adj.deaths.ls[[15]]$Leningrad_reg.[3:12] - spb.adj.deaths.M.means.Leningrad_reg.[3:12]),
 		(spb.adj.deaths.ls[[16]]$Leningrad_reg. - spb.adj.deaths.M.means.Leningrad_reg.),
+		(spb.adj.deaths.ls[[17]]$Leningrad_reg. - spb.adj.deaths.M.means.Leningrad_reg.),
 		na.rm = TRUE
 	),
 	sum(
 		(spb.adj.deaths.ls[[15]]$Karelia[3:12] - spb.adj.deaths.M.means.Karelia[3:12]),
 		(spb.adj.deaths.ls[[16]]$Karelia - spb.adj.deaths.M.means.Karelia),
+		(spb.adj.deaths.ls[[17]]$Karelia - spb.adj.deaths.M.means.Karelia),
 		na.rm = TRUE
 	),
 	sum(
 		(spb.adj.deaths.ls[[15]]$Vologda[3:12] - spb.adj.deaths.M.means.Vologda[3:12]),
 		(spb.adj.deaths.ls[[16]]$Vologda - spb.adj.deaths.M.means.Vologda),
+		(spb.adj.deaths.ls[[17]]$Vologda - spb.adj.deaths.M.means.Vologda),
 		na.rm = TRUE
 	),
 	sum(
 		(spb.adj.deaths.ls[[15]]$Novgorod[3:12] - spb.adj.deaths.M.means.Novgorod[3:12]),
 		(spb.adj.deaths.ls[[16]]$Novgorod - spb.adj.deaths.M.means.Novgorod),
+		(spb.adj.deaths.ls[[17]]$Novgorod - spb.adj.deaths.M.means.Novgorod),
 		na.rm = TRUE
 	),
 	sum(
 		(spb.adj.deaths.ls[[15]]$Pskov[3:12] - spb.adj.deaths.M.means.Pskov[3:12]),
 		(spb.adj.deaths.ls[[16]]$Pskov - spb.adj.deaths.M.means.Pskov),
+		(spb.adj.deaths.ls[[17]]$Pskov - spb.adj.deaths.M.means.Pskov),
 		na.rm = TRUE
 	)
 )
 
 spb.excessive_deaths.2014_2019 <- c((spb.adj.deaths.ls[[15]]$St._Petersburg[3:12] - spb.adj.deaths.M.means.St._Petersburg[3:12]),
-	(spb.adj.deaths.ls[[16]]$St._Petersburg - spb.adj.deaths.M.means.St._Petersburg))
+	(spb.adj.deaths.ls[[16]]$St._Petersburg - spb.adj.deaths.M.means.St._Petersburg),
+	(spb.adj.deaths.ls[[17]]$St._Petersburg - spb.adj.deaths.M.means.St._Petersburg)
+	)
 
 spb.excessive_deaths.2019 <- c((spb.adj.deaths.ls[[15]]$St._Petersburg[3:12] - spb.adj.deaths.ls[[14]]$St._Petersburg[3:12]),
-(spb.adj.deaths.ls[[16]]$St._Petersburg - spb.adj.deaths.ls[[14]]$St._Petersburg))
+	(spb.adj.deaths.ls[[16]]$St._Petersburg - spb.adj.deaths.ls[[14]]$St._Petersburg),
+	(spb.adj.deaths.ls[[17]]$St._Petersburg - spb.adj.deaths.ls[[14]]$St._Petersburg)
+	)
 
-spb.excessive_deaths.2019.tck <- timeline.tickmarks[7:28]
+spb.excessive_deaths.2019.tck <- timeline.tickmarks[7:29]
 
 spb.excessive_deaths.sk <- c(sum(spb.united$DEATHS.sk[1:30]), # 30  2020-03-31
 	sum(spb.united$DEATHS.sk[31:60]), # 60  2020-04-30
@@ -471,10 +489,11 @@ spb.excessive_deaths.sk <- c(sum(spb.united$DEATHS.sk[1:30]), # 30  2020-03-31
 	sum(spb.united$DEATHS.sk[549:578]), # 578 2021-09-30
 	sum(spb.united$DEATHS.sk[579:609]), # 579 2021-10-31
 	sum(spb.united$DEATHS.sk[610:639]), # 610 2021-11-30
-	sum(spb.united$DEATHS.sk[640:670]) # 640 2021-12-31
+	sum(spb.united$DEATHS.sk[640:670]), # 640 2021-12-31
+	sum(spb.united$DEATHS.sk[671:701]) # 671 2022-01-31
 	)
 
-spb.excessive_deaths.sk.tck <- timeline.tickmarks[7:28]
+spb.excessive_deaths.sk.tck <- timeline.tickmarks[7:29]
 
 ################################################################
 # Building adjacent regions table : End

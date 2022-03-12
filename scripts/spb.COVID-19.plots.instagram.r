@@ -369,11 +369,11 @@ abline(h = (0:10*1e+3)/2,
 	lty = 3, col = 8)
 
 abline(h = 0, 
-	v = as.numeric(timeline.tickmarks[16]), 
+	v = as.numeric(timeline.tickmarks[c(16, 28)]), 
 	lty = 3, col = 1)
 
-lines(spb.excessive_deaths.2019.tck, spb.excessive_deaths.2014_2019, type = "o", pch = 20, cex = .7, col = "blue")
-lines(spb.excessive_deaths.2019.tck, spb.excessive_deaths.2019, type = "o", pch = 20, cex = .7, col = "black")
+lines(spb.excessive_deaths.2019.tck, spb.excessive_deaths.2014_2019[1:length(spb.excessive_deaths.2019.tck)], type = "o", pch = 20, cex = .7, col = "blue")
+lines(spb.excessive_deaths.2019.tck, spb.excessive_deaths.2019[1:length(spb.excessive_deaths.2019.tck)], type = "o", pch = 20, cex = .7, col = "black")
 lines(spb.excessive_deaths.sk.tck, spb.excessive_deaths.sk, type = "o", pch = 20, cex = .7, col = "red")
 
 legend("topleft",
@@ -381,11 +381,12 @@ legend("topleft",
 	box.lty = 0,
 	bg = rgb(1, 1, 1, .45),
 	fill = c("blue", "black", "red"),
-	legend = c(paste("Относительно среднего за 2015 — 2019 гг. (≈",
+	cex = .9,
+	legend = c(paste("От среднего за 2015—19 гг. (≈",
 			round(sum(spb.excessive_deaths.2014_2019[2:length(spb.excessive_deaths.2014_2019)], na.rm = TRUE)), " за ", spb.adj.deaths$MONTH[172], " 2020 — ", spb.adj.deaths$MONTH[nrow(spb.adj.deaths)], " 2021)", sep=""), 
-		paste("Относительно 2019 г. (",
+		paste("От уровня 2019 г. (",
 			round(sum(spb.excessive_deaths.2019, na.rm = TRUE)), " за ", spb.adj.deaths$MONTH[171], " 2020 — ", spb.adj.deaths$MONTH[nrow(spb.adj.deaths)], " 2021)", sep=""), 
-		paste("По данным стопкоронавирус.рф (", 
+		paste("На стопкоронавирус.рф (", 
 			sum(spb.excessive_deaths.sk), " за март 2020 — ", spb.adj.deaths$MONTH[nrow(spb.adj.deaths)], " 2021)", sep="")
 		)
 )

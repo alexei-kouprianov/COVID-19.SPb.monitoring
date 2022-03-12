@@ -511,11 +511,11 @@ abline(h = (0:10*1e+3)/2,
 	lty = 3, col = 8)
 
 abline(h = 0, 
-	v = as.numeric(timeline.tickmarks[16]), 
+	v = as.numeric(timeline.tickmarks[c(16, 28)]), 
 	lty = 3, col = 1)
 
-lines(spb.excessive_deaths.2019.tck, spb.excessive_deaths.2014_2019, type = "o", pch = 20, cex = .7, col = "blue")
-lines(spb.excessive_deaths.2019.tck, spb.excessive_deaths.2019, type = "o", pch = 20, cex = .7, col = "black")
+lines(spb.excessive_deaths.2019.tck, spb.excessive_deaths.2014_2019[1:length(spb.excessive_deaths.2019.tck)], type = "o", pch = 20, cex = .7, col = "blue")
+lines(spb.excessive_deaths.2019.tck, spb.excessive_deaths.2019[1:length(spb.excessive_deaths.2019.tck)], type = "o", pch = 20, cex = .7, col = "black")
 lines(spb.excessive_deaths.sk.tck, spb.excessive_deaths.sk, type = "o", pch = 20, cex = .7, col = "red")
 
 legend("topleft",
