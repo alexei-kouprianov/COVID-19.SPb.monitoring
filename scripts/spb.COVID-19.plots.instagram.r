@@ -6,7 +6,7 @@
 
 dir.create("../plots/instagram/", recursive = TRUE)
 
-png("../plots/instagram/01.SPb.COVID-19.PCR_tests.png", height=600, width=600, res=120, pointsize=9)
+png("../plots/instagram/01.SPb.COVID-19.PCR_tests.png", height=1080, width=1080, res=180, pointsize=9)
 par(mar=c(6,4,2,2)+.1)
 plot(spb.united$DATE.spb, spb.united$PCR_TESTS, type = "n",
 	xlim = c(as.numeric(min(spb.united$TIME.sk)), 
@@ -36,7 +36,7 @@ axis(2, at = 0:10*1e+04, labels = FALSE, tcl = -.25)
 axis(2, at = seq(0, 100, 20)*1e+03, labels = c(0, paste(seq(20, 100, 20), "тыс.")))
 dev.off()
 
-png("../plots/instagram/02.SPb.COVID-19.confirmed.png", height=600, width=600, res=120, pointsize=9)
+png("../plots/instagram/02.SPb.COVID-19.confirmed.png", height=1080, width=1080, res=180, pointsize=9)
 par(mar=c(6,4,2,2)+.1)
 plot(spb.united$TIME.sk, spb.united$CONFIRMED.sk, type = "n",
 	main = "Санкт-Петербург / Эпидемия COVID-19",
@@ -61,7 +61,7 @@ axis.POSIXct(1, at = timeline.tickmarks, format = "%Y-%m-%d", las = 2)
 axis(2)
 dev.off()
 
-png("../plots/instagram/03.SPb.COVID-19.hospitalized_today.png", height=600, width=600, res=120, pointsize=9)
+png("../plots/instagram/03.SPb.COVID-19.hospitalized_today.png", height=1080, width=1080, res=180, pointsize=9)
 par(mar=c(6,4,2,2)+.1)
 plot(spb.united$TIME.sk, spb.united$HOSPITALIZED_TODAY.spb, type = "n",
 	main = "Санкт-Петербург / Эпидемия COVID-19",
@@ -86,7 +86,7 @@ axis.POSIXct(1, at = timeline.tickmarks, format = "%Y-%m-%d", las = 2)
 axis(2)
 dev.off()
 
-png("../plots/instagram/04.SPb.COVID-19.deaths.png", height=600, width=600, res=120, pointsize=9)
+png("../plots/instagram/04.SPb.COVID-19.deaths.png", height=1080, width=1080, res=180, pointsize=9)
 par(mar=c(6,4,2,2)+.1)
 plot(spb.united$TIME.sk, spb.united$DEATHS.sk, type = "n",
 	main = "Санкт-Петербург / Эпидемия COVID-19",
@@ -111,7 +111,7 @@ axis.POSIXct(1, at = timeline.tickmarks, format = "%Y-%m-%d", las = 2)
 axis(2)
 dev.off()
 
-png("../plots/instagram/06.SPb.COVID-19.Yandex_vs_deaths.png", height=600, width=600, res=120, pointsize=9)
+png("../plots/instagram/06.SPb.COVID-19.Yandex_vs_deaths.png", height=1080, width=1080, res=180, pointsize=9)
 # par(mar=c(6,5,4,5)+.1)
 par(mar=c(6,4,2,5)+.1)
 
@@ -152,7 +152,7 @@ mtext("Смертей в неделю", side = 4, line = 3)
 
 dev.off()
 
-png("../plots/instagram/SPb.COVID-19.sk_vs_spb.Confirmed.png", height=600, width=600, res=120, pointsize=9)
+png("../plots/instagram/SPb.COVID-19.sk_vs_spb.Confirmed.png", height=1080, width=1080, res=180, pointsize=9)
 par(mar=c(6,4,2,2)+.1)
 
 plot(spb.united$TIME.sk, spb.united$CONFIRMED.sk, type = "n", 
@@ -184,7 +184,7 @@ axis(2)
 
 dev.off()
 
-png("../plots/instagram/07.SPb.COVID-19.sk_vs_spb.Active.png", height=600, width=600, res=120, pointsize=9)
+png("../plots/instagram/07.SPb.COVID-19.sk_vs_spb.Active.png", height=1080, width=1080, res=180, pointsize=9)
 par(mar=c(6,4,2,2)+.1)
 
 plot(spb.united$TIME.sk, spb.united$ACTIVE.sk, 
@@ -231,7 +231,7 @@ axis(2, at = (0:15)*2*1e+4, tcl = -.25, labels = c(0, paste(seq(20, 300, 20), "�
 dev.off()
 
 
-png("../plots/instagram/05.SPb.COVID-19.Hospitalized_vs_Hospitalized_today_vs_Occupied_beds.png", height=600, width=600, res=120, pointsize=9)
+png("../plots/instagram/05.SPb.COVID-19.Hospitalized_vs_Hospitalized_today_vs_Occupied_beds.png", height=1080, width=1080, res=180, pointsize=9)
 par(mar=c(6,4,2,2)+.1)
 
 plot(spb.united$DATE.spb, spb.united$OCCUPIED_BEDS_CALCULATED, 
@@ -278,7 +278,7 @@ axis(2)
 
 dev.off()
 
-png("../plots/instagram/SPb.COVID-19.Overall_Deaths.2006_.png", height=600, width=600, res=120, pointsize=9)
+png("../plots/instagram/SPb.COVID-19.Overall_Deaths.2006_.png", height=1080, width=1080, res=180, pointsize=9)
 par(mar=c(6,4,2,2)+.1)
 
 plot(spb.adj.deaths$MONTH.END, spb.adj.deaths$St._Petersburg,
@@ -315,7 +315,7 @@ axis(2)
 
 dev.off()
 
-png("../plots/instagram/SPb.COVID-19.RA7.PCR_tests_vs_Hospitalized_today_vs_Deaths.png", height=600, width=600, res=120, pointsize=9)
+png("../plots/instagram/SPb.COVID-19.RA7.PCR_tests_vs_Hospitalized_today_vs_Deaths.png", height=1080, width=1080, res=180, pointsize=9)
 par(mar=c(6,4,2,2)+.1)
 
 plot(spb.united$DATE.spb,
@@ -351,7 +351,7 @@ axis(2)
 
 dev.off()
 
-png("../plots/instagram/SPb.COVID-19.Excessive_deaths.SPb.png", height=600, width=600, res=120, pointsize=9)
+png("../plots/instagram/SPb.COVID-19.Excessive_deaths.SPb.png", height=1080, width=1080, res=180, pointsize=9)
 par(mar=c(6,4,2,2)+.1)
 
 plot(spb.excessive_deaths.2019.tck[1:length(spb.excessive_deaths.sk)], 
@@ -396,7 +396,7 @@ axis(2)
 
 dev.off()
 
-png("../plots/instagram/SPb.COVID-19.PCR_Positivity.png", height=600, width=600, res=120, pointsize=9)
+png("../plots/instagram/SPb.COVID-19.PCR_Positivity.png", height=1080, width=1080, res=180, pointsize=9)
 par(mar=c(6,4,2,2)+.1)
 
 plot(spb.united$TIME.sk, spb.united$CONFIRMED.sk / spb.united$PCR_TESTS,
@@ -434,7 +434,7 @@ axis(2)
 dev.off()
 
 
-png("../plots/instagram/SPb.COVID-19.Smoothing.png", height=600, width=600, res=120, pointsize=9)
+png("../plots/instagram/SPb.COVID-19.Smoothing.png", height=1080, width=1080, res=180, pointsize=9)
 par(mar=c(6,4,2,2)+.1)
 
 plot(spb.united$TIME.sk, 
