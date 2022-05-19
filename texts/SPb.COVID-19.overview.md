@@ -6,7 +6,7 @@
 
 Версия основного текста: 2021-08-25
 
-Количественные показатели обновлены по данным на: 2022-05-18 15:10:00
+Количественные показатели обновлены по данным на: 2022-05-19 11:15:00
 
 Какова в целом ситуация с эпидемией коронавируса в России и Петербурге?
 -----------------------------------------------------------------------
@@ -49,7 +49,7 @@
 и Эстонии (ок. 3400) в разы. В пересчете на население это превышение
 сохраняется, хотя для Эстонии разрыв несколько сокращается. Финляндия —
 71.15 “ковидных” смертей на 100 тыс. населения, Эстония — 255.63,
-Петербург — от 626 (для оперативно учтенного числа смертей) до 773.86
+Петербург — от 626.17 (для оперативно учтенного числа смертей) до 773.86
 (для вероятной общей избыточной смертности). Швеция, которую многие
 критиковали за мягкость пртивоэпидемических мер и высокую смертность на
 фоне других стран северной Европы, потеряла к настоящему моменту
@@ -131,9 +131,9 @@
 <td style="text-align: left;">Санкт-Петербург</td>
 <td style="text-align: right;">5.384</td>
 <td style="text-align: right;">3741.72</td>
-<td style="text-align: right;">33706</td>
+<td style="text-align: right;">33715</td>
 <td style="text-align: right;">41667</td>
-<td style="text-align: right;">626.00</td>
+<td style="text-align: right;">626.17</td>
 <td style="text-align: right;">773.86</td>
 </tr>
 <tr class="even">
@@ -149,18 +149,18 @@
 <td style="text-align: left;">Карелия</td>
 <td style="text-align: right;">0.609</td>
 <td style="text-align: right;">3.37</td>
-<td style="text-align: right;">1505</td>
+<td style="text-align: right;">1506</td>
 <td style="text-align: right;">5506</td>
-<td style="text-align: right;">247.10</td>
+<td style="text-align: right;">247.26</td>
 <td style="text-align: right;">904.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Вологодская область</td>
 <td style="text-align: right;">1.151</td>
 <td style="text-align: right;">7.96</td>
-<td style="text-align: right;">3825</td>
+<td style="text-align: right;">3826</td>
 <td style="text-align: right;">6738</td>
-<td style="text-align: right;">332.31</td>
+<td style="text-align: right;">332.39</td>
 <td style="text-align: right;">585.38</td>
 </tr>
 <tr class="odd">
@@ -176,9 +176,9 @@
 <td style="text-align: left;">Псковская область</td>
 <td style="text-align: right;">0.620</td>
 <td style="text-align: right;">11.20</td>
-<td style="text-align: right;">1837</td>
+<td style="text-align: right;">1838</td>
 <td style="text-align: right;">4371</td>
-<td style="text-align: right;">296.17</td>
+<td style="text-align: right;">296.33</td>
 <td style="text-align: right;">704.72</td>
 </tr>
 </tbody>
