@@ -466,7 +466,7 @@ spb.excessive_deaths.2019 <- c((spb.adj.deaths.ls[[15]]$St._Petersburg[3:12] - s
 	(spb.adj.deaths.ls[[17]]$St._Petersburg - spb.adj.deaths.ls[[14]]$St._Petersburg)
 	)
 
-spb.excessive_deaths.2019.tck <- timeline.tickmarks[7:29]
+spb.excessive_deaths.2019.tck <- timeline.tickmarks[7:31]
 
 spb.excessive_deaths.sk <- c(sum(spb.united$DEATHS.sk[1:30]), # 30  2020-03-31
 	sum(spb.united$DEATHS.sk[31:60]), # 60  2020-04-30
@@ -487,13 +487,15 @@ spb.excessive_deaths.sk <- c(sum(spb.united$DEATHS.sk[1:30]), # 30  2020-03-31
 	sum(spb.united$DEATHS.sk[487:517]), # 517 2021-07-31
 	sum(spb.united$DEATHS.sk[518:548]), # 548 2021-08-31
 	sum(spb.united$DEATHS.sk[549:578]), # 578 2021-09-30
-	sum(spb.united$DEATHS.sk[579:609]), # 579 2021-10-31
-	sum(spb.united$DEATHS.sk[610:639]), # 610 2021-11-30
-	sum(spb.united$DEATHS.sk[640:670]), # 640 2021-12-31
-	sum(spb.united$DEATHS.sk[671:701]) # 671 2022-01-31
+	sum(spb.united$DEATHS.sk[579:609]), # 609 2021-10-31
+	sum(spb.united$DEATHS.sk[610:639]), # 639 2021-11-30
+	sum(spb.united$DEATHS.sk[640:670]), # 670 2021-12-31
+	sum(spb.united$DEATHS.sk[671:701]), # 701 2022-01-31
+	sum(spb.united$DEATHS.sk[702:729]), # 729 2022-02-28
+	sum(spb.united$DEATHS.sk[730:760]) # 760 2022-03-31
 	)
 
-spb.excessive_deaths.sk.tck <- timeline.tickmarks[7:29]
+spb.excessive_deaths.sk.tck <- timeline.tickmarks[7:31]
 
 ################################################################
 # Building adjacent regions table : End
