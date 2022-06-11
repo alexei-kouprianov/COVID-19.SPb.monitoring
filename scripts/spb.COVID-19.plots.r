@@ -499,6 +499,7 @@ par(mar=c(6,4,2,2)+.1)
 plot(spb.excessive_deaths.2019.tck[1:length(spb.excessive_deaths.sk)], 
 	spb.excessive_deaths.2014_2019[1:length(spb.excessive_deaths.sk)],
 	type = "n",
+	xlim = range(as.numeric(spb.excessive_deaths.sk.tck)),
 	ylim = c(min(c(spb.excessive_deaths.2014_2019, spb.excessive_deaths.2019, spb.excessive_deaths.sk), na.rm = TRUE), 
 		max(c(spb.excessive_deaths.2014_2019, spb.excessive_deaths.2019, spb.excessive_deaths.sk), na.rm = TRUE)),
 	main = "Санкт-Петербург / Эпидемия COVID-19",
