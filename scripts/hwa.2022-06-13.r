@@ -1,24 +1,24 @@
 ################################
 
-confirmed.1.data <- read.xlsx("data.xlsx",
+confirmed.data <- read.xlsx("data.xlsx",
 	sheet = "CONFIRMED",
 	startRow = 2,
 	colNames= FALSE,
 	rowNames = FALSE)
 
-confirmed.1.time <- read.xlsx("data.xlsx",
+confirmed.time <- read.xlsx("data.xlsx",
 	sheet = "CONFIRMED",
 	rows = 1,
-	cols = 2:ncol(confirmed.1.data),
+	cols = 2:ncol(confirmed.data),
 	colNames= FALSE,
 	rowNames = FALSE)
 
-confirmed.1.data.t <- t(confirmed.1.data[, 2:ncol(confirmed.1.data)])
-confirmed.1.time.t <- t(confirmed.1.time)
+confirmed.data.t <- t(confirmed.data[, 2:ncol(confirmed.data)])
+confirmed.time.t <- t(confirmed.time)
 
-confirmed.1.datatime <- cbind.data.frame(confirmed.1.time.t, confirmed.1.data.t)
+confirmed.datatime <- cbind.data.frame(confirmed.time.t, confirmed.data.t)
 
-colnames(confirmed.1.datatime) <- c("TIMESTAMP", confirmed.1.data[, 1])
+colnames(confirmed.datatime) <- c("TIMESTAMP", confirmed.data[, 1])
 
 ################################
 
