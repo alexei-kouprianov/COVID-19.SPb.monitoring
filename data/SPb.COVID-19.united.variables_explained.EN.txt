@@ -1,0 +1,58 @@
+################################################################
+# The SPb.united.csv file is generated automatically based on data from three files:
+#
+# (1) SPb.stopkoronavirus_archived.csv : St. Petersburg data archived from the website "стопкоронавирус.рф" (updated daily);
+# (2) gov.spb.ru_archived.csv : data archived from the daily information bulletins of the Interdepartmental City Council to Combat the Spread of Novel Coronavirus Infection in St. Petersburg (not updated after 2021-08-02 except for the cases when the gaps can be filled in retrospect);
+# (3) spb.gov.v.2021-08-03.csv : data archived from the daily updates of the webpage https://www.gov.spb.ru/covid-19/ (updated daily);
+#
+################################################################
+# SPb.united.csv variables described:
+#
+# Unless otherwise noted ("TIME.sk" and "DATE.spb"), all variables are integer values. Missing data are indicated by the code 'NA';
+#
+# "TIME.sk" : date and time of publication of the daily summary published at "стопкоронавирус.рф" website ("YYYY-MM-DD hh:mm:ss");
+# "CONFIRMED.sk" : the number of new confirmed cases in the daily summary published at the "стопкоронавирус.рф" website;
+# "RECOVERED.sk" : the number of recovered people in the daily summary published at the "стопкоронавирус.рф" website;
+# "DEATHS.sk" : the number of deaths in the daily summary published at the "стопкоронавирус.рф" website;
+# "ACTIVE.sk" : number of active cases according to the daily summary published at the "стопкоронавирус.рф" website (calculated parameter);
+# "DATE.spb" : date of publication of the daily summary at the gov.spb.ru website, from August 3, 2021 on: at the page https://www.gov.spb.ru/covid-19/ ("YYYY-MM-DD");
+# "CONFIRMED.spb" : the number of new confirmed cases in the daily summary published at the gov.spb.ru website;
+# "RECOVERED.spb" : the number of recovered people in the daily summary published at the website gov.spb.ru;
+# "ACTIVE.spb" : number of active cases;
+# "IN_HOSPITALS.spb" : number of patients under observation in hospitals;
+# "HOSPITALIZED_TODAY.spb" : number of hospitalized during the day;
+# "PCR_TESTS" : number of PCR tests for COVID-19;
+# "V1.CS" : cumulative sum for vaccinated with at least one dose (no distinction between vaccines);
+# "V1.TODAY" : number of people vaccinated with the first dose per day (no distinction between vaccines);
+# "V2.CS" : cumulative total of those who completed the course of vaccination (no distinction between vaccines);
+# "V2.TODAY" : number of people who completed the course of vaccination (no distinction between vaccines);
+# "V.REMAINING" : number of vaccine doses available (no distinction between vaccines);
+# "DESIGNATED_BEDS" : number of beds allocated for COVID-19 in St. Petersburg hospitals;
+# "VENT" : number of patients on mechanical ventilation;
+# "VR1.CS" : cumulative sum of those re-vaccinated with at least one dose (no distinction between vaccines);
+# "VR1.TODAY" : number of people re-vaccinated with the first dose per day (no distinction between vaccines);
+# "VR2.CS" : cumulative sum of those who completed the re-vaccination course (no distinction between vaccines);
+# "VR2.TODAY" : number of people who completed the re-vaccination course per day (no distinction between vaccines);
+# "FREE_BEDS" : free beds (out of those allocated for COVID-19 in St. Petersburg hospitals);
+# "OCCUPIED_BEDS_CALCULATED" : calculated indicator, the number of occupied beds (out of those allocated for COVID-19 in St. Petersburg hospitals) "OCCUPIED_BEDS_CALCULATED" = "DESIGNATED_BEDS" - "FREE_BEDS";
+# "WEEKLY.REPORTS.BEDS_OCCUPIED.hard" : beds occupied by severe cases (at the end of the week, according to weekly reports);
+# "WEEKLY.REPORTS.BEDS_OCCUPIED.mid" : beds occupied by moderate cases (at the end of the week, according to weekly reports);
+# "WEEKLY.REPORTS.BEDS_OCCUPIED.lite" : beds occupied by mild cases (at the end of the week, based on weekly reports);
+# "WEEKLY.REPORTS.BEDS_FREE" : free beds (at the end of the week, based on weekly reports), not equal to "FREE_BEDS";
+# "WEEKDAY.num" : number of the day of the week, starting from Monday;
+# "WEEKDAY.ru" : day of the week, abbreviated in Russian;
+# "WEEKDAY.en" : day of the week, abbreviated in English;
+#
+################################################################
+# Data sources:
+#
+# "TIME.sk", "CONFIRMED.sk", "RECOVERED.sk", "DEATHS.sk", "ACTIVE.sk" : "стопкронавирус.рф" website
+# "DATE.spb" : added automatically;
+# "CONFIRMED.spb", "RECOVERED.spb", "ACTIVE.spb" : daily reports published at the site gov.spb.ru;
+# "IN_HOSPITALS.spb", "HOSPITALIZED_TODAY.spb" : daily reports published at the gov.spb.ru website, from August 3, 2021 on: as published at the page https://www.gov.spb.ru/covid-19/;
+# "PCR_TESTS" : daily reports in the Telegram channel "Petersburg against coronavirus", from August 3, 2021 on: as published at the page https://www.gov.spb.ru/covid-19/;
+# "V1.CS", "V1.TODAY", "V2.CS", "V2.TODAY", "V.REMAINING" : daily reports on the website gov.spb.ru, from August 3, 2021 on: as published at the page https://www.gov.spb.ru/covid-19/;
+# "DESIGNATED_BEDS", "VENT", "VR1.CS", "VR1.TODAY", "VR2.CS", "VR2.TODAY", "FREE_BEDS" : daily summaries on the gov.spb.ru website and media reports, from August 3, 2021 on: as published at the page https://www.gov.spb.ru/covid-19/;
+# "OCCUPIED_BEDS_CALCULATED" : calculated indicator. Calculated based on the variables "DESIGNATED_BEDS" and "FREE_BEDS" ("DESIGNATED_BEDS" - "FREE_BEDS" = "OCCUPIED_BEDS_CALCULATED");
+# "WEEKLY.REPORTS.BEDS_OCCUPIED.hard", "WEEKLY.REPORTS.BEDS_OCCUPIED.mid", "WEEKLY.REPORTS.BEDS_OCCUPIED.lite", "WEEKLY.REPORTS.BEDS_FREE" : weekly reports on gov.spb.ru (published until June 2, 2021);
+# "WEEKDAY.num", "WEEKDAY.ru", "WEEKDAY.en" -- added automatically;
