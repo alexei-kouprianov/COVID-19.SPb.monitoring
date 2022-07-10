@@ -4,6 +4,17 @@
 # requires : source("spb.COVID-19.loader.r")
 # requires : source("spb.COVID-19.data_transformations.r")
 
+# https://stackoverflow.com/questions/57153428/r-plot-color-combinations-that-are-colorblind-accessible
+colorBlindBlack8  <- c(
+	"#000000", # 1. black
+	"#E69F00", # 2. orange
+	"#56B4E9", # 3. sky blue
+	"#009E73", # 4. bluish green
+	"#F0E442", # 5. yellow
+	"#0072B2", # 6. blue
+	"#D55E00", # 7. vermillion
+	"#CC79A7") # 8. reddish purple
+
 png("../plots/SPb.COVID-19.overview.Y_linear.png", height=750, width=1000, res=120, pointsize=10)
 par(mar=c(6,4,2,2)+.1)
 plot(spb.united$TIME.sk, cumsum(spb.united$CONFIRMED.sk), type = "n",
@@ -515,21 +526,38 @@ abline(h = 0,
 	v = as.numeric(timeline.tickmarks[c(16, 28)]), 
 	lty = 3, col = 1)
 
-lines(spb.excessive_deaths.2019.tck, spb.excessive_deaths.2014_2019[1:length(spb.excessive_deaths.2019.tck)], type = "o", pch = 20, cex = .7, col = "blue")
-lines(spb.excessive_deaths.2019.tck, spb.excessive_deaths.2019[1:length(spb.excessive_deaths.2019.tck)], type = "o", pch = 20, cex = .7, col = "black")
-lines(spb.excessive_deaths.sk.tck, spb.excessive_deaths.sk, type = "o", pch = 20, cex = .7, col = "red")
+lines(spb.excessive_deaths.2019.tck, 
+	spb.excessive_deaths.2019[1:length(spb.excessive_deaths.2019.tck)], 
+	type = "o", pch = 20, cex = .7, col = "white", lwd = 4)
+lines(spb.excessive_deaths.2019.tck, 
+	spb.excessive_deaths.2019[1:length(spb.excessive_deaths.2019.tck)], 
+	type = "o", pch = 20, cex = .7, col = colorBlindBlack8[3], lwd = 2)
+
+lines(spb.excessive_deaths.2019.tck, 
+	spb.excessive_deaths.2014_2019[1:length(spb.excessive_deaths.2019.tck)], 
+	type = "o", pch = 20, cex = .7, col = "white", lwd = 4)
+lines(spb.excessive_deaths.2019.tck, 
+	spb.excessive_deaths.2014_2019[1:length(spb.excessive_deaths.2019.tck)], 
+	type = "o", pch = 20, cex = .7, col = "black", lwd = 2)
+
+lines(spb.excessive_deaths.sk.tck, 
+	spb.excessive_deaths.sk,
+	type = "o", pch = 20, cex = .7, col = "white", lwd = 4)
+lines(spb.excessive_deaths.sk.tck, 
+	spb.excessive_deaths.sk,
+	type = "o", pch = 20, cex = .7, col = colorBlindBlack8[2], lwd = 2)
 
 legend("topleft",
 	bty="o",
 	box.lty = 0,
 	bg = rgb(1, 1, 1, .45),
-	fill = c("blue", "black", "red"),
+	fill = colorBlindBlack8[c(3, 1, 2)],
 	legend = c(paste("Относительно среднего за 2015 — 2019 гг. (≈",
-			round(sum(spb.excessive_deaths.2014_2019[2:length(spb.excessive_deaths.2014_2019)], na.rm = TRUE)), " за ", spb.adj.deaths$MONTH[172], " 2020 — ", spb.adj.deaths$MONTH[nrow(spb.adj.deaths)], " 2021)", sep=""), 
+			round(sum(spb.excessive_deaths.2014_2019[2:length(spb.excessive_deaths.2014_2019)], na.rm = TRUE)), " за ", spb.adj.deaths$MONTH[172], " 2020 — ", spb.adj.deaths$MONTH[nrow(spb.adj.deaths)], " 2022)", sep=""), 
 		paste("Относительно 2019 г. (",
-			round(sum(spb.excessive_deaths.2019, na.rm = TRUE)), " за ", spb.adj.deaths$MONTH[171], " 2020 — ", spb.adj.deaths$MONTH[nrow(spb.adj.deaths)], " 2021)", sep=""), 
+			round(sum(spb.excessive_deaths.2019, na.rm = TRUE)), " за ", spb.adj.deaths$MONTH[171], " 2020 — ", spb.adj.deaths$MONTH[nrow(spb.adj.deaths)], " 2022)", sep=""), 
 		paste("По данным стопкоронавирус.рф (", 
-			sum(spb.excessive_deaths.sk), " за март 2020 — ", spb.adj.deaths$MONTH[nrow(spb.adj.deaths)], " 2021)", sep="")
+			sum(spb.excessive_deaths.sk), " за март 2020 — ", spb.adj.deaths$MONTH[nrow(spb.adj.deaths)], " 2022)", sep="")
 		)
 )
 
