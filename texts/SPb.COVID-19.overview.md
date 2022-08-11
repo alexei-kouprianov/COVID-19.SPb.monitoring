@@ -6,7 +6,7 @@
 
 Версия основного текста: 2021-08-25
 
-Количественные показатели обновлены по данным на: 2022-08-10 11:00:00
+Количественные показатели обновлены по данным на: 2022-08-11 11:00:00
 
 Какова в целом ситуация с эпидемией коронавируса в России и Петербурге?
 -----------------------------------------------------------------------
@@ -49,7 +49,7 @@
 и Эстонии (ок. 3400) в разы. В пересчете на население это превышение
 сохраняется, хотя для Эстонии разрыв несколько сокращается. Финляндия —
 90.53 “ковидных” смертей на 100 тыс. населения, Эстония — 255.63,
-Петербург — от 639.19 (для оперативно учтенного числа смертей) до 789.21
+Петербург — от 639.35 (для оперативно учтенного числа смертей) до 789.21
 (для вероятной общей избыточной смертности). Швеция, которую многие
 критиковали за мягкость пртивоэпидемических мер и высокую смертность на
 фоне других стран северной Европы, потеряла к настоящему моменту
@@ -131,9 +131,9 @@
 <td style="text-align: left;">Санкт-Петербург</td>
 <td style="text-align: right;">5.384</td>
 <td style="text-align: right;">3741.72</td>
-<td style="text-align: right;">34416</td>
+<td style="text-align: right;">34425</td>
 <td style="text-align: right;">42494</td>
-<td style="text-align: right;">639.19</td>
+<td style="text-align: right;">639.35</td>
 <td style="text-align: right;">789.21</td>
 </tr>
 <tr class="even">
@@ -167,18 +167,18 @@
 <td style="text-align: left;">Новгородская область</td>
 <td style="text-align: right;">0.592</td>
 <td style="text-align: right;">10.87</td>
-<td style="text-align: right;">1036</td>
+<td style="text-align: right;">1037</td>
 <td style="text-align: right;">4686</td>
-<td style="text-align: right;">174.88</td>
+<td style="text-align: right;">175.05</td>
 <td style="text-align: right;">791.00</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Псковская область</td>
 <td style="text-align: right;">0.620</td>
 <td style="text-align: right;">11.20</td>
-<td style="text-align: right;">1884</td>
+<td style="text-align: right;">1885</td>
 <td style="text-align: right;">4362</td>
-<td style="text-align: right;">303.75</td>
+<td style="text-align: right;">303.91</td>
 <td style="text-align: right;">703.27</td>
 </tr>
 </tbody>
