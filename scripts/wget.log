@@ -1,12 +1,3 @@
---2022-09-21 12:59:58--  https://www.gov.spb.ru/covid-19/
-Resolving www.gov.spb.ru (www.gov.spb.ru)... 212.164.137.244
-Connecting to www.gov.spb.ru (www.gov.spb.ru)|212.164.137.244|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 94140 (92K) [text/html]
-Saving to: ‘../downloads/gov.spb.ru.covid-19.raw.txt’
-
-     0K .......... .......... .......... .......... .......... 54%  774K 0s
-    50K .......... .......... .......... .......... .         100% 10,8M=0,07s
-
-2022-09-21 12:59:59 (1,31 MB/s) - ‘../downloads/gov.spb.ru.covid-19.raw.txt’ saved [94140/94140]
-
+--2022-09-29 15:13:25--  https://www.gov.spb.ru/covid-19/
+Resolving www.gov.spb.ru (www.gov.spb.ru)... failed: Temporary failure in name resolution.
+wget: unable to resolve host address ‘www.gov.spb.ru’
