@@ -413,7 +413,6 @@
 </a>
 
 
-NA
           
         </li>
 
@@ -1948,7 +1947,7 @@ padding-bottom: 3rem;
 
 <div class="block content">
 
-<h1 class="small-mobile-title"><b>Эпидемиологическая ситуация за 28.09.2022</b></h1>
+<h1 class="small-mobile-title"><b>Эпидемиологическая ситуация за 29.09.2022</b></h1>
 
 
 <div class="block row">
@@ -1957,17 +1956,17 @@ padding-bottom: 3rem;
 <div class="legislation_info-block legislation_info-block--small-p mobile-pb-3">
 
 <div style="color: #2C97CC; margin-bottom: 2.7rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 4px;"><b>1 782</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 4px;"><b>1 836</b></span> 
 <span style="font-size: 18px;">заболело COVID-19</span>
 </div>
 
 <div style="color: #2C97CC; margin-bottom: 2.7rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>2 473</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>4 053</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">выздоровело</span>
 </div>
 
 <div style="color: #2C97CC; margin-bottom: 2.7rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 2px;"><b>20</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 2px;"><b>18</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">умерло</span>
 </div>
 
@@ -1989,28 +1988,28 @@ padding-bottom: 3rem;
 <div class="legislation_info-block legislation_info-block--small-p mobile-pb-3">
 
 <div style="color: #2C97CC; padding-bottom: 0.65rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 2px;"><b>2 232</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 2px;"><b>2 157</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">на лечении в&nbsp;стационарах с&nbsp;COVID&#8209;19 и&nbsp;пневмониями</span>
 </div>
 
-<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15"><b>173</b> поступило</p>
+<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15"><b>195</b> поступило</p>
 
-<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15"><b>279</b> выписано</p>
+<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15"><b>271</b> выписано</p>
 
-<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15"><b>194</b> в реанимации</p>
+<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15"><b>198</b> в реанимации</p>
 
 <p style="font-size: 18px; margin-top: 0; margin-bottom: 3rem;" class="mobile-mb-15"><b>57</b> подключено к ИВЛ</p></span>
 
 
 
 <div style="color: #2C97CC; padding-bottom: 0.65rem; margin-bottom: 3rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>25 523</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>24 532</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">на амбулаторном лечении с подтвержденным COVID-19 и подозрением на COVID-19</span>
 </div>
 
 
 <div style="color: #2C97CC; padding-bottom: 0.65rem; margin-bottom: 3rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>24 959</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>24 041</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">получают бесплатную лекарственную терапию на дому</span>
 </div>
 
@@ -2037,44 +2036,44 @@ padding-bottom: 3rem;
 
 
 <div style="color: #2C97CC;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>3 318 696</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>3 318 996</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">привито первично (с учетом Спутника Лайт)</span>
 </div><div style="color: #2C97CC;">
 
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>7 567</b></span> <span style="font-size: 18px;  padding-top: 16px;">детей</span>
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>7 588</b></span> <span style="font-size: 18px;  padding-top: 16px;">детей</span>
 
 
-<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15">за сутки: <b>238</b></p>
+<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15">за сутки: <b>300</b></p>
 
-<p style="font-size: 18px; margin-top: 0; " class="mobile-mb-15">из них детей: <b>9</b></p>
+<p style="font-size: 18px; margin-top: 0; " class="mobile-mb-15">из них детей: <b>21</b></p>
 </div>
 
 
 <div style="color: #2C97CC;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>3 120 790</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>3 121 052</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">закончили цикл вакцинации</span>
 </div><div style="color: #2C97CC;">
 
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>7 012</b></span> <span style="font-size: 18px;  padding-top: 16px;">детей</span>
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>7 044</b></span> <span style="font-size: 18px;  padding-top: 16px;">детей</span>
 
 
-<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15">за сутки: <b>151</b></p>
+<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15">за сутки: <b>262</b></p>
 
-<p style="font-size: 18px; margin-top: 0;" class="mobile-mb-15">из них детей: <b>19</b></p>
+<p style="font-size: 18px; margin-top: 0;" class="mobile-mb-15">из них детей: <b>32</b></p>
 </div>
 
 
 <div style="color: #2C97CC;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>659 233</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>663 275</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">ревакцинировано</span>
 </div><div style="color: #2C97CC;">
 
-<p style="font-size: 18px; margin-top: 0;" class="mobile-mb-15">за сутки: <b>4 302</b></p>
+<p style="font-size: 18px; margin-top: 0;" class="mobile-mb-15">за сутки: <b>5 490</b></p>
 </div>
 
 
 <div style="color: #2C97CC; margin-bottom: 2.7rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>674 089</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>668 498</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">доз - запас вакцины</span>
 </div>
 
@@ -2092,7 +2091,7 @@ padding-bottom: 3rem;
 
 
 <div style="color: #2C97CC;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>17 472</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>14 695</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">тестов ПЦР на&nbsp;COVID&#8209;19</span>
 </div>
 
