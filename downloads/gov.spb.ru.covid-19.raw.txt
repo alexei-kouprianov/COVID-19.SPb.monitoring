@@ -1987,7 +1987,7 @@ padding-bottom: 3rem;
 
 <div class="block content">
 
-<h1 class="small-mobile-title"><b>Эпидемиологическая ситуация за 26.12.2022</b></h1>
+<h1 class="small-mobile-title"><b>Эпидемиологическая ситуация за 27.12.2022</b></h1>
 
 
 <div class="block row">
@@ -1996,17 +1996,17 @@ padding-bottom: 3rem;
 <div class="legislation_info-block legislation_info-block--small-p mobile-pb-3">
 
 <div style="color: #2C97CC; margin-bottom: 2.7rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 4px;"><b>851</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 4px;"><b>709</b></span> 
 <span style="font-size: 18px;">заболело COVID-19</span>
 </div>
 
 <div style="color: #2C97CC; margin-bottom: 2.7rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>1 164</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>1 219</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">выздоровело</span>
 </div>
 
 <div style="color: #2C97CC; margin-bottom: 2.7rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 2px;"><b>15</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 2px;"><b>14</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">умерло</span>
 </div>
 
@@ -2028,28 +2028,28 @@ padding-bottom: 3rem;
 <div class="legislation_info-block legislation_info-block--small-p mobile-pb-3">
 
 <div style="color: #2C97CC; padding-bottom: 0.65rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 2px;"><b>2 669</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 2px;"><b>2 574</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">на лечении в&nbsp;стационарах с&nbsp;COVID&#8209;19 и&nbsp;пневмониями</span>
 </div>
 
-<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15"><b>188</b> поступило</p>
+<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15"><b>155</b> поступило</p>
 
-<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15"><b>123</b> выписано</p>
+<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15"><b>391</b> выписано</p>
 
 <p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15"><b>200</b> в реанимации</p>
 
-<p style="font-size: 18px; margin-top: 0; margin-bottom: 3rem;" class="mobile-mb-15"><b>76</b> подключено к ИВЛ</p></span>
+<p style="font-size: 18px; margin-top: 0; margin-bottom: 3rem;" class="mobile-mb-15"><b>79</b> подключено к ИВЛ</p></span>
 
 
 
 <div style="color: #2C97CC; padding-bottom: 0.65rem; margin-bottom: 3rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>7 500</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>7 576</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">на амбулаторном лечении с подтвержденным COVID-19 и подозрением на COVID-19</span>
 </div>
 
 
 <div style="color: #2C97CC; padding-bottom: 0.65rem; margin-bottom: 3rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>7 384</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>7 461</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">получают бесплатную лекарственную терапию на дому</span>
 </div>
 
@@ -2076,44 +2076,44 @@ padding-bottom: 3rem;
 
 
 <div style="color: #2C97CC;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>3 334 379</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>3 334 465</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">привито первично (с учетом Спутника Лайт)</span>
 </div><div style="color: #2C97CC;">
 
 <span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>7 670</b></span> <span style="font-size: 18px;  padding-top: 16px;">детей</span>
 
 
-<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15">за сутки: <b>3</b></p>
+<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15">за сутки: <b>86</b></p>
 
 <p style="font-size: 18px; margin-top: 0; " class="mobile-mb-15">из них детей: <b>0</b></p>
 </div>
 
 
 <div style="color: #2C97CC;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>3 129 805</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>3 129 863</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">закончили цикл вакцинации</span>
 </div><div style="color: #2C97CC;">
 
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>7 495</b></span> <span style="font-size: 18px;  padding-top: 16px;">детей</span>
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>7 499</b></span> <span style="font-size: 18px;  padding-top: 16px;">детей</span>
 
 
-<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15">за сутки: <b>4</b></p>
+<p style="font-size: 18px; margin-top: 0; margin-bottom: 0.65rem;" class="mobile-mb-15">за сутки: <b>58</b></p>
 
-<p style="font-size: 18px; margin-top: 0;" class="mobile-mb-15">из них детей: <b>0</b></p>
+<p style="font-size: 18px; margin-top: 0;" class="mobile-mb-15">из них детей: <b>4</b></p>
 </div>
 
 
 <div style="color: #2C97CC;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>823 211</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>824 553</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">ревакцинировано</span>
 </div><div style="color: #2C97CC;">
 
-<p style="font-size: 18px; margin-top: 0;" class="mobile-mb-15">за сутки: <b>402</b></p>
+<p style="font-size: 18px; margin-top: 0;" class="mobile-mb-15">за сутки: <b>1 912</b></p>
 </div>
 
 
 <div style="color: #2C97CC; margin-bottom: 2.7rem;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>564 940</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>561 253</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">доз - запас вакцины</span>
 </div>
 
@@ -2131,7 +2131,7 @@ padding-bottom: 3rem;
 
 
 <div style="color: #2C97CC;">
-<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>6 065</b></span> 
+<span style="font-size: 36px; line-height: 40px; font-weight: bold;vertical-align: center; margin-right: 3px;"><b>10 093</b></span> 
 <span style="font-size: 18px;  padding-top: 16px;">тестов ПЦР на&nbsp;COVID&#8209;19</span>
 </div>
 
@@ -2841,16 +2841,28 @@ padding-bottom: 3rem;
     <div class="col">
       <div class="carousel js__bottom-slider">
         
-          <a href="/redirect/186/" target="_blank" class="carousel__item"
+          <a href="/redirect/231/" target="_blank" class="carousel__item"
              rel="noreferrer noopener">
             
               <div class="carousel__image">
                 
-                  <img src="/static/writable/cache/3f/03/3f036b96052bc8fcc73ddda19409db53.png" alt="">
+                  <img src="/static/writable/cache/65/d5/65d580735f5fe44defd1d76f7b8b3519.jpg" alt="">
                 
               </div>
             
-            <p class="carousel__text">Открытые данные Санкт‑Петербурга</p>
+            <p class="carousel__text">Нормативные правовые акты в Российской Федерации</p>
+          </a>
+        
+          <a href="/redirect/202/" target="_blank" class="carousel__item"
+             rel="noreferrer noopener">
+            
+              <div class="carousel__image">
+                
+                  <img src="/static/writable/cache/2e/46/2e46e74bf0578d2da9d4706d9646eccb.png" alt="">
+                
+              </div>
+            
+            <p class="carousel__text">Федеральное агентство по делам национальностей</p>
           </a>
         
           <a href="/redirect/558/" target="_blank" class="carousel__item"
@@ -2865,18 +2877,6 @@ padding-bottom: 3rem;
             <p class="carousel__text">Ответы на вопросы, которые волнуют всех</p>
           </a>
         
-          <a href="/redirect/231/" target="_blank" class="carousel__item"
-             rel="noreferrer noopener">
-            
-              <div class="carousel__image">
-                
-                  <img src="/static/writable/cache/65/d5/65d580735f5fe44defd1d76f7b8b3519.jpg" alt="">
-                
-              </div>
-            
-            <p class="carousel__text">Нормативные правовые акты в Российской Федерации</p>
-          </a>
-        
           <a href="/redirect/180/" target="_blank" class="carousel__item"
              rel="noreferrer noopener">
             
@@ -2889,16 +2889,16 @@ padding-bottom: 3rem;
             <p class="carousel__text">Портал государственных услуг РФ</p>
           </a>
         
-          <a href="/redirect/202/" target="_blank" class="carousel__item"
+          <a href="/redirect/186/" target="_blank" class="carousel__item"
              rel="noreferrer noopener">
             
               <div class="carousel__image">
                 
-                  <img src="/static/writable/cache/2e/46/2e46e74bf0578d2da9d4706d9646eccb.png" alt="">
+                  <img src="/static/writable/cache/3f/03/3f036b96052bc8fcc73ddda19409db53.png" alt="">
                 
               </div>
             
-            <p class="carousel__text">Федеральное агентство по делам национальностей</p>
+            <p class="carousel__text">Открытые данные Санкт‑Петербурга</p>
           </a>
         
           <a href="/redirect/505/" target="_blank" class="carousel__item"
@@ -3033,18 +3033,6 @@ padding-bottom: 3rem;
             <p class="carousel__text">Единый инвестиционный портал Санкт‑Петербурга</p>
           </a>
         
-          <a href="/redirect/173/" target="_blank" class="carousel__item"
-             rel="noreferrer noopener">
-            
-              <div class="carousel__image">
-                
-                  <img src="/static/writable/cache/66/7d/667d339ae73183506ce37b8abcafa962.png" alt="">
-                
-              </div>
-            
-            <p class="carousel__text">Реестр Государственных информационных систем Санкт‑Петербурга</p>
-          </a>
-        
           <a href="/redirect/152/" target="_blank" class="carousel__item"
              rel="noreferrer noopener">
             
@@ -3055,6 +3043,18 @@ padding-bottom: 3rem;
               </div>
             
             <p class="carousel__text">Официальный городской туристический портал Санкт‑Петербурга</p>
+          </a>
+        
+          <a href="/redirect/173/" target="_blank" class="carousel__item"
+             rel="noreferrer noopener">
+            
+              <div class="carousel__image">
+                
+                  <img src="/static/writable/cache/66/7d/667d339ae73183506ce37b8abcafa962.png" alt="">
+                
+              </div>
+            
+            <p class="carousel__text">Реестр Государственных информационных систем Санкт‑Петербурга</p>
           </a>
         
       </div>
