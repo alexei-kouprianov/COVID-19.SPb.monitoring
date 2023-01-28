@@ -4,6 +4,9 @@
 # requires : source("spb.COVID-19.loader.r")
 # requires : source("spb.COVID-19.data_transformations.r")
 
+plots_language <- "ru"
+# plots_language <- "en"
+
 # https://stackoverflow.com/questions/57153428/r-plot-color-combinations-that-are-colorblind-accessible
 colorBlindBlack8  <- c(
 	"#000000", # 1. black
@@ -355,6 +358,16 @@ dev.off()
 png("../plots/SPb.COVID-19.Hospitalized_vs_Hospitalized_today_vs_Occupied_beds.png", height=750, width=1000, res=120, pointsize=10)
 par(mar=c(6,4,2,2)+.1)
 
+if(plots_language == "en"){
+text_main <- "St. Petersburg / COVID-19 Pandemics"
+text_ylab <- "Hospitalised"
+}
+
+if(plots_language == "ru"){
+text_main <- "Санкт-Петербург / Эпидемия COVID-19"
+text_ylab <- "Госпитализированные"
+}
+
 plot(spb.united$DATE.spb, spb.united$OCCUPIED_BEDS_CALCULATED, 
 	type = "o", 
 	ylim = c(0, max(spb.united$OCCUPIED_BEDS_CALCULATED, na.rm = TRUE)),
@@ -362,9 +375,9 @@ plot(spb.united$DATE.spb, spb.united$OCCUPIED_BEDS_CALCULATED,
 	pch = 20,
 	lwd = 1.5, 
 	cex = .7,
-	main = "Санкт-Петербург / Эпидемия COVID-19",
+	main = text_main,
 	xlab = "",
-	ylab = "Госпитализированные",
+	ylab = text_ylab,
 	axes = FALSE)
 
 lines(spb.united$DATE.spb, spb.united$IN_HOSPITALS.spb, 
@@ -387,12 +400,28 @@ abline(h = (0:20)*1e+3,
 	v = as.numeric(timeline.tickmarks),
 	lty = 3, col = 8)
 
-shadowtext(x = as.numeric(strptime(c("2020-05-20", "2020-06-15", "2020-12-01", "2020-11-10"), "%Y-%m-%d")),
-	y = c(8000, 10000, 6500, 1000),
-	labels = c("Занято коек", "Занято коек,\nнедельн. отчеты", "В стационарах с подтвержденным\n лабораторным методом COVID-19", "Госпитализировано за день"),
+if(plots_language == "en"){
+shadowtext(x = as.numeric(strptime(c("2020-05-20", "2021-01-15", "2021-04-30", "2020-11-10"), "%Y-%m-%d")),
+	y = c(8000, 10000, 2700, 1300),
+	labels = c("Beds occupied",
+		"Beds occupied,\naccording to weekly reports",
+		"Hospitalised with COVID-19\nofficially confirmed in a lab",
+		"Hospitalised per day"),
 	col = c("darkred", "orange", "darkgreen", "darkgreen"),
 	bg = "white",
-	pos = c(2, 4, 2, 2))
+	pos = c(4, 4, 1, 2))
+}
+if(plots_language == "ru"){
+shadowtext(x = as.numeric(strptime(c("2020-05-20", "2021-01-15", "2021-04-30", "2020-11-10"), "%Y-%m-%d")),
+	y = c(8000, 10000, 2700, 1300),
+	labels = c("Занято коек",
+		"Занято коек,\nнедельн. отчеты",
+		"В стационарах с подтвержденным\n лабораторным методом COVID-19",
+		"Госпитализировано за день"),
+	col = c("darkred", "orange", "darkgreen", "darkgreen"),
+	bg = "white",
+	pos = c(4, 4, 1, 2))
+}
 
 axis.POSIXct(1, at = timeline.tickmarks, format = "%Y-%m-%d", las = 2)
 axis(2)
