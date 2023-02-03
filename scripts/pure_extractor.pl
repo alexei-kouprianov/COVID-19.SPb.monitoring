@@ -38,6 +38,7 @@ open(TGT012, '>>../downloads/gov.spb.ru.covid-19.archived.txt') or die $!;
 		s/(?<=\d)\xe2\x80\xaf(?=\d)|(?<=\d) (?=\d)| (?=\<\/b\>)//g;
 		s/\&nbsp\;/ /g;
 		s/\&\#8209\;/\-/g;
+# 		s/[*]/    /g;
 		print TGT011 $_;
 		s/\<.*?\>/ /g;
 		print TGT012 $_, "\n";
