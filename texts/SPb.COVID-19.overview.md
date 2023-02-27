@@ -6,7 +6,7 @@
 
 Версия основного текста: 2021-08-25
 
-Количественные показатели обновлены по данным на: 2023-02-26 11:20:00
+Количественные показатели обновлены по данным на: 2023-02-27 11:30:00
 
 Какова в целом ситуация с эпидемией коронавируса в России и Петербурге?
 -----------------------------------------------------------------------
@@ -140,9 +140,9 @@
 <td style="text-align: left;">Ленинградская область</td>
 <td style="text-align: right;">1.893</td>
 <td style="text-align: right;">22.56</td>
-<td style="text-align: right;">3509</td>
+<td style="text-align: right;">3510</td>
 <td style="text-align: right;">16052</td>
-<td style="text-align: right;">185.40</td>
+<td style="text-align: right;">185.45</td>
 <td style="text-align: right;">848.10</td>
 </tr>
 <tr class="odd">
