@@ -6,7 +6,7 @@
 
 Версия основного текста: 2021-08-25
 
-Количественные показатели обновлены по данным на: 2023-03-09 11:15:00
+Количественные показатели обновлены по данным на: 2023-03-10 11:00:00
 
 Какова в целом ситуация с эпидемией коронавируса в России и Петербурге?
 -----------------------------------------------------------------------
@@ -49,7 +49,7 @@
 и Эстонии (ок. 5000) в разы. В пересчете на население это превышение
 сохраняется, хотя для Эстонии разрыв несколько сокращается. Финляндия —
 161.41 “ковидных” смертей на 100 тыс. населения, Эстония — 375.92,
-Петербург — от 690.97 (для оперативно учтенного числа смертей) до 821.34
+Петербург — от 691.17 (для оперативно учтенного числа смертей) до 821.34
 (для вероятной общей избыточной смертности). Швеция, которую многие
 критиковали за мягкость пртивоэпидемических мер и высокую смертность на
 фоне других стран северной Европы, потеряла к настоящему моменту
@@ -104,36 +104,36 @@
 <td style="text-align: left;">Латвия</td>
 <td style="text-align: right;">1.908</td>
 <td style="text-align: right;">29.54</td>
-<td style="text-align: right;">6265</td>
+<td style="text-align: right;">6269</td>
 <td style="text-align: right;">11000</td>
-<td style="text-align: right;">328.41</td>
+<td style="text-align: right;">328.62</td>
 <td style="text-align: right;">576.62</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Литва</td>
 <td style="text-align: right;">2.784</td>
 <td style="text-align: right;">42.64</td>
-<td style="text-align: right;">9595</td>
+<td style="text-align: right;">9596</td>
 <td style="text-align: right;">24000</td>
-<td style="text-align: right;">344.61</td>
+<td style="text-align: right;">344.65</td>
 <td style="text-align: right;">861.98</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Россия</td>
 <td style="text-align: right;">146.171</td>
 <td style="text-align: right;">8.55</td>
-<td style="text-align: right;">388396</td>
+<td style="text-align: right;">388440</td>
 <td style="text-align: right;">1087428</td>
-<td style="text-align: right;">265.71</td>
+<td style="text-align: right;">265.74</td>
 <td style="text-align: right;">743.94</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Санкт-Петербург</td>
 <td style="text-align: right;">5.384</td>
 <td style="text-align: right;">3741.72</td>
-<td style="text-align: right;">37204</td>
+<td style="text-align: right;">37215</td>
 <td style="text-align: right;">44224</td>
-<td style="text-align: right;">690.97</td>
+<td style="text-align: right;">691.17</td>
 <td style="text-align: right;">821.34</td>
 </tr>
 <tr class="even">
