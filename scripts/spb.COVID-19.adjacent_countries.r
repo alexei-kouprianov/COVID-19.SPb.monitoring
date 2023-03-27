@@ -40,6 +40,6 @@ colnames(spb.adjacent_countries.d) <- c("NAME", "DEATHS.official")
 
 write.table(spb.adjacent_countries.d, "../data/SPb.adjacent_countries.official_deaths.csv", row.names = FALSE, sep = ",")
 
-# Removing redundant objects;
-
-rm(w.deaths, w.deaths.ls)
+# # Removing redundant objects;
+#
+# rm(w.deaths, w.deaths.ls)
