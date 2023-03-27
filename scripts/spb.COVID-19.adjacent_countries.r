@@ -4,8 +4,7 @@ w.deaths <- read.csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/
 
 # Subsetting deaths for countries;
 
-w.deaths.ls <- NULL
-w.deaths.ls <- as.list(w.deaths.ls)
+w.deaths.ls <- as.list(NULL)
 
 for(i in 1:length(levels(w.deaths$Country.Region))){
 w.deaths.ls[[i]] <- t(subset(w.deaths, w.deaths$Country.Region == levels(w.deaths$Country.Region)[i])[,c(5:ncol(w.deaths))])

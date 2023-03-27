@@ -122,7 +122,7 @@ axis.POSIXct(1, at = timeline.tickmarks, format = "%Y-%m-%d", las = 2)
 axis(2)
 dev.off()
 
-png("../plots/instagram/06.SPb.COVID-19.Yandex_vs_deaths.png", height=1080, width=1080, res=180, pointsize=9)
+png("../plots/instagram/09.SPb.COVID-19.Yandex_vs_deaths.png", height=1080, width=1080, res=180, pointsize=9)
 # par(mar=c(6,5,4,5)+.1)
 par(mar=c(6,4,2,5)+.1)
 
@@ -424,7 +424,7 @@ axis(2)
 
 dev.off()
 
-png("../plots/instagram/SPb.COVID-19.PCR_Positivity.png", height=1080, width=1080, res=180, pointsize=9)
+png("../plots/instagram/08.SPb.COVID-19.PCR_Positivity.png", height=1080, width=1080, res=180, pointsize=9)
 par(mar=c(6,4,2,2)+.1)
 
 plot(spb.united$TIME.sk, spb.united$CONFIRMED.sk / spb.united$PCR_TESTS,
