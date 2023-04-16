@@ -708,3 +708,4 @@ system("convert -resize 75% ../plots/SPb.COVID-19.Hospitalized_vs_Hospitalized_t
 system("convert -resize 75% ../plots/SPb.COVID-19.Yandex_vs_deaths.png ../plots/06.SPb.COVID-19.Yandex_vs_deaths.mini.png")
 system("convert -resize 75% ../plots/SPb.COVID-19.overview.Y_log10.png ../plots/SPb.COVID-19.overview.Y_log10.mini.png")
 system("convert -resize 75% ../plots/SPb.COVID-19.PCR_Positivity.png ../plots/07.SPb.COVID-19.PCR_Positivity.mini.png")
+system("convert -resize 75% ../plots/SPb.COVID-19.sk_vs_spb.Active.png ../plots/10.SPb.COVID-19.sk_vs_spb.Active.png")
