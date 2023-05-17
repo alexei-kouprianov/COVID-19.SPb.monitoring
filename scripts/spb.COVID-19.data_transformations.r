@@ -68,75 +68,10 @@ timeline.tickmarks <- strptime(
 		"2022-12-31",
 		"2023-01-31", 
 		"2023-02-28", 
-		"2023-03-31"), 
+		"2023-03-31", 
+		"2023-04-30", 
+		"2023-05-31"), 
 	"%Y-%m-%d")
-
-# Preparing reported variables;
-.report.timestamp <- tail(spb.sk$TIME, 1)
-.report.SPb.confirmed.cum <- sum(spb.sk$CONFIRMED)
-.report.SPb.confirmed.today <- tail(spb.sk$CONFIRMED, 1)
-.report.SPb.deaths.today <- tail(spb.sk$DEATHS, 1)
-.report.SPb.deaths.cum <- sum(spb.sk$DEATHS)
-.report.SPb.deaths.0107 <- sum(tail(spb.sk$DEATHS, 7))
-.report.SPb.deaths.0814 <- sum(tail(spb.sk$DEATHS, 14)[1:7])
-.report.SPb.confirmed.0107 <- sum(tail(spb.sk$CONFIRMED, 7))
-.report.SPb.confirmed.0814 <- sum(tail(spb.sk$CONFIRMED, 14)[1:7])
-.report.SPb.hospitalized.today.0107 <- sum(tail(spb.gov.ext$C05.HOSPITALIZED.today, 7), na.rm = TRUE)
-.report.SPb.hospitalized.today.0814 <- sum(tail(spb.gov.ext$C05.HOSPITALIZED.today, 14)[1:7], na.rm = TRUE)
-.report.SPb.dates.14080701 <- tail(spb.gov.ext$A.DATE, 14)[c(1, 7, 8, 14)]
-
-# Assessment block;
-
-if(.report.SPb.confirmed.0107 == .report.SPb.confirmed.0814 & 
-	.report.SPb.hospitalized.today.0107 == .report.SPb.hospitalized.today.0814 &
-	.report.SPb.deaths.0107 == .report.SPb.deaths.0814){
-		.report.SPb.phase <- "По имеющимся данным, ситуация стабилизировалась."
-	} else if(.report.SPb.confirmed.0107 <= .report.SPb.confirmed.0814 & 
-	.report.SPb.hospitalized.today.0107 <= .report.SPb.hospitalized.today.0814 &
-	.report.SPb.deaths.0107 <= .report.SPb.deaths.0814){
-		.report.SPb.phase <- "Волна идет на спад."
-	} else if(.report.SPb.confirmed.0107 >= .report.SPb.confirmed.0814 & 
-	.report.SPb.hospitalized.today.0107 >= .report.SPb.hospitalized.today.0814 &
-	.report.SPb.deaths.0107 >= .report.SPb.deaths.0814){
-		.report.SPb.phase <- "Волна идет на подъем."
-	} else{
-		.report.SPb.phase <- "Ситуация неопределенная."
-	}
-
-.critical.diff <- abs(
-	sum(
-		(.report.SPb.confirmed.0107 / .report.SPb.confirmed.0814 - 1),
-		(.report.SPb.hospitalized.today.0107 / .report.SPb.hospitalized.today.0814 - 1),
-		(.report.SPb.deaths.0107 / .report.SPb.deaths.0814 - 1)
-	)
-)
-
-if((.report.SPb.confirmed.0107 <= .report.SPb.confirmed.0814 & 
-	.report.SPb.hospitalized.today.0107 <= .report.SPb.hospitalized.today.0814 &
-	.report.SPb.deaths.0107 <= .report.SPb.deaths.0814) |
-	(.report.SPb.confirmed.0107 >= .report.SPb.confirmed.0814 & 
-	.report.SPb.hospitalized.today.0107 >= .report.SPb.hospitalized.today.0814 &
-	.report.SPb.deaths.0107 >= .report.SPb.deaths.0814)
-	){
-	if(.critical.diff <= .06){
-			.report.SPb.phase.modifier <- "Скорость изменений критически мала, возможно, вскоре направление тренда сменится на противоположное."
-	} else {
- 			.report.SPb.phase.modifier <- "Скорость изменений достаточна для сохранения тренда в ближайшее время."
-	}
-# 	if((.report.SPb.confirmed.0107 / .report.SPb.confirmed.0814 < 1.02 &
-# 			.report.SPb.confirmed.0107 / .report.SPb.confirmed.0814 > .98) |
-# 		(.report.SPb.hospitalized.today.0107 / .report.SPb.hospitalized.today.0814 < 1.02 &
-# 			.report.SPb.hospitalized.today.0107 / .report.SPb.hospitalized.today.0814 > .98) |
-# 		(.report.SPb.deaths.0107 / .report.SPb.deaths.0814 < 1.02 &
-# 			.report.SPb.deaths.0107 / .report.SPb.deaths.0814 > .98)
-# 		){
-# 			.report.SPb.phase.modifier <- "Скорость изменений критически мала, возможно, вскоре направление тренда сменится на противоположное."
-# 		} else{
-# 			.report.SPb.phase.modifier <- "Скорость изменений достаточна для сохранения тренда в ближайшее время."
-# 		}
-	} else {
-		.report.SPb.phase.modifier <- "Тренды основных показателей динамики не согласованы друг с другом."
-	}
 
 ################################################################
 # Merging spb.gov and spb.gov.ext;
@@ -155,7 +90,29 @@ spb.gov <- merge(spb.gov, spb.gov.ext.contracted, all = TRUE)
 
 ################################################################
 # Merging to spb.united data frame;
-spb.united <- spb.sk[32:nrow(spb.sk),]
+
+spb.united.add_rows.list <- 652:nrow(spb.gov.A00.DATE)
+spb.united.add_rows.num <- length(spb.united.add_rows.list)
+
+spb.gov.A00.DATETIME <- spb.gov.A00.DATE$V1[spb.united.add_rows.list]
+spb.gov.A00.DATETIME <- gsub("$", " 13:01:13", spb.gov.A00.DATETIME, perl = TRUE)
+
+spb.united.DATETIME <- c(as.character(spb.sk$TIME[32:nrow(spb.sk)]), spb.gov.A00.DATETIME)
+spb.united.CONFIRMED <- c(spb.sk$CONFIRMED[32:nrow(spb.sk)], spb.gov.B01.CONFIRMED$V1[spb.united.add_rows.list]) 
+spb.united.RECOVERED <- c(spb.sk$RECOVERED[32:nrow(spb.sk)], spb.gov.B02.RECOVERED$V1[spb.united.add_rows.list]) 
+spb.united.DEATHS <- c(spb.sk$DEATHS[32:nrow(spb.sk)], spb.gov.B03.DEATHS$V1[spb.united.add_rows.list]) 
+spb.united.ACTIVE <- c(spb.sk$ACTIVE[32:nrow(spb.sk)], rep(NA, spb.united.add_rows.num))
+
+spb.united <- cbind.data.frame(
+	spb.united.DATETIME,
+	spb.united.CONFIRMED,
+	spb.united.RECOVERED,
+	spb.united.DEATHS,
+	spb.united.ACTIVE
+	)
+
+colnames(spb.united) <- colnames(spb.sk)
+
 colnames.spb.united <- c(paste(colnames(spb.sk), ".sk", sep=""), 
 	"DATE.spb",
 	"CONFIRMED.spb",
@@ -231,6 +188,73 @@ colnames(spb.united) <- colnames.spb.united
 
 # Saving spb.united as a CSV file;
 write.table(spb.united, file = "../data/SPb.COVID-19.united.csv", sep = ",", row.names = FALSE)
+
+# Preparing reported variables;
+.report.timestamp <- tail(spb.gov.ext$A.DATE, 1)
+.report.SPb.confirmed.cum <- sum(spb.united$CONFIRMED.sk)
+.report.SPb.confirmed.today <- tail(spb.united$CONFIRMED.sk, 1)
+.report.SPb.deaths.today <- tail(spb.united$DEATHS.sk, 1)
+.report.SPb.deaths.cum <- sum(spb.united$DEATHS.sk)
+.report.SPb.deaths.0107 <- sum(tail(spb.united$DEATHS.sk, 7))
+.report.SPb.deaths.0814 <- sum(tail(spb.united$DEATHS.sk, 14)[1:7])
+.report.SPb.confirmed.0107 <- sum(tail(spb.united$CONFIRMED.sk, 7))
+.report.SPb.confirmed.0814 <- sum(tail(spb.united$CONFIRMED.sk, 14)[1:7])
+.report.SPb.hospitalized.today.0107 <- sum(tail(spb.gov.ext$C05.HOSPITALIZED.today, 7), na.rm = TRUE)
+.report.SPb.hospitalized.today.0814 <- sum(tail(spb.gov.ext$C05.HOSPITALIZED.today, 14)[1:7], na.rm = TRUE)
+.report.SPb.dates.14080701 <- tail(spb.gov.ext$A.DATE, 14)[c(1, 7, 8, 14)]
+
+# Assessment block;
+
+if(.report.SPb.confirmed.0107 == .report.SPb.confirmed.0814 & 
+	.report.SPb.hospitalized.today.0107 == .report.SPb.hospitalized.today.0814 &
+	.report.SPb.deaths.0107 == .report.SPb.deaths.0814){
+		.report.SPb.phase <- "По имеющимся данным, ситуация стабилизировалась."
+	} else if(.report.SPb.confirmed.0107 <= .report.SPb.confirmed.0814 & 
+	.report.SPb.hospitalized.today.0107 <= .report.SPb.hospitalized.today.0814 &
+	.report.SPb.deaths.0107 <= .report.SPb.deaths.0814){
+		.report.SPb.phase <- "Волна идет на спад."
+	} else if(.report.SPb.confirmed.0107 >= .report.SPb.confirmed.0814 & 
+	.report.SPb.hospitalized.today.0107 >= .report.SPb.hospitalized.today.0814 &
+	.report.SPb.deaths.0107 >= .report.SPb.deaths.0814){
+		.report.SPb.phase <- "Волна идет на подъем."
+	} else{
+		.report.SPb.phase <- "Ситуация неопределенная."
+	}
+
+.critical.diff <- abs(
+	sum(
+		(.report.SPb.confirmed.0107 / .report.SPb.confirmed.0814 - 1),
+		(.report.SPb.hospitalized.today.0107 / .report.SPb.hospitalized.today.0814 - 1),
+		(.report.SPb.deaths.0107 / .report.SPb.deaths.0814 - 1)
+	)
+)
+
+if((.report.SPb.confirmed.0107 <= .report.SPb.confirmed.0814 & 
+	.report.SPb.hospitalized.today.0107 <= .report.SPb.hospitalized.today.0814 &
+	.report.SPb.deaths.0107 <= .report.SPb.deaths.0814) |
+	(.report.SPb.confirmed.0107 >= .report.SPb.confirmed.0814 & 
+	.report.SPb.hospitalized.today.0107 >= .report.SPb.hospitalized.today.0814 &
+	.report.SPb.deaths.0107 >= .report.SPb.deaths.0814)
+	){
+	if(.critical.diff <= .06){
+			.report.SPb.phase.modifier <- "Скорость изменений критически мала, возможно, вскоре направление тренда сменится на противоположное."
+	} else {
+ 			.report.SPb.phase.modifier <- "Скорость изменений достаточна для сохранения тренда в ближайшее время."
+	}
+# 	if((.report.SPb.confirmed.0107 / .report.SPb.confirmed.0814 < 1.02 &
+# 			.report.SPb.confirmed.0107 / .report.SPb.confirmed.0814 > .98) |
+# 		(.report.SPb.hospitalized.today.0107 / .report.SPb.hospitalized.today.0814 < 1.02 &
+# 			.report.SPb.hospitalized.today.0107 / .report.SPb.hospitalized.today.0814 > .98) |
+# 		(.report.SPb.deaths.0107 / .report.SPb.deaths.0814 < 1.02 &
+# 			.report.SPb.deaths.0107 / .report.SPb.deaths.0814 > .98)
+# 		){
+# 			.report.SPb.phase.modifier <- "Скорость изменений критически мала, возможно, вскоре направление тренда сменится на противоположное."
+# 		} else{
+# 			.report.SPb.phase.modifier <- "Скорость изменений достаточна для сохранения тренда в ближайшее время."
+# 		}
+	} else {
+		.report.SPb.phase.modifier <- "Тренды основных показателей динамики не согласованы друг с другом."
+	}
 
 ################################################################
 # Transforming time variables;
