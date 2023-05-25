@@ -21,7 +21,7 @@ author: "Алексей Куприянов"
 
 * выявлено **`r .report.SPb.confirmed.0107`** новых случаев COVID-19, что составляет **`r paste(round((.report.SPb.confirmed.0107 / .report.SPb.confirmed.0814)*100, 2), "%", sep = "")`** от числа случаев, выявленных за предшествующие семь дней (**`r .report.SPb.confirmed.0814`**, `r .report.SPb.dates.14080701[1]` --- `r .report.SPb.dates.14080701[2]`).
 
-* госпитализировано c COVID-19 **`r .report.SPb.hospitalized.today.0107`**, что составляет **`r paste(round((.report.SPb.hospitalized.today.0107 / .report.SPb.hospitalized.today.0814)*100, 2), "%", sep = "")`** от числа госпитализированных за предшествующие семь дней (**`r .report.SPb.hospitalized.today.0814`**).
+<!-- * госпитализировано c COVID-19 **`r .report.SPb.hospitalized.today.0107`**, что составляет **`r paste(round((.report.SPb.hospitalized.today.0107 / .report.SPb.hospitalized.today.0814)*100, 2), "%", sep = "")`** от числа госпитализированных за предшествующие семь дней (**`r .report.SPb.hospitalized.today.0814`**). -->
 
 * в оперативном учете зарегистрировано **`r .report.SPb.deaths.0107`** смертей, связанных с COVID-19, что составляет **`r paste(round((.report.SPb.deaths.0107 / .report.SPb.deaths.0814)*100, 2), "%", sep = "")`** от числа смертей за предшествующие семь дней (**`r .report.SPb.deaths.0814`**).
 
