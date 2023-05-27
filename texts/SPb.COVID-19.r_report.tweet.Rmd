@@ -10,17 +10,13 @@ author: "Алексей Куприянов"
 ### English
 
 COVID-19 in St. Petersburg for: `r .report.SPb.dates.14080701[3]` --- `r .report.SPb.dates.14080701[4]` / `r .report.SPb.dates.14080701[1]` --- `r .report.SPb.dates.14080701[2]`. 
-Сonfirmed: `r .report.SPb.confirmed.0107` / `r .report.SPb.confirmed.0814` (`r paste(round((.report.SPb.confirmed.0107 / .report.SPb.confirmed.0814)*100, 2), "%", sep = "")`); 
-<!-- hospitalized: `r .report.SPb.hospitalized.today.0107` /  `r .report.SPb.hospitalized.today.0814` (`r paste(round((.report.SPb.hospitalized.today.0107 / .report.SPb.hospitalized.today.0814)*100, 2), "%", sep = "")`); -->
-deaths: `r .report.SPb.deaths.0107` / `r .report.SPb.deaths.0814` (`r paste(round((.report.SPb.deaths.0107 / .report.SPb.deaths.0814)*100, 2), "%", sep = "")`); 
+Сonfirmed: `r .report.SPb.confirmed.0107` / `r .report.SPb.confirmed.0814` (`r paste(round((.report.SPb.confirmed.0107 / .report.SPb.confirmed.0814)*100, 2), "%", sep = "")`); <!-- hospitalized: `r .report.SPb.hospitalized.today.0107` /  `r .report.SPb.hospitalized.today.0814` (`r paste(round((.report.SPb.hospitalized.today.0107 / .report.SPb.hospitalized.today.0814)*100, 2), "%", sep = "")`); -->deaths: `r .report.SPb.deaths.0107` / `r .report.SPb.deaths.0814` (`r paste(round((.report.SPb.deaths.0107 / .report.SPb.deaths.0814)*100, 2), "%", sep = "")`); 
 https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg
 
 ### Russian
 
 COVID-19 в Петербурге за семь дней: `r .report.SPb.dates.14080701[3]` --- `r .report.SPb.dates.14080701[4]` / `r .report.SPb.dates.14080701[1]` --- `r .report.SPb.dates.14080701[2]`. 
-Выявлено: `r .report.SPb.confirmed.0107` / `r .report.SPb.confirmed.0814` (`r paste(round((.report.SPb.confirmed.0107 / .report.SPb.confirmed.0814)*100, 2), "%", sep = "")`); 
-<!-- госпитализировано: `r .report.SPb.hospitalized.today.0107` /  `r .report.SPb.hospitalized.today.0814` (`r paste(round((.report.SPb.hospitalized.today.0107 / .report.SPb.hospitalized.today.0814)*100, 2), "%", sep = "")`); -->
-умерших: `r .report.SPb.deaths.0107` / `r .report.SPb.deaths.0814` (`r paste(round((.report.SPb.deaths.0107 / .report.SPb.deaths.0814)*100, 2), "%", sep = "")`); 
+Выявлено: `r .report.SPb.confirmed.0107` / `r .report.SPb.confirmed.0814` (`r paste(round((.report.SPb.confirmed.0107 / .report.SPb.confirmed.0814)*100, 2), "%", sep = "")`); <!-- госпитализировано: `r .report.SPb.hospitalized.today.0107` /  `r .report.SPb.hospitalized.today.0814` (`r paste(round((.report.SPb.hospitalized.today.0107 / .report.SPb.hospitalized.today.0814)*100, 2), "%", sep = "")`); -->умерших: `r .report.SPb.deaths.0107` / `r .report.SPb.deaths.0814` (`r paste(round((.report.SPb.deaths.0107 / .report.SPb.deaths.0814)*100, 2), "%", sep = "")`); 
 https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg
 
 ---
