@@ -199,22 +199,22 @@ write.table(spb.united, file = "../data/SPb.COVID-19.united.csv", sep = ",", row
 .report.SPb.deaths.0814 <- sum(tail(spb.united$DEATHS.sk, 14)[1:7])
 .report.SPb.confirmed.0107 <- sum(tail(spb.united$CONFIRMED.sk, 7))
 .report.SPb.confirmed.0814 <- sum(tail(spb.united$CONFIRMED.sk, 14)[1:7])
-.report.SPb.hospitalized.today.0107 <- sum(tail(spb.gov.ext$C05.HOSPITALIZED.today, 7), na.rm = TRUE)
-.report.SPb.hospitalized.today.0814 <- sum(tail(spb.gov.ext$C05.HOSPITALIZED.today, 14)[1:7], na.rm = TRUE)
+# .report.SPb.hospitalized.today.0107 <- sum(tail(spb.gov.ext$C05.HOSPITALIZED.today, 7), na.rm = TRUE)
+# .report.SPb.hospitalized.today.0814 <- sum(tail(spb.gov.ext$C05.HOSPITALIZED.today, 14)[1:7], na.rm = TRUE)
 .report.SPb.dates.14080701 <- tail(spb.gov.ext$A.DATE, 14)[c(1, 7, 8, 14)]
 
 # Assessment block;
 
 if(.report.SPb.confirmed.0107 == .report.SPb.confirmed.0814 & 
-	.report.SPb.hospitalized.today.0107 == .report.SPb.hospitalized.today.0814 &
+# 	.report.SPb.hospitalized.today.0107 == .report.SPb.hospitalized.today.0814 &
 	.report.SPb.deaths.0107 == .report.SPb.deaths.0814){
 		.report.SPb.phase <- "По имеющимся данным, ситуация стабилизировалась."
 	} else if(.report.SPb.confirmed.0107 <= .report.SPb.confirmed.0814 & 
-	.report.SPb.hospitalized.today.0107 <= .report.SPb.hospitalized.today.0814 &
+# 	.report.SPb.hospitalized.today.0107 <= .report.SPb.hospitalized.today.0814 &
 	.report.SPb.deaths.0107 <= .report.SPb.deaths.0814){
 		.report.SPb.phase <- "Волна идет на спад."
 	} else if(.report.SPb.confirmed.0107 >= .report.SPb.confirmed.0814 & 
-	.report.SPb.hospitalized.today.0107 >= .report.SPb.hospitalized.today.0814 &
+# 	.report.SPb.hospitalized.today.0107 >= .report.SPb.hospitalized.today.0814 &
 	.report.SPb.deaths.0107 >= .report.SPb.deaths.0814){
 		.report.SPb.phase <- "Волна идет на подъем."
 	} else{
@@ -224,16 +224,16 @@ if(.report.SPb.confirmed.0107 == .report.SPb.confirmed.0814 &
 .critical.diff <- abs(
 	sum(
 		(.report.SPb.confirmed.0107 / .report.SPb.confirmed.0814 - 1),
-		(.report.SPb.hospitalized.today.0107 / .report.SPb.hospitalized.today.0814 - 1),
+# 		(.report.SPb.hospitalized.today.0107 / .report.SPb.hospitalized.today.0814 - 1),
 		(.report.SPb.deaths.0107 / .report.SPb.deaths.0814 - 1)
 	)
 )
 
 if((.report.SPb.confirmed.0107 <= .report.SPb.confirmed.0814 & 
-	.report.SPb.hospitalized.today.0107 <= .report.SPb.hospitalized.today.0814 &
+# 	.report.SPb.hospitalized.today.0107 <= .report.SPb.hospitalized.today.0814 &
 	.report.SPb.deaths.0107 <= .report.SPb.deaths.0814) |
 	(.report.SPb.confirmed.0107 >= .report.SPb.confirmed.0814 & 
-	.report.SPb.hospitalized.today.0107 >= .report.SPb.hospitalized.today.0814 &
+# 	.report.SPb.hospitalized.today.0107 >= .report.SPb.hospitalized.today.0814 &
 	.report.SPb.deaths.0107 >= .report.SPb.deaths.0814)
 	){
 	if(.critical.diff <= .06){

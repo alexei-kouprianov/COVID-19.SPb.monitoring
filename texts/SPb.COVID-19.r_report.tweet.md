@@ -6,17 +6,19 @@ COVID-19 в Петербурге, tweet
 
 ### English
 
-COVID-19 in St. Petersburg for: 2023-05-22 — 2023-05-28 / 2023-05-15 —
-2023-05-21. Сonfirmed: 756 / 1346 (56.17%);
-<!-- hospitalized: 0 /  33 (0%); -->deaths: 22 / 34 (64.71%);
+<!-- COVID-19 in St. Petersburg for: 2023-05-23 --- 2023-05-29 / 2023-05-16 --- 2023-05-22. Сonfirmed: 728 / 1299 (56.04%); hospitalized: 0 /  0 (NaN%); deaths: 20 / 32 (62.5%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
+
+COVID-19 in St. Petersburg for: 2023-05-23 — 2023-05-29 / 2023-05-16 —
+2023-05-22. Сonfirmed: 728 / 1299 (56.04%); deaths: 20 / 32 (62.5%);
 <a href="https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring" class="uri">https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring</a>
 \#covid19 \#Russia \#StPetersburg
 
 ### Russian
 
-COVID-19 в Петербурге за семь дней: 2023-05-22 — 2023-05-28 / 2023-05-15
-— 2023-05-21. Выявлено: 756 / 1346 (56.17%);
-<!-- госпитализировано: 0 /  33 (0%); -->умерших: 22 / 34 (64.71%);
+<!-- COVID-19 в Петербурге за семь дней: 2023-05-23 --- 2023-05-29 / 2023-05-16 --- 2023-05-22. Выявлено: 728 / 1299 (56.04%); госпитализировано: 0 /  0 (NaN%); умерших: 20 / 32 (62.5%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
+
+COVID-19 в Петербурге за семь дней: 2023-05-23 — 2023-05-29 / 2023-05-16
+— 2023-05-22. Выявлено: 728 / 1299 (56.04%); умерших: 20 / 32 (62.5%);
 <a href="https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring" class="uri">https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring</a>
 \#covid19 \#Russia \#StPetersburg
 
