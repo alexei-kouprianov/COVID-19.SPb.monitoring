@@ -6,19 +6,19 @@ COVID-19 в Петербурге, tweet
 
 ### English
 
-<!-- COVID-19 in St. Petersburg for: 2023-06-10 --- 2023-06-16 / 2023-06-03 --- 2023-06-09. Сonfirmed: 420 / 488 (86.07%); hospitalized:  /   (); deaths: 13 / 19 (68.42%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
+<!-- COVID-19 in St. Petersburg for: 2023-06-14 --- 2023-06-20 / 2023-06-07 --- 2023-06-13. Сonfirmed: 416 / 466 (89.27%); hospitalized:  /   (); deaths: 13 / 17 (76.47%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
 
-COVID-19 in St. Petersburg for: 2023-06-10 — 2023-06-16 / 2023-06-03 —
-2023-06-09. Сonfirmed: 420 / 488 (86.07%); deaths: 13 / 19 (68.42%);
+COVID-19 in St. Petersburg for: 2023-06-14 — 2023-06-20 / 2023-06-07 —
+2023-06-13. Сonfirmed: 416 / 466 (89.27%); deaths: 13 / 17 (76.47%);
 <a href="https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring" class="uri">https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring</a>
 \#covid19 \#Russia \#StPetersburg
 
 ### Russian
 
-<!-- COVID-19 в Петербурге за семь дней: 2023-06-10 --- 2023-06-16 / 2023-06-03 --- 2023-06-09. Выявлено: 420 / 488 (86.07%); госпитализировано:  /   (); умерших: 13 / 19 (68.42%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
+<!-- COVID-19 в Петербурге за семь дней: 2023-06-14 --- 2023-06-20 / 2023-06-07 --- 2023-06-13. Выявлено: 416 / 466 (89.27%); госпитализировано:  /   (); умерших: 13 / 17 (76.47%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
 
-COVID-19 в Петербурге за семь дней: 2023-06-10 — 2023-06-16 / 2023-06-03
-— 2023-06-09. Выявлено: 420 / 488 (86.07%); умерших: 13 / 19 (68.42%);
+COVID-19 в Петербурге за семь дней: 2023-06-14 — 2023-06-20 / 2023-06-07
+— 2023-06-13. Выявлено: 416 / 466 (89.27%); умерших: 13 / 17 (76.47%);
 <a href="https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring" class="uri">https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring</a>
 \#covid19 \#Russia \#StPetersburg
 
