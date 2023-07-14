@@ -6,19 +6,19 @@ COVID-19 в Петербурге, tweet
 
 ### English
 
-<!-- COVID-19 in St. Petersburg for: 2023-07-07 --- 2023-07-13 / 2023-06-30 --- 2023-07-06. Сonfirmed: 214 / 276 (77.54%); hospitalized:  /   (); deaths: 8 / 8 (100%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
+<!-- COVID-19 in St. Petersburg for: 2023-07-08 --- 2023-07-14 / 2023-07-01 --- 2023-07-07. Сonfirmed: 208 / 266 (78.2%); hospitalized:  /   (); deaths: 7 / 9 (77.78%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
 
-COVID-19 in St. Petersburg for: 2023-07-07 — 2023-07-13 / 2023-06-30 —
-2023-07-06. Сonfirmed: 214 / 276 (77.54%); deaths: 8 / 8 (100%);
+COVID-19 in St. Petersburg for: 2023-07-08 — 2023-07-14 / 2023-07-01 —
+2023-07-07. Сonfirmed: 208 / 266 (78.2%); deaths: 7 / 9 (77.78%);
 <a href="https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring" class="uri">https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring</a>
 \#covid19 \#Russia \#StPetersburg
 
 ### Russian
 
-<!-- COVID-19 в Петербурге за семь дней: 2023-07-07 --- 2023-07-13 / 2023-06-30 --- 2023-07-06. Выявлено: 214 / 276 (77.54%); госпитализировано:  /   (); умерших: 8 / 8 (100%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
+<!-- COVID-19 в Петербурге за семь дней: 2023-07-08 --- 2023-07-14 / 2023-07-01 --- 2023-07-07. Выявлено: 208 / 266 (78.2%); госпитализировано:  /   (); умерших: 7 / 9 (77.78%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
 
-COVID-19 в Петербурге за семь дней: 2023-07-07 — 2023-07-13 / 2023-06-30
-— 2023-07-06. Выявлено: 214 / 276 (77.54%); умерших: 8 / 8 (100%);
+COVID-19 в Петербурге за семь дней: 2023-07-08 — 2023-07-14 / 2023-07-01
+— 2023-07-07. Выявлено: 208 / 266 (78.2%); умерших: 7 / 9 (77.78%);
 <a href="https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring" class="uri">https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring</a>
 \#covid19 \#Russia \#StPetersburg
 
