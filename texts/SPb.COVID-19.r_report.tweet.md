@@ -6,19 +6,19 @@ COVID-19 в Петербурге, tweet
 
 ### English
 
-<!-- COVID-19 in St. Petersburg for: 2023-07-17 --- 2023-07-23 / 2023-07-10 --- 2023-07-16. Сonfirmed: 221 / 209 (105.74%); hospitalized:  /   (); deaths: 4 / 6 (66.67%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
+<!-- COVID-19 in St. Petersburg for: 2023-07-18 --- 2023-07-24 / 2023-07-11 --- 2023-07-17. Сonfirmed: 229 / 222 (103.15%); hospitalized:  /   (); deaths: 3 / 7 (42.86%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
 
-COVID-19 in St. Petersburg for: 2023-07-17 — 2023-07-23 / 2023-07-10 —
-2023-07-16. Сonfirmed: 221 / 209 (105.74%); deaths: 4 / 6 (66.67%);
+COVID-19 in St. Petersburg for: 2023-07-18 — 2023-07-24 / 2023-07-11 —
+2023-07-17. Сonfirmed: 229 / 222 (103.15%); deaths: 3 / 7 (42.86%);
 <a href="https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring" class="uri">https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring</a>
 \#covid19 \#Russia \#StPetersburg
 
 ### Russian
 
-<!-- COVID-19 в Петербурге за семь дней: 2023-07-17 --- 2023-07-23 / 2023-07-10 --- 2023-07-16. Выявлено: 221 / 209 (105.74%); госпитализировано:  /   (); умерших: 4 / 6 (66.67%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
+<!-- COVID-19 в Петербурге за семь дней: 2023-07-18 --- 2023-07-24 / 2023-07-11 --- 2023-07-17. Выявлено: 229 / 222 (103.15%); госпитализировано:  /   (); умерших: 3 / 7 (42.86%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
 
-COVID-19 в Петербурге за семь дней: 2023-07-17 — 2023-07-23 / 2023-07-10
-— 2023-07-16. Выявлено: 221 / 209 (105.74%); умерших: 4 / 6 (66.67%);
+COVID-19 в Петербурге за семь дней: 2023-07-18 — 2023-07-24 / 2023-07-11
+— 2023-07-17. Выявлено: 229 / 222 (103.15%); умерших: 3 / 7 (42.86%);
 <a href="https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring" class="uri">https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring</a>
 \#covid19 \#Russia \#StPetersburg
 
