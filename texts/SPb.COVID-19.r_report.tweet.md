@@ -6,19 +6,19 @@ COVID-19 в Петербурге, tweet
 
 ### English
 
-<!-- COVID-19 in St. Petersburg for: 2023-07-19 --- 2023-07-25 / 2023-07-12 --- 2023-07-18. Сonfirmed: 231 / 220 (105%); hospitalized:  /   (); deaths: 4 / 6 (66.67%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
+<!-- COVID-19 in St. Petersburg for: 2023-07-20 --- 2023-07-26 / 2023-07-13 --- 2023-07-19. Сonfirmed: 241 / 209 (115.31%); hospitalized:  /   (); deaths: 3 / 5 (60%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
 
-COVID-19 in St. Petersburg for: 2023-07-19 — 2023-07-25 / 2023-07-12 —
-2023-07-18. Сonfirmed: 231 / 220 (105%); deaths: 4 / 6 (66.67%);
+COVID-19 in St. Petersburg for: 2023-07-20 — 2023-07-26 / 2023-07-13 —
+2023-07-19. Сonfirmed: 241 / 209 (115.31%); deaths: 3 / 5 (60%);
 <a href="https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring" class="uri">https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring</a>
 \#covid19 \#Russia \#StPetersburg
 
 ### Russian
 
-<!-- COVID-19 в Петербурге за семь дней: 2023-07-19 --- 2023-07-25 / 2023-07-12 --- 2023-07-18. Выявлено: 231 / 220 (105%); госпитализировано:  /   (); умерших: 4 / 6 (66.67%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
+<!-- COVID-19 в Петербурге за семь дней: 2023-07-20 --- 2023-07-26 / 2023-07-13 --- 2023-07-19. Выявлено: 241 / 209 (115.31%); госпитализировано:  /   (); умерших: 3 / 5 (60%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
 
-COVID-19 в Петербурге за семь дней: 2023-07-19 — 2023-07-25 / 2023-07-12
-— 2023-07-18. Выявлено: 231 / 220 (105%); умерших: 4 / 6 (66.67%);
+COVID-19 в Петербурге за семь дней: 2023-07-20 — 2023-07-26 / 2023-07-13
+— 2023-07-19. Выявлено: 241 / 209 (115.31%); умерших: 3 / 5 (60%);
 <a href="https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring" class="uri">https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring</a>
 \#covid19 \#Russia \#StPetersburg
 
