@@ -6,7 +6,7 @@
 library(rmarkdown)
 library(rjson)
 library(TeachingDemos)
-library(drc)
+# library(drc)
 
 # library(xlsx)
 

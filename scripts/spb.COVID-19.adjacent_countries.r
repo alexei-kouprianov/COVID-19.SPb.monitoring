@@ -1,6 +1,6 @@
 # Loading data from COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University
 
-w.deaths <- read.csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv", h=TRUE)
+w.deaths <- read.csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv", h=TRUE, stringsAsFactors = TRUE)
 
 # Subsetting deaths for countries;
 
