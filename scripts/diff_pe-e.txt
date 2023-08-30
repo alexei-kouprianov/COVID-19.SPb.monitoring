@@ -1,0 +1,102 @@
+8,20c8,20
+< # # https://www.gov.spb.ru/covid-19/
+< #
+< # my @files = qw( ../downloads/gov.spb.ru.covid-19.raw.txt ../downloads/gov.spb.ru.covid-19.single_line.txt ../downloads/gov.spb.ru.covid-19.new_lines.txt );
+< # unlink @files;
+< # # unlink @files or die "Could not delete all of the files in @files\n";
+< #
+< # # Fetching webpage;
+< #
+< # # open(RAW, '>>../downloads/gov.spb.ru.covid-19.raw.txt') or die $!;
+< # # 	print RAW get("https://www.gov.spb.ru/covid-19/");
+< # # close RAW;
+< #
+< # system("wget 'https://www.gov.spb.ru/covid-19/' -o wget.log -O ../downloads/gov.spb.ru.covid-19.raw.txt");
+---
+> # https://www.gov.spb.ru/covid-19/
+> 
+> my @files = qw( ../downloads/gov.spb.ru.covid-19.raw.txt ../downloads/gov.spb.ru.covid-19.single_line.txt ../downloads/gov.spb.ru.covid-19.new_lines.txt );
+> unlink @files;
+> # unlink @files or die "Could not delete all of the files in @files\n";
+> 
+> # Fetching webpage;
+> 
+> # open(RAW, '>>../downloads/gov.spb.ru.covid-19.raw.txt') or die $!;
+> # 	print RAW get("https://www.gov.spb.ru/covid-19/");
+> # close RAW;
+> 
+> system("wget 'https://www.gov.spb.ru/covid-19/' -o wget.log -O ../downloads/gov.spb.ru.covid-19.raw.txt");
+41d40
+< # 		s/[*]/    /g;
+92c91
+< 		if($_ =~ m/\<b\>(\d+)\<\/b\>\<\/span\> \<span style\=\"font\-size\: 18px\;  padding\-top\: 16px\;\"\>\xd0\xb2\xd1\x8b\xd0\xb7\xd0\xb4\xd0\xbe\xd1\x80\xd0\xbe\xd0\xb2/){
+---
+> 		if($_ =~ m/\<b\>(\d+)\<\/b\>\<\/span\>\s+\<span style\=\"font\-size\: 18px\; padding\-top\: 16px\;\"\>\xd0\xb2\xd1\x8b\xd0\xb7\xd0\xb4\xd0\xbe\xd1\x80\xd0\xbe\xd0\xb2/){
+105c104
+< 		if($_ =~ m/\<b\>(\d+)\<\/b\>\<\/span\> \<span style\=\"font\-size\: 18px\;  padding\-top\: 16px\;\"\>\xd1\x83\xd0\xbc\xd0\xb5\xd1\x80\xd0\xbb\xd0\xbe/){
+---
+> 		if($_ =~ m/\<b\>(\d+)\<\/b\>\<\/span\>\s+\<span style\=\"font\-size\: 18px\; padding\-top\: 16px\;\"\>\xd1\x83\xd0\xbc\xd0\xb5\xd1\x80\xd0\xbb\xd0\xbe/){
+144c143
+< 		if($_ =~ m/\<b\>(\d+)\<\/b\>\<\/span\> \<span style\=\"font\-size\: 18px\;\"\>\xd1\x81\xd1\x82\xd0\xb0\xd1\x86\xd0\xb8\xd0\xbe\xd0\xbd\xd0\xb0/){
+---
+> 		if($_ =~ m/\<b\>(\d+)\<\/b\>\<\/span\>\s+\<span style\=\"font\-size\: 18px\;\s+padding\-top\: 16px\;\"\>\s*\xd0\xb3\xd0\xbe\xd1\x80\xd0\xbe\xd0\xb4\xd1\x81\xd0\xba\xd0\xb8\xd1\x85\x20\xd1\x81\xd1\x82\xd0\xb0\xd1\x86\xd0\xb8\xd0\xbe\xd0\xbd\xd0\xb0\xd1\x80\xd0\xbe\xd0\xb2\x20\xd1\x80\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x82\xd0\xb0\xd0\xb5\xd1\x82/){
+157c156
+< 		if($_ =~ m/\<b\>(\d+)\<\/b\>\<\/span\> \<span style\=\"font\-size\: 18px\;  padding\-top\: 16px\;\"\>\xd0\xba\xd0\xbe\xd0\xb5\xd0\xba/){
+---
+> 		if($_ =~ m/\<b\>(\d+)\<\/b\>\<\/span\>\s+\<span style\=\"font\-size\: 18px\;\s+padding\-top\: 16px\;\"\>\xd0\xba\xd0\xbe\xd0\xb5\xd0\xba\x20\xd1\x80\xd0\xb0\xd0\xb7\xd0\xb2\xd0\xb5\xd1\x80\xd0\xbd\xd1\x83\xd1\x82\xd0\xbe/){
+170c169
+< 		if($_ =~ m/\<b\>(\d+),(\d+)\%\<\/b\>\<\/span\> \<span style\=\"font\-size\: 18px\;  padding\-top\: 16px\;\"\>\xd1\x81\xd0\xb2\xd0\xbe\xd0\xb1\xd0\xbe\xd0\xb4\xd0\xbd\xd1\x8b/){
+---
+> 		if($_ =~ m/\<b\>(\d+),(\d+)\%\<\/b\>\<\/span\> \<span style\=\"font\-size\: 18px\;\s+padding\-top\: 16px\;\"\>\xd1\x81\xd0\xb2\xd0\xbe\xd0\xb1\xd0\xbe\xd0\xb4\xd0\xbd\xd1\x8b/){
+183c182
+< 		if($_ =~ m/\<b\>(\d+)\<\/b\>\<\/span\> \<span style\=\"font\-size\: 18px\;  padding\-top\: 16px\;\"\>\xd0\xbd\xd0\xb0\x20\xd0\xbb\xd0\xb5\xd1\x87\xd0\xb5\xd0\xbd\xd0\xb8\xd0\xb8\x20\xd0\xb2\x20\xd1\x81\xd1\x82\xd0\xb0\xd1\x86\xd0\xb8\xd0\xbe\xd0\xbd\xd0\xb0\xd1\x80\xd0\xb0\xd1\x85/){
+---
+> 		if($_ =~ m/\<b\>(\d+)\<\/b\>\<\/span\>\s+\<span style\=\"font\-size\: 18px\;\s+padding\-top\: 16px\;\"\>\xd0\xbd\xd0\xb0\x20\xd0\xbb\xd0\xb5\xd1\x87\xd0\xb5\xd0\xbd\xd0\xb8\xd0\xb8\x20\xd0\xb2\x20\xd1\x81\xd1\x82\xd0\xb0\xd1\x86\xd0\xb8\xd0\xbe\xd0\xbd\xd0\xb0\xd1\x80\xd0\xb0\xd1\x85/){
+274c273
+< 		if($_ =~ m/\<b\>(\d+?)\<\/b\>\<\/span\> \<span style\=\"font\-size\: 18px\;  padding\-top\: 16px\;\"\>\xd0\xbd\xd0\xb0 \xd0\xb0\xd0\xbc\xd0\xb1\xd1\x83\xd0\xbb\xd0\xb0\xd1\x82\xd0\xbe\xd1\x80\xd0\xbd\xd0\xbe\xd0\xbc/){
+---
+> 		if($_ =~ m/\<b\>(\d+?)\<\/b\>\<\/span\>\s+\<span style\=\"font\-size\: 18px\;\s+padding\-top\: 16px\;\"\>\xd0\xbd\xd0\xb0 \xd0\xb0\xd0\xbc\xd0\xb1\xd1\x83\xd0\xbb\xd0\xb0\xd1\x82\xd0\xbe\xd1\x80\xd0\xbd\xd0\xbe\xd0\xbc/){
+287c286
+< 		if($_ =~ m/\<b\>(\d+?)\<\/b\>\<\/span\> \<span style\=\"font\-size\: 18px\;  padding\-top\: 16px\;\"\>\xd0\xb2 \xd0\xbe\xd0\xb1\xd1\x81\xd0\xb5\xd1\x80\xd0\xb2\xd0\xb0\xd1\x86\xd0\xb8\xd0\xb8/){
+---
+> 		if($_ =~ m/\<b\>(\d+?)\<\/b\>\<\/span\>\s+\<span style\=\"font\-size\: 18px\;\s+padding\-top\: 16px\;\"\>\xd0\xb2 \xd0\xbe\xd0\xb1\xd1\x81\xd0\xb5\xd1\x80\xd0\xb2\xd0\xb0\xd1\x86\xd0\xb8\xd0\xb8/){
+300c299
+< 		if($_ =~ m/\<b\>(\d+?)\<\/b\>\<\/span\> \<span style\=\"font\-size\: 18px\;  padding\-top\: 16px\;\"\>\xd0\xbd\xd0\xb0 \xd0\xba\xd0\xb0\xd1\x80\xd0\xb0\xd0\xbd\xd1\x82\xd0\xb8\xd0\xbd\xd0\xb5/){
+---
+> 		if($_ =~ m/\<b\>(\d+?)\<\/b\>\<\/span\>\s+\<span style\=\"font\-size\: 18px\;\s+padding\-top\: 16px\;\"\>\xd0\xbd\xd0\xb0 \xd0\xba\xd0\xb0\xd1\x80\xd0\xb0\xd0\xbd\xd1\x82\xd0\xb8\xd0\xbd\xd0\xb5/){
+313c312
+< 		if($_ =~ m/\<b\>(\d+?)\<\/b\>\<\/span\> \<span style\=\"font\-size\: 18px\;\"\>\xd0\xbf\xd1\x83\xd0\xbd\xd0\xba\xd1\x82\xd0\xbe\xd0\xb2 \xd0\xb2/){
+---
+> 		if($_ =~ m/\<b\>(\d+?)\<\/b\>\<\/span\>\s+\<span style\=\"font\-size\: 18px\;\"\>\xd0\xbf\xd1\x83\xd0\xbd\xd0\xba\xd1\x82\xd0\xbe\xd0\xb2\x20\xd0\xb2\xd0\xb0\xd0\xba\xd1\x86\xd0\xb8\xd0\xbd\xd0\xb0\xd1\x86\xd0\xb8\xd0\xb8\x20\xd0\xbe\xd1\x82 COVID-19 \(\xd0\xb4\xd0\xbb\xd1\x8f\x20\xd0\xb2\xd0\xb7\xd1\x80\xd0\xbe\xd1\x81\xd0\xbb\xd0\xbe\xd0\xb3\xd0\xbe/a){
+326c325
+< 		if($_ =~ m/\<b\>(\d+?)\<\/b\>\<\/span\> \<span style\=\"font\-size\: 18px\;  padding\-top\: 16px\;\"\>\xd0\xbf\xd1\x80\xd0\xb8\xd0\xb2\xd0\xb8\xd1\x82\xd0\xbe/){
+---
+> 		if($_ =~ m/\<b\>(\d+?)\<\/b\>\<\/span\>\s+\<span style\=\"font\-size\: 18px\;\s+padding\-top\: 16px\;\"\>\xd0\xbf\xd1\x80\xd0\xb8\xd0\xb2\xd0\xb8\xd1\x82\xd0\xbe\x20\xd0\xbf\xd0\xb5\xd1\x80\xd0\xb2\xd0\xb8\xd1\x87\xd0\xbd\xd0\xbe/){
+339c338
+< 		if($_ =~ m/\xd0\xbf\xd1\x80\xd0\xb8\xd0\xb2\xd0\xb8\xd1\x82\xd0\xbe.*?\>\xd0\xb7\xd0\xb0 \xd1\x81\xd1\x83\xd1\x82\xd0\xba\xd0\xb8\: (\d+?)\</){
+---
+> 		if($_ =~ m/\<p style\=\"font\-size\: 18px\; margin\-top\: 0\; margin\-bottom\: 0\.65rem\;\" class\=\"mobile-mb-15\"\>\xd0\xb7\xd0\xb0\x20\xd1\x81\xd1\x83\xd1\x82\xd0\xba\xd0\xb8\: \<b\>(\d+)\<\/b\> \<\/p\>/){
+353c352
+< 		if($_ =~ m/\<b\>(\d+?)\<\/b\>\<\/span\> \<span style\=\"font\-size\: 18px\;  padding\-top\: 16px\;\"\>\xd0\xbf\xd1\x80\xd0\xb8\xd0\xb2\xd0\xb8\xd1\x82\xd1\x8b \xd0\xb2\xd1\x82\xd0\xbe\xd1\x80\xd1\x8b\xd0\xbc/){
+---
+> 		if($_ =~ m/\<b\>(\d+?)\<\/b\>\<\/span\>\s+\<span style\=\"font\-size\: 18px\;\s+padding\-top\: 16px\;\"\>\xd0\xb7\xd0\xb0\xd0\xba\xd0\xbe\xd0\xbd\xd1\x87\xd0\xb8\xd0\xbb\xd0\xb8\x20\xd1\x86\xd0\xb8\xd0\xba\xd0\xbb\x20\xd0\xb2\xd0\xb0\xd0\xba\xd1\x86\xd0\xb8\xd0\xbd\xd0\xb0\xd1\x86\xd0\xb8\xd0\xb8/){
+367c366
+< 		if($_ =~ m/\xd0\xbf\xd1\x80\xd0\xb8\xd0\xb2\xd0\xb8\xd1\x82\xd1\x8b \xd0\xb2\xd1\x82\xd0\xbe\xd1\x80\xd1\x8b\xd0\xbc.*?\>\xd0\xb7\xd0\xb0 \xd1\x81\xd1\x83\xd1\x82\xd0\xba\xd0\xb8\: (\d+?)\</){
+---
+> 		if($_ =~ m/\xd0\xb7\xd0\xb0\xd0\xba\xd0\xbe\xd0\xbd\xd1\x87\xd0\xb8\xd0\xbb\xd0\xb8.* \<p style\=\"font\-size\: 18px\; margin\-top\: 0\; margin\-bottom\: 0.65rem\;\" class\=\"mobile\-mb\-15\"\>\xd0\xb7\xd0\xb0\x20\xd1\x81\xd1\x83\xd1\x82\xd0\xba\xd0\xb8\: \<b\>(\d+)\<\/b\> \<\/p\>/){
+407c406
+< 		if($_ =~ m/\<b\>(\d+?)\<\/b\>\<\/span\> \<span style\=\"font\-size\: 18px\;  padding\-top\: 16px\;\"\>\xd0\xb4\xd0\xbe\xd0\xb7/){
+---
+> 		if($_ =~ m/\<b\>(\d+?)\<\/b\>\<\/span\>\s+\<span style\=\"font\-size\: 18px\;\s+padding\-top\: 16px\;\"\>\xd0\xb4\xd0\xbe\xd0\xb7/){
+420c419
+< 		if($_ =~ m/\<b\>(\d+?)\<\/b\>\<\/span\> \<span style\=\"font\-size\: 18px\;  padding\-top\: 16px\;\"\>\xd0\xbb\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x80\xd0\xb0\xd1\x82\xd0\xbe\xd1\x80\xd0\xb8\xd0\xb9/){
+---
+> 		if($_ =~ m/\<b\>(\d+?)\<\/b\>\<\/span\>\s+\<span style\=\"font\-size\: 18px\;\s+padding\-top\: 16px\;\"\>\xd0\xbb\xd0\xb0\xd0\xb1\xd0\xbe\xd1\x80\xd0\xb0\xd1\x82\xd0\xbe\xd1\x80\xd0\xb8\xd0\xb9/){
+433c432
+< 		if($_ =~ m/\<b\>(\d+?)\<\/b\>\<\/span\> \<span style\=\"font\-size\: 18px\;  padding\-top\: 16px\;\"\>\xd0\xbf\xd1\x83\xd0\xbd\xd0\xba\xd1\x82\xd0\xbe\xd0\xb2 \xd0\xb7/){
+---
+> 		if($_ =~ m/\<b\>(\d+?)\<\/b\>\<\/span\>\s+\<span style\=\"font\-size\: 18px\;\s+padding\-top\: 16px\;\"\>\xd0\xbf\xd1\x83\xd0\xbd\xd0\xba\xd1\x82\xd0\xbe\xd0\xb2 \xd0\xb7/){
+446c445
+< 		if($_ =~ m/\<b\>(\d+?)\<\/b\>\<\/span\> \<span style\=\"font\-size\: 18px\;  padding\-top\: 16px\;\"\>\xd1\x82\xd0\xb5\xd1\x81\xd1\x82/){
+---
+> 		if($_ =~ m/\<b\>(\d+?)\<\/b\>\<\/span\>\s+\<span style\=\"font\-size\: 18px\;\s+padding\-top\: 16px\;\"\>\xd1\x82\xd0\xb5\xd1\x81\xd1\x82/){

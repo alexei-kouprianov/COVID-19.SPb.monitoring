@@ -17,7 +17,7 @@ unlink @files;
 # 	print RAW get("https://www.gov.spb.ru/covid-19/");
 # close RAW;
 
-system("wget 'https://www.gov.spb.ru/covid-19/' -o wget.log -O ../downloads/gov.spb.ru.covid-19.raw.txt");
+system("wget --user-agent='Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0' 'https://www.gov.spb.ru/covid-19/' -o wget.log -O ../downloads/gov.spb.ru.covid-19.raw.txt");
 
 open(SRC00, '<../downloads/gov.spb.ru.covid-19.raw.txt') or die $!;
 open(TGT00, '>>../downloads/gov.spb.ru.covid-19.single_line.txt') or die $!;
