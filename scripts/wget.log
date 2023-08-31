@@ -1,12 +1,13 @@
---2023-08-30 16:36:55--  https://www.gov.spb.ru/covid-19/
+--2023-08-31 22:06:26--  https://www.gov.spb.ru/covid-19/
 Resolving www.gov.spb.ru (www.gov.spb.ru)... 46.243.177.102, 46.243.177.103
-Connecting to www.gov.spb.ru (www.gov.spb.ru)|46.243.177.102|:443... connected.
+Connecting to www.gov.spb.ru (www.gov.spb.ru)|46.243.177.102|:443... failed: No route to host.
+Connecting to www.gov.spb.ru (www.gov.spb.ru)|46.243.177.103|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 91093 (89K) [text/html]
 Saving to: ‘../downloads/gov.spb.ru.covid-19.raw.txt’
 
-     0K .......... .......... .......... .......... .......... 56%  501K 0s
-    50K .......... .......... .......... ........             100%  393K=0.2s
+     0K .......... .......... .......... .......... .......... 56% 1.31M 0s
+    50K .......... .......... .......... ........             100% 1.03M=0.07s
 
-2023-08-30 16:37:01 (447 KB/s) - ‘../downloads/gov.spb.ru.covid-19.raw.txt’ saved [91093/91093]
+2023-08-31 22:06:42 (1.17 MB/s) - ‘../downloads/gov.spb.ru.covid-19.raw.txt’ saved [91093/91093]
 
