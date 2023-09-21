@@ -1,4 +1,4 @@
-################################################################
+# ###############################################################
 # COVID-19.SPb.monitoring data transformations script;
 # nested under : spb.COVID-19.r
 # requires : source("spb.COVID-19.loader.r")
@@ -8,7 +8,7 @@ years.tickmarks <- strptime((seq(as.Date("2006-01-01"), length=19, by="1 year") 
 
 timeline.tickmarks <- strptime((seq(as.Date("2019-10-01"), length=52, by="1 month") - 1), "%Y-%m-%d")
 
-################################################################
+# ###############################################################
 # Merging spb.gov and spb.gov.ext;
 
 spb.gov.ext.contracted <- spb.gov.ext[, c("A.DATE", "B01.CONFIRMED", "B02.RECOVERED", "C11.AMB", "C04.HOSPITALIZED", "C05.HOSPITALIZED.today", "Z03.PCR.tests", "V02.V1.CS", "V03.V1.today", "V04.V2.CS", "V05.V2.today", "V06.V.rem", "C02.BEDS", "C08.VENT")]
@@ -23,7 +23,7 @@ spb.gov <- merge(spb.gov, spb.gov.ext.contracted, all = TRUE)
 
 # spb.gov <- rbind.data.frame(spb.gov, spb.gov.ext.contracted)
 
-################################################################
+# ###############################################################
 # Merging to spb.united data frame;
 
 spb.united.add_rows.list <- 652:nrow(spb.gov.A00.DATE)
@@ -73,7 +73,9 @@ colnames.spb.united <- c(paste(colnames(spb.sk), ".sk", sep=""),
 	"WEEKLY.REPORTS.BEDS_OCCUPIED.mid",
 	"WEEKLY.REPORTS.BEDS_OCCUPIED.lite",
 	"WEEKLY.REPORTS.BEDS_FREE",
-	"WEEKDAY.num", "WEEKDAY.ru", "WEEKDAY.en")
+# 	"WEEKDAY.num", "WEEKDAY.ru",
+	"WEEKDAY.en"
+	)
 
 spb.united <- cbind.data.frame(
 	spb.united,
@@ -114,9 +116,12 @@ spb.gov$WEEKLY.REPORTS.OCCUPIED_BEDS.total <- (spb.gov$WEEKLY.REPORTS.BEDS_OCCUP
 	spb.gov$WEEKLY.REPORTS.BEDS_OCCUPIED.mid +
 	spb.gov$WEEKLY.REPORTS.BEDS_OCCUPIED.lite)
 
-spb.united$WEEKDAY.num <- rep(1:7, length.out = nrow(spb.united))
-spb.united$WEEKDAY.ru <- factor(rep(c("пн", "вт", "ср", "чт", "пт", "сб", "вс"), length.out = nrow(spb.united)), levels = c("пн", "вт", "ср", "чт", "пт", "сб", "вс"))
-spb.united$WEEKDAY.en <- factor(rep(c("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"), length.out = nrow(spb.united)), levels = c("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"))
+spb.united$WEEKDAY.en <- factor(
+	weekdays(
+		strptime(spb.united$TIME, format = "%Y-%m-%d %H:%M:%S"),
+		abbreviate = TRUE),
+	levels = c("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")
+	)
 
 rownames(spb.united) <- 1:nrow(spb.united)
 colnames(spb.united) <- colnames.spb.united
@@ -191,7 +196,7 @@ if((.report.SPb.confirmed.0107 <= .report.SPb.confirmed.0814 &
 		.report.SPb.phase.modifier <- "Тренды основных показателей динамики не согласованы друг с другом."
 	}
 
-################################################################
+# ###############################################################
 # Transforming time variables;
 spb.united$TIME.sk <- strptime(spb.united$TIME.sk, "%Y-%m-%d %H:%M:%S")
 spb.united$DATE.spb <- strptime(spb.united$DATE.spb, "%Y-%m-%d")
@@ -199,7 +204,7 @@ spb.united$DATE.spb <- strptime(spb.united$DATE.spb, "%Y-%m-%d")
 spb.ynd$START.DATE <- strptime(spb.ynd$START.DATE, "%d.%m.%Y")
 spb.ynd$END.DATE <- strptime(spb.ynd$END.DATE, "%d.%m.%Y")
 
-################################################################
+# ###############################################################
 # Calculating rolling means;
 spb.united$CONFIRMED.sk.RA7 <- filter(spb.united$CONFIRMED.sk, rep(1,7), sides = 2)/7
 spb.united$RECOVERED.sk.RA7 <- filter(spb.united$RECOVERED.sk, rep(1,7), sides = 2)/7
@@ -208,7 +213,7 @@ spb.united$PCR_TESTS.RA7 <- filter(spb.united$PCR_TESTS, rep(1,7), sides = 2)/7
 spb.united$CONFIRMED.spb.RA7 <- filter(spb.united$CONFIRMED.spb, rep(1,7), sides = 2)/7
 spb.united$HOSPITALIZED_TODAY.spb.RA7 <- filter(spb.united$HOSPITALIZED_TODAY, rep(1,7), sides = 2)/7
 
-################################################################
+# ###############################################################
 # Calculating week subtotals;
 
 WEEK.Sun <- spb.united$TIME.sk[7]
@@ -238,7 +243,7 @@ spb.united.weekly <- cbind.data.frame(
 
 colnames(spb.united.weekly)[1] <- "WEEK.Sun"
 
-################################################################
+# ###############################################################
 # Building Yandex stats vs week sums data.frame;
 
 spb.united.ynd <- cbind.data.frame(
@@ -261,7 +266,7 @@ spb.united.ynd <- cbind.data.frame(
 
 colnames(spb.united.ynd) <- c(colnames(spb.ynd), colnames(spb.united.weekly))
 
-################################################################
+# ###############################################################
 # Building adjacent regions table : Beginning
 
 spb.adj <- cbind.data.frame(pop.adj[, 1:4],
@@ -272,7 +277,7 @@ colnames(spb.adj) <- c(colnames(pop.adj[1:4]), colnames(spb.adj.c[2]))
 
 spb.adj$DENSITY <- spb.adj$POPULATION / spb.adj$AREA.km2
 
-################################################################
+# ###############################################################
 # Digression: calculating excessive deaths 
 # (to 2019 and to mean 2015-2019)
 
@@ -461,7 +466,7 @@ spb.excessive_deaths.sk <- c(sum(spb.united$DEATHS.sk[1:30]), # 30  2020-03-31
 
 spb.excessive_deaths.sk.tck <- timeline.tickmarks[7:33]
 
-################################################################
+# ####################################################
 # Building adjacent regions table : End
 
 spb.adj$DEATHS.100K <- spb.adj$DEATHS.official / (spb.adj$POPULATION / 1e+05)
