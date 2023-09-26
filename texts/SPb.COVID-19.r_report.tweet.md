@@ -4,19 +4,19 @@
 
 ### English
 
-<!-- COVID-19 in St. Petersburg for: 2023-09-19 --- 2023-09-25 / 2023-09-09 --- 2023-09-18. Сonfirmed: 1238 / 1102 (112.34%); hospitalized:  /   (); deaths: 3 / 0 (Inf%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
+<!-- COVID-19 in St. Petersburg for: 2023-09-20 --- 2023-09-26 / 2023-09-12 --- 2023-09-19. Сonfirmed: 1326 / 1150 (115.3%); hospitalized:  /   (); deaths: 5 / 0 (Inf%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
 
-COVID-19 in St. Petersburg for: 2023-09-19 — 2023-09-25 / 2023-09-09 —
-2023-09-18. Сonfirmed: 1238 / 1102 (112.34%); deaths: 3 / 0 (Inf%);
+COVID-19 in St. Petersburg for: 2023-09-20 — 2023-09-26 / 2023-09-12 —
+2023-09-19. Сonfirmed: 1326 / 1150 (115.3%); deaths: 5 / 0 (Inf%);
 <https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring> \#covid19
 \#Russia \#StPetersburg
 
 ### Russian
 
-<!-- COVID-19 в Петербурге за семь дней: 2023-09-19 --- 2023-09-25 / 2023-09-09 --- 2023-09-18. Выявлено: 1238 / 1102 (112.34%); госпитализировано:  /   (); умерших: 3 / 0 (Inf%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
+<!-- COVID-19 в Петербурге за семь дней: 2023-09-20 --- 2023-09-26 / 2023-09-12 --- 2023-09-19. Выявлено: 1326 / 1150 (115.3%); госпитализировано:  /   (); умерших: 5 / 0 (Inf%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
 
-COVID-19 в Петербурге за семь дней: 2023-09-19 — 2023-09-25 / 2023-09-09
-— 2023-09-18. Выявлено: 1238 / 1102 (112.34%); умерших: 3 / 0 (Inf%);
+COVID-19 в Петербурге за семь дней: 2023-09-20 — 2023-09-26 / 2023-09-12
+— 2023-09-19. Выявлено: 1326 / 1150 (115.3%); умерших: 5 / 0 (Inf%);
 <https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring> \#covid19
 \#Russia \#StPetersburg
 
