@@ -74,7 +74,8 @@ colnames.spb.united <- c(paste(colnames(spb.sk), ".sk", sep=""),
 	"WEEKLY.REPORTS.BEDS_OCCUPIED.lite",
 	"WEEKLY.REPORTS.BEDS_FREE",
 # 	"WEEKDAY.num", "WEEKDAY.ru",
-	"WEEKDAY.en"
+	"WEEKDAY.en",
+	"WEEKDAY.en.2"
 	)
 
 spb.united <- cbind.data.frame(
@@ -119,6 +120,13 @@ spb.gov$WEEKLY.REPORTS.OCCUPIED_BEDS.total <- (spb.gov$WEEKLY.REPORTS.BEDS_OCCUP
 spb.united$WEEKDAY.en <- factor(
 	weekdays(
 		strptime(spb.united$TIME, format = "%Y-%m-%d %H:%M:%S"),
+		abbreviate = TRUE),
+	levels = c("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")
+	)
+
+spb.united$WEEKDAY.en.2 <- factor(
+	weekdays(
+		strptime(spb.united$TIME, format = "%Y-%m-%d %H:%M:%S") - 60*60*24*2,
 		abbreviate = TRUE),
 	levels = c("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")
 	)
@@ -212,6 +220,11 @@ spb.united$DEATHS.sk.RA7 <- filter(spb.united$DEATHS.sk, rep(1,7), sides = 2)/7
 spb.united$PCR_TESTS.RA7 <- filter(spb.united$PCR_TESTS, rep(1,7), sides = 2)/7
 spb.united$CONFIRMED.spb.RA7 <- filter(spb.united$CONFIRMED.spb, rep(1,7), sides = 2)/7
 spb.united$HOSPITALIZED_TODAY.spb.RA7 <- filter(spb.united$HOSPITALIZED_TODAY, rep(1,7), sides = 2)/7
+
+# ###############################################################
+# Subsetting CONFIRMED_on_weekends;
+
+spb.united.CONFIRMED_on_weekends <- subset(spb.united, spb.united$WEEKDAY.en.2 == "Sat" | spb.united$WEEKDAY.en.2 == "Sun")[, 1:2]
 
 # ###############################################################
 # Calculating week subtotals;
