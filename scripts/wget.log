@@ -1,12 +1,12 @@
---2023-11-29 13:58:34--  https://www.gov.spb.ru/covid-19/
+--2023-11-30 18:34:10--  https://www.gov.spb.ru/covid-19/
 Resolving www.gov.spb.ru (www.gov.spb.ru)... 46.243.177.102, 46.243.177.103
 Connecting to www.gov.spb.ru (www.gov.spb.ru)|46.243.177.102|:443... connected.
 HTTP request sent, awaiting response... 200 OK
-Length: 90704 (89K) [text/html]
+Length: 90705 (89K) [text/html]
 Saving to: ‘../downloads/gov.spb.ru.covid-19.raw.txt’
 
-     0K .......... .......... .......... .......... .......... 56%  141K 0s
-    50K .......... .......... .......... ........             100%  206K=0.5s
+     0K .......... .......... .......... .......... .......... 56%  252K 0s
+    50K .......... .......... .......... ........             100%  388K=0.3s
 
-2023-11-29 13:58:44 (163 KB/s) - ‘../downloads/gov.spb.ru.covid-19.raw.txt’ saved [90704/90704]
+2023-11-30 18:34:19 (297 KB/s) - ‘../downloads/gov.spb.ru.covid-19.raw.txt’ saved [90705/90705]
 
