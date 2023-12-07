@@ -4,23 +4,21 @@
 
 ### English
 
-<!-- COVID-19 in St. Petersburg for: 2023-11-30 --- 2023-12-06 / 2023-11-23 --- 2023-11-29. Сonfirmed: 12617 / 8456 (149.21%); hospitalized:  /   (); deaths: 27 / 23 (117.39%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
+<!-- COVID-19 in St. Petersburg for: 2023-12-01 --- 2023-12-07 / 2023-11-24 --- 2023-11-30. Сonfirmed: 12989 / 8681 (149.63%); hospitalized:  /   (); deaths: 27 / 24 (112.5%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
 
-COVID-19 in St. Petersburg for: 2023-11-30 — 2023-12-06 / 2023-11-23 —
-2023-11-29. Сonfirmed: 12617 / 8456 (149.21%); deaths: 27 / 23
-(117.39%);
+COVID-19 in St. Petersburg for: 2023-12-01 — 2023-12-07 / 2023-11-24 —
+2023-11-30. Сonfirmed: 12989 / 8681 (149.63%); deaths: 27 / 24 (112.5%);
 <https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring> \#covid19
 \#Russia \#StPetersburg
 
 ### Russian
 
-<!-- COVID-19 в Петербурге за семь дней: 2023-11-30 --- 2023-12-06 / 2023-11-23 --- 2023-11-29. Выявлено: 12617 / 8456 (149.21%); госпитализировано:  /   (); умерших: 27 / 23 (117.39%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
+<!-- COVID-19 в Петербурге за семь дней: 2023-12-01 --- 2023-12-07 / 2023-11-24 --- 2023-11-30. Выявлено: 12989 / 8681 (149.63%); госпитализировано:  /   (); умерших: 27 / 24 (112.5%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
 
-COVID-19 в Петербурге за семь дней: 2023-11-30 — 2023-12-06 / 2023-11-23
-— 2023-11-29. Выявлено: 12617 / 8456 (149.21%); умерших: 27 / 23
-(117.39%);
-<https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring> \#covid19
-\#Russia \#StPetersburg
+COVID-19 в Петербурге за семь дней: 2023-12-01 — 2023-12-07 / 2023-11-24
+— 2023-11-30. Выявлено: 12989 / 8681 (149.63%); умерших: 27 / 24
+(112.5%); <https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring>
+\#covid19 \#Russia \#StPetersburg
 
 ------------------------------------------------------------------------
 
