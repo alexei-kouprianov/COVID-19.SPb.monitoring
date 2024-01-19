@@ -1,4 +1,4 @@
-################################################################
+# ###############################################################
 # COVID-19.SPb.monitoring control plots script;
 # nested under : spb.COVID-19.r
 # requires : source("spb.COVID-19.loader.r")
@@ -624,6 +624,7 @@ par(mar=c(6,4,2,2)+.1)
 
 plot(spb.united$TIME.sk, spb.united$CONFIRMED.sk / spb.united$PCR_TESTS,
 	type = "n",
+	ylim = c(0, 1),
 	main = "Санкт-Петербург / Эпидемия COVID-19",
 	xlab = "",
 	ylab = "Доля положительных тестов",
