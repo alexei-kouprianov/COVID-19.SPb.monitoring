@@ -4,20 +4,20 @@
 
 ### English
 
-<!-- COVID-19 in St. Petersburg for: 2024-01-15 --- 2024-01-22 / 2024-01-06 --- 2024-01-14. Сonfirmed: 2829 / 1526 (185.39%); hospitalized:  /   (); deaths: 17 / 28 (60.71%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
+<!-- COVID-19 in St. Petersburg for: 2024-01-16 --- 2024-01-23 / 2024-01-07 --- 2024-01-15. Сonfirmed: 2719 / 1687 (161.17%); hospitalized:  /   (); deaths: 15 / 27 (55.56%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
 
-COVID-19 in St. Petersburg for: 2024-01-15 — 2024-01-22 / 2024-01-06 —
-2024-01-14. Сonfirmed: 2829 / 1526 (185.39%); deaths: 17 / 28 (60.71%);
+COVID-19 in St. Petersburg for: 2024-01-16 — 2024-01-23 / 2024-01-07 —
+2024-01-15. Сonfirmed: 2719 / 1687 (161.17%); deaths: 15 / 27 (55.56%);
 <https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring> \#covid19
 \#Russia \#StPetersburg
 
 ### Russian
 
-<!-- COVID-19 в Петербурге за семь дней: 2024-01-15 --- 2024-01-22 / 2024-01-06 --- 2024-01-14. Выявлено: 2829 / 1526 (185.39%); госпитализировано:  /   (); умерших: 17 / 28 (60.71%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
+<!-- COVID-19 в Петербурге за семь дней: 2024-01-16 --- 2024-01-23 / 2024-01-07 --- 2024-01-15. Выявлено: 2719 / 1687 (161.17%); госпитализировано:  /   (); умерших: 15 / 27 (55.56%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
 
-COVID-19 в Петербурге за семь дней: 2024-01-15 — 2024-01-22 / 2024-01-06
-— 2024-01-14. Выявлено: 2829 / 1526 (185.39%); умерших: 17 / 28
-(60.71%); <https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring>
+COVID-19 в Петербурге за семь дней: 2024-01-16 — 2024-01-23 / 2024-01-07
+— 2024-01-15. Выявлено: 2719 / 1687 (161.17%); умерших: 15 / 27
+(55.56%); <https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring>
 \#covid19 \#Russia \#StPetersburg
 
 ------------------------------------------------------------------------
