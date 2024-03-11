@@ -4,19 +4,19 @@
 
 ### English
 
-<!-- COVID-19 in St. Petersburg for: 2024-02-27 --- 2024-03-06 / 2024-02-15 --- 2024-02-25. Сonfirmed: 2807 / 3606 (77.84%); hospitalized:  /   (); deaths: 10 / 15 (66.67%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
+<!-- COVID-19 in St. Petersburg for: 2024-02-29 --- 2024-03-11 / 2024-02-19 --- 2024-02-28. Сonfirmed: 2754 / 3291 (83.68%); hospitalized:  /   (); deaths: 10 / 13 (76.92%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
 
-COVID-19 in St. Petersburg for: 2024-02-27 — 2024-03-06 / 2024-02-15 —
-2024-02-25. Сonfirmed: 2807 / 3606 (77.84%); deaths: 10 / 15 (66.67%);
+COVID-19 in St. Petersburg for: 2024-02-29 — 2024-03-11 / 2024-02-19 —
+2024-02-28. Сonfirmed: 2754 / 3291 (83.68%); deaths: 10 / 13 (76.92%);
 <https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring> \#covid19
 \#Russia \#StPetersburg
 
 ### Russian
 
-<!-- COVID-19 в Петербурге за семь дней: 2024-02-27 --- 2024-03-06 / 2024-02-15 --- 2024-02-25. Выявлено: 2807 / 3606 (77.84%); госпитализировано:  /   (); умерших: 10 / 15 (66.67%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
+<!-- COVID-19 в Петербурге за семь дней: 2024-02-29 --- 2024-03-11 / 2024-02-19 --- 2024-02-28. Выявлено: 2754 / 3291 (83.68%); госпитализировано:  /   (); умерших: 10 / 13 (76.92%); https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring #covid19 #Russia #StPetersburg -->
 
-COVID-19 в Петербурге за семь дней: 2024-02-27 — 2024-03-06 / 2024-02-15
-— 2024-02-25. Выявлено: 2807 / 3606 (77.84%); умерших: 10 / 15 (66.67%);
+COVID-19 в Петербурге за семь дней: 2024-02-29 — 2024-03-11 / 2024-02-19
+— 2024-02-28. Выявлено: 2754 / 3291 (83.68%); умерших: 10 / 13 (76.92%);
 <https://github.com/alexei-kouprianov/COVID-19.SPb.monitoring> \#covid19
 \#Russia \#StPetersburg
 
